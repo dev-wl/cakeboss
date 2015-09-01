@@ -79,6 +79,9 @@ $table_prefix  = 'wp_';
  */
 define('WP_DEBUG', false);
 
+define('WP_HOME','http://cakeboss.dev.wonderslab.com');
+define('WP_SITEURL','http://cakeboss.dev.wonderslab.com');
+
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
