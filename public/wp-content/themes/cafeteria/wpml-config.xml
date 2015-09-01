@@ -1,0 +1,205 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="ignore">ale_custompagecss</custom-field>
+        <custom-field action="translate">ale_servtit</custom-field>
+        <custom-field action="copy">ale_servic1</custom-field>
+        <custom-field action="copy">ale_servic2</custom-field>
+        <custom-field action="copy">ale_servic3</custom-field>
+        <custom-field action="copy">ale_servic4</custom-field>
+        <custom-field action="translate">ale_servtit1</custom-field>
+        <custom-field action="translate">ale_servtit2</custom-field>
+        <custom-field action="translate">ale_servtit3</custom-field>
+        <custom-field action="translate">ale_servtit4</custom-field>
+        <custom-field action="translate">ale_servdesc1</custom-field>
+        <custom-field action="translate">ale_servdesc2</custom-field>
+        <custom-field action="translate">ale_servdesc3</custom-field>
+        <custom-field action="translate">ale_servdesc4</custom-field>
+        <custom-field action="copy">ale_teamphoto1</custom-field>
+        <custom-field action="copy">ale_teamphoto2</custom-field>
+        <custom-field action="copy">ale_teamphoto3</custom-field>
+        <custom-field action="copy">ale_teamphoto4</custom-field>
+        <custom-field action="translate">ale_teamname1</custom-field>
+        <custom-field action="translate">ale_teamname2</custom-field>
+        <custom-field action="translate">ale_teamname3</custom-field>
+        <custom-field action="translate">ale_teamname4</custom-field>
+        <custom-field action="translate">ale_teamdesc1</custom-field>
+        <custom-field action="translate">ale_teamdesc2</custom-field>
+        <custom-field action="translate">ale_teamdesc3</custom-field>
+        <custom-field action="translate">ale_teamdesc4</custom-field>
+        <custom-field action="translate">ale_teamtit</custom-field>
+        <custom-field action="copy">ale_menutitic1</custom-field>
+        <custom-field action="copy">ale_menutitic2</custom-field>
+        <custom-field action="copy">ale_menutitic3</custom-field>
+        <custom-field action="copy">ale_menutitic4</custom-field>
+        <custom-field action="translate">ale_menutit1</custom-field>
+        <custom-field action="translate">ale_menutit2</custom-field>
+        <custom-field action="translate">ale_menutit3</custom-field>
+        <custom-field action="translate">ale_menutit4</custom-field>
+        <custom-field action="translate">ale_menudesc1</custom-field>
+        <custom-field action="translate">ale_menudesc2</custom-field>
+        <custom-field action="translate">ale_menudesc3</custom-field>
+        <custom-field action="translate">ale_menudesc4</custom-field>
+        <custom-field action="translate">ale_menuprice1</custom-field>
+        <custom-field action="translate">ale_menuprice2</custom-field>
+        <custom-field action="translate">ale_menuprice3</custom-field>
+        <custom-field action="translate">ale_menuprice4</custom-field>
+        <custom-field action="copy">ale_menuphoto1</custom-field>
+        <custom-field action="copy">ale_menuphoto2</custom-field>
+        <custom-field action="copy">ale_menuphoto3</custom-field>
+        <custom-field action="copy">ale_menuphoto4</custom-field>
+        <custom-field action="translate">ale_eventtit</custom-field>
+        <custom-field action="translate">ale_eventtit1</custom-field>
+        <custom-field action="translate">ale_eventtit2</custom-field>
+        <custom-field action="translate">ale_eventtit3</custom-field>
+        <custom-field action="translate">ale_eventtit4</custom-field>
+        <custom-field action="copy">ale_eventdate1</custom-field>
+        <custom-field action="copy">ale_eventdate2</custom-field>
+        <custom-field action="copy">ale_eventdate3</custom-field>
+        <custom-field action="copy">ale_eventdate4</custom-field>
+        <custom-field action="ignore">ale_menubg</custom-field>
+        <custom-field action="ignore">ale_galbg</custom-field>
+        <custom-field action="translate">ale_eventdesc1</custom-field>
+        <custom-field action="translate">ale_eventdesc2</custom-field>
+        <custom-field action="translate">ale_eventdesc3</custom-field>
+        <custom-field action="translate">ale_eventdesc4</custom-field>
+        <custom-field action="copy">ale_eventimg1</custom-field>
+        <custom-field action="copy">ale_eventimg2</custom-field>
+        <custom-field action="copy">ale_eventimg3</custom-field>
+        <custom-field action="copy">ale_eventimg4</custom-field>
+        <custom-field action="translate">ale_contacttit</custom-field>
+        <custom-field action="translate">ale_contactaddress</custom-field>
+        <custom-field action="translate">ale_contactphone</custom-field>
+        <custom-field action="translate">ale_contactemail</custom-field>
+        <custom-field action="copy">ale_contactmap</custom-field>
+        <custom-field action="ignore">ale_contactbg</custom-field>
+        <custom-field action="copy">ale_itemicon</custom-field>
+        <custom-field action="translate">ale_itemprice</custom-field>
+        <custom-field action="copy">ale_storyphoto</custom-field>
+    </custom-fields>
+    <custom-types>
+        <custom-type translate="1">gallery</custom-type>
+        <custom-type translate="1">events</custom-type>
+        <custom-type translate="1">menu</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">gallery-category</taxonomy>
+        <taxonomy translate="1">menu-category</taxonomy>
+    </taxonomies>
+    <admin-texts>
+        <key name="cafeteriaresponsivewordpresstheme">
+            <key name="ale_sitelogo" />
+            <key name="ale_mobsitelogo" />
+            <key name="ale_background">
+                <key name="color" />
+                <key name="image" />
+                <key name="repeat" />
+                <key name="position" />
+                <key name="attachment" />
+            </key>
+            <key name="ale_favicon" />
+            <key name="ale_comments_style" />
+            <key name="ale_ajax_comments" />
+            <key name="ale_social_sharing" />
+            <key name="ale_copyrights" />
+            <key name="ale_headerfont" />
+            <key name="ale_headerfontex" />
+            <key name="ale_mainfont" />
+            <key name="ale_mainfontex" />
+            <key name="ale_thirdfont" />
+            <key name="ale_thirdfontex" />
+            <key name="ale_h1sty">
+                <key name="size" />
+                <key name="face" />
+                <key name="style" />
+                <key name="color" />
+            </key>
+            <key name="ale_h2sty">
+                <key name="size" />
+                <key name="face" />
+                <key name="style" />
+                <key name="color" />
+            </key>
+            <key name="ale_h3sty">
+                <key name="size" />
+                <key name="face" />
+                <key name="style" />
+                <key name="color" />
+            </key>
+            <key name="ale_h4sty">
+                <key name="size" />
+                <key name="face" />
+                <key name="style" />
+                <key name="color" />
+            </key>
+            <key name="ale_h5sty">
+                <key name="size" />
+                <key name="face" />
+                <key name="style" />
+                <key name="color" />
+            </key>
+            <key name="ale_h6sty">
+                <key name="size" />
+                <key name="face" />
+                <key name="style" />
+                <key name="color" />
+            </key>
+            <key name="ale_bodystyle">
+                <key name="size" />
+                <key name="face" />
+                <key name="style" />
+                <key name="color" />
+            </key>
+            <key name="ale_emailcont" />
+            <key name="ale_fb_id" />
+            <key name="ale_og_enabled" />
+            <key name="ale_ga" />
+            <key name="ale_footer_info" />
+            <key name="ale_customcsscode" />
+            <key name="ale_skinselector" />
+            <key name="ale_galleryheader" />
+            <key name="ale_eventsheader" />
+            <key name="ale_storyheader" />
+            <key name="ale_menuheader" />
+            <key name="ale_contactheader" />
+            <key name="ale_mainheader" />
+            <key name="ale_mainfooter" />
+        </key>
+    </admin-texts>
+    <language-switcher-settings>
+        <key name="icl_lang_sel_config">
+            <key name="font-current-normal">#444444</key>
+            <key name="font-current-hover">#000000</key>
+            <key name="background-current-normal">#ffffff</key>
+            <key name="background-current-hover">#eeeeee</key>
+            <key name="font-other-normal">#444444</key>
+            <key name="font-other-hover">#000000</key>
+            <key name="background-other-normal">#ffffff</key>
+            <key name="background-other-hover">#eeeeee</key>
+            <key name="border">#cdcdcd</key>
+        </key>
+        <key name="icl_lang_sel_footer_config">
+            <key name="font-current-normal">#444444</key>
+            <key name="font-current-hover">#000000</key>
+            <key name="background-current-normal">#ffffff</key>
+            <key name="background-current-hover">#eeeeee</key>
+            <key name="font-other-normal">#444444</key>
+            <key name="font-other-hover">#000000</key>
+            <key name="background-other-normal">#ffffff</key>
+            <key name="background-other-hover">#eeeeee</key>
+            <key name="border">#cdcdcd</key>
+        </key>
+        <key name="icl_language_switcher_sidebar">0</key>
+        <key name="icl_widget_title_show">0</key>
+        <key name="icl_lang_sel_type">dropdown</key>
+        <key name="icl_lso_link_empty">0</key>
+        <key name="icl_lso_flags">0</key>
+        <key name="icl_lso_native_lang">1</key>
+        <key name="icl_lso_display_lang">1</key>
+        <key name="icl_lang_sel_footer">0</key>
+        <key name="icl_post_availability">0</key>
+        <key name="icl_post_availability_position">below</key>
+        <key name="icl_post_availability_text">This post is also available in: %s</key>
+    </language-switcher-settings>
+</wpml-config>
+
+
