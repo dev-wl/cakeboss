@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+
     <article class="story-time-line">
         <h2 class="caption firstfont colormain"><?php echo single_cat_title("", false); ?></h2>
         <div class="center-align">
@@ -15,7 +16,7 @@
                 <div class="cub-top"></div>
                 <div class="cub-bot"></div>
             <?php } ?>
-
+            
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                 <div class="item cf">
                     <div class="text">

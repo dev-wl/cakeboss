@@ -43,8 +43,34 @@ get_header(); ?>
                     <div class="line right"></div>
                 </div>
             </div>
+                
+                <?php
+                global $post;
+                $args = array('category' => 4 );
+                $myposts = get_posts( $args );
+                $i = 0;
+                foreach ( $myposts as $post ) : {
+                    setup_postdata( $post );
+                    if($i == 0): ?>
+                        <div class="center-align content cf">
+                    <?php endif; ?>
+                    <?php $i++; ?>
+                        <div class="col-3">
+                                <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
+                            <div class="circle" style="background-image: url('<?php echo $url; ?>'); background-position: 50% 52%; background-repeat: no-repeat; background-size: 77% auto;">
+                                <div class="img"></div>
+                            </div>
+                            <h2 class="firstfont caption colormain" style="top: 148px;"><?php the_title(); ?></h2>
+                            <p class="text text-center"><?php echo $post->post_content; ?></p>
+                        </div>
+                    <?php } if($i == 4): {
+                            $i = 0; ?>
+                        </div>
+                        <?php } endif; ?>
+                <?php endforeach;
+                wp_reset_postdata(); ?>
 
-            <div class="center-align content cf">
+            <!-- <div class="center-align content cf">
                 <div class="col-3">
                     <div class="circle">
                         <div class="img" style="background-image: url('<?php echo ale_get_meta('servic1'); ?>')"></div>
@@ -73,7 +99,9 @@ get_header(); ?>
                     <h2 class="firstfont caption colormain"><?php if(ale_get_meta('servlink4')){ ?><a href="<?php echo ale_get_meta('servlink4'); ?>"><?php } ?><?php echo ale_get_meta('servtit4'); ?><?php if(ale_get_meta('servlink4')){ ?></a><?php } ?></h2>
                     <p class="text text-center"><?php echo ale_get_meta('servdesc4'); ?></p>
                 </div>
-            </div>
+
+
+            </div> -->
         </article>
     </div>
 <?php } else { echo'<div class="heightonhome cf"></div>'; } ?>

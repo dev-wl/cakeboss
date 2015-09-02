@@ -8,47 +8,73 @@
                     <h2 class="firstfont caption"> <?php echo ale_get_meta('contacttit'); ?></h2>
                     <?php if(ale_get_option('formcontact') !== '1'){ ?>
                     <form method="post" id="contact-form" action="<?php the_permalink();?>" class="cf">
-                        <div class="col-4">
-                            <input name="contact[name]" type="text" placeholder="<?php _e('Your Name*','aletheme'); ?>"  value="<?php echo isset($_POST['contact']['name']) ? $_POST['contact']['name'] : ''?>" required="required" />
-                            <input name="contact[email]" type="email" placeholder="<?php _e('Your e-mail address*','aletheme'); ?>" value="<?php echo isset($_POST['contact']['email']) ? $_POST['contact']['email'] : ''?>" required="required" />
-                            <input name="contact[location]" type="text" class="location_field" placeholder="<?php _e('Where are you from*','aletheme'); ?>" value="<?php echo isset($_POST['contact']['location']) ? $_POST['contact']['location'] : ''?>" />
-                            <textarea name="contact[how]" class="subject" placeholder="<?php _e('Subject','aletheme'); ?>"></textarea>
-                            <?php if (isset($_GET['success'])) : ?>
-                                <p class="success"><?php _e('Thank you for your message!', 'aletheme')?></p>
-                            <?php endif; ?>
-                            <?php if (isset($error) && isset($error['msg'])) : ?>
-                                <p class="error"><?php echo $error['msg']?></p>
-                            <?php endif; ?>
-                        </div>
+                        <div class="col-12">
+                            
+                            <!-- BEGIN DIRECT MAIL SUBSCRIBE FORM -->
 
-                        <div class="col-8">
-                            <textarea name="contact[message]"  placeholder="<?php _e('Type here your message*','aletheme'); ?>" required="required"></textarea>
-                            <input type="submit" value="<?php _e('Send','aletheme'); ?>"/>
-                            <?php wp_nonce_field() ?>
+                            <link rel="stylesheet" type="text/css"
+                            href="https://www.dm-mailinglist.com/subscribe_forms/embed.css?v=2&f=80d854
+                            89&sbg=1" media="all">
+                            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+                            <script src="https://www.dm-mailinglist.com/subscribe_forms/localized.js" charset="UTF-8"></script>
+                            <script src="https://www.dm-mailinglist.com/subscribe_forms/subscribe_embed.js" charset="UTF-8"></script>
+
+                            <div>
+                                <form method="post" action="https://www.dm-mailinglist.com/subscribe" data-directmail-use-ajax="1" data-form-id="80d85489" 
+                                class="directmail-subscribe-form" accept-charset="UTF-8">
+                                    <input type="hidden" name="email"></input>
+                                    <input type="hidden" name="form_id" value="80d85489"></input>
+                                    <div style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 12.8000001907349px; line-height: normal;" container>
+                                        <table>
+                                            <tr>
+                                                <td colspan=1>Skinnygirl Coffee and Teas Newsletter</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 12.8000001907349px; line-height: normal;" class="description" colspan=1>Sign up for news and
+                                                    promotions on your new favorite coffee and teas. You may unsubscribe at
+                                                    anytime.</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <label for="directmail-80d85489-first_name">First Name:</label>
+                                                    <input type="text" id="directmail-80d85489-first_name" name="first_name" value="" placeholder="First Name" ></input>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <label for="directmail-80d85489-last_name">Last Name:</label>
+                                                    <input type="text" id="directmail-80d85489-last_name" name="last_name" value="" placeholder="Last Name" ></input>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <label for="directmail-80d85489-custom_1">Country:</label>
+                                                    <input type="text" id="directmail-80d85489-custom_1" name="custom_1" value="" placeholder="Country" ></input>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <label for="directmail-80d85489-subscriber_email">Email*:</label>
+                                                    <input type="email" id="directmail-80d85489-subscriber_email" name="subscriber_email" value="" placeholder="Email*" 
+                                                        class="directmail-required-field" required="required"></input>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <input type="submit" value="Subscribe"></input>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <!-- END DIRECT MAIL SUBSCRIBE FORM -->
+
                         </div>
                     </form>
                     <?php } ?>
-                    <div class="contacts cf">
-                        <div class="col-4">
-                            <ul>
-                                <li>
-                                    <div class="icon-adress"></div>
-                                    <p><?php _e('Address','aletheme'); ?> // <?php echo ale_get_meta('contactaddress'); ?></p>
-                                </li>
-                                <li>
-                                    <div class="icon-phone"></div>
-                                    <p><?php _e('Telephone nr.','aletheme'); ?> //  <?php echo ale_get_meta('contactphone'); ?></p>
-                                </li>
-                                <li>
-                                    <div class="icon-mail"></div>
-                                    <p><?php _e('E-Mail','aletheme'); ?> //  <?php echo ale_get_meta('contactemail'); ?></p>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="col-8"><?php echo str_replace('&','&amp;',ale_get_meta('contactmap')); ?></div>
-                    </div>
-
+                    
                     <?php if (ale_get_option('copyrights')) : ?>
                         <p class="copy"><?php echo ale_option('copyrights'); ?></p>
                     <?php else: ?>

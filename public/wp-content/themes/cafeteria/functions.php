@@ -25,3 +25,11 @@ if ( is_readable($locale_file) )
  * If you want to add custom functions you should do manual
  * updates only.
  ****************************************************************/
+
+function exclude_category($query) {
+	if ( $query->is_home() ) {
+		$query->set('cat', '-4');
+	}
+	return $query;
+}
+add_filter('pre_get_posts', 'exclude_category');
