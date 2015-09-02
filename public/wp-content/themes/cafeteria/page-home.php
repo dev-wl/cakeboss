@@ -23,6 +23,7 @@ get_header(); ?>
                             <?php if($slide['description']){ ?><p class="text"><?php echo $slide['description']; ?></p><?php } ?>
                             <?php if($slide['url']){ ?><a href="<?php echo $slide['url']; ?>"><?php _e('Read More','aletheme'); ?></a><?php } ?>
                         </div>
+                        <div class="shadow"></div>
                     </li>
                 <?php endforeach; ?>
             <?php endif;?>
