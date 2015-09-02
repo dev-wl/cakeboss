@@ -8,6 +8,7 @@
 	<title><?php wp_title('|', true, 'right'); bloginfo('name'); ?></title>
 	<?php wp_head(); ?>
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" title="no title" charset="utf-8">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 </head>
 <body <?php body_class(); echo 'style="'; if(ale_get_meta('custombg')){echo 'background-image:url('.ale_get_meta('custombg').');';} if(ale_get_meta('custompagecss')){ echo ale_get_meta('custompagecss');}echo ' background-position:center;"'; ?> >
 
@@ -75,3 +76,14 @@
         global $post;
         ale_part('innerheaders');
     } ?>
+
+<script>
+    $(document).ready(function() {
+        $(window).on('scroll', function(e) {
+            if($(window).scrollTop() > $('header.cf').height()) {
+                $('header.cf').addClass('fx');
+                $('div.logo').css('display', 'none');
+            }
+        });
+    });
+</script>
