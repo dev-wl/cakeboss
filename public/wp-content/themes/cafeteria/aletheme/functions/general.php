@@ -1244,7 +1244,7 @@ function custom_posts_per_page( $query ) {
     if ( $query->query_vars['post_type'] == 'gallery' ) {
         $query->query_vars['posts_per_page'] = 16;
     } elseif( $query->query_vars['post_type'] == 'menu' ) {
-        $query->query_vars['posts_per_page'] = 12;
+        $query->query_vars['posts_per_page'] = 8;
     }
     return $query;
 }
