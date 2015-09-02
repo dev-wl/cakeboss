@@ -173,7 +173,7 @@ function ale_get_subpages($id) {
 function ale_page_links() {
 	global $wp_query, $wp_rewrite;
 	$wp_query->query_vars['paged'] > 1 ? $current = $wp_query->query_vars['paged'] : $current = 1;
- 
+
 	$pagination = array(
 		'base' => @add_query_arg('page','%#%'),
 		'format' => '',
@@ -1242,7 +1242,7 @@ function ale_trim_excerpt($length) {
  */
 function custom_posts_per_page( $query ) {
     if ( $query->query_vars['post_type'] == 'gallery' ) {
-        $query->query_vars['posts_per_page'] = 16;
+        $query->query_vars['posts_per_page'] = 8;
     } elseif( $query->query_vars['post_type'] == 'menu' ) {
         $query->query_vars['posts_per_page'] = 8;
     }
