@@ -83,6 +83,9 @@
             if($(window).scrollTop() > $('header.cf').height()) {
                 $('header.cf').addClass('fx');
                 $('div.logo').css('display', 'none');
+            } else {
+                $('header.cf').removeClass('fx');
+                $('div.logo').css('display', 'block');
             }
         });
     });
