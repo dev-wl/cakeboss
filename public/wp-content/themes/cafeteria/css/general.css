@@ -4998,5 +4998,13 @@ p.errorh1 {
   top:0;
   left:0;
   width:100%;
-  height:30px;
+  height:40px;
+}
+
+header.cf.fx {
+  min-height: 40px !important;
+}
+
+header.cf.fx ul {
+  margin-top: 3px !important;
 }
