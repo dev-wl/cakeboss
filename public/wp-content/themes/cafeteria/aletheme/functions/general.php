@@ -1234,8 +1234,17 @@ function ale_trim_excerpt($length) {
         $text = implode(' ', $words);
         $text = apply_filters('the_excerpt',$text);
     }
+
+    add_filter('the_excerpt', 'trim_excerpt');
     return $text;
 }
+
+function trim_excerpt($text) {
+  $text = rtrim($text, '[...]');
+  $text = str_replace('[&hellip', '', $text);
+  return str_replace(';]', '', $text);
+}
+
 
 /*
  * Posts per page on Gallery Archive page
