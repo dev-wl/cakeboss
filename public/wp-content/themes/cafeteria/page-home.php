@@ -46,7 +46,7 @@ get_header(); ?>
                 
                 <?php
                 global $post;
-                $args = array('category' => 4 );
+                $args = array('category' == 4 );
                 $myposts = get_posts( $args );
                 $i = 0;
                 foreach ( $myposts as $post ) : {
