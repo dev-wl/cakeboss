@@ -5008,3 +5008,35 @@ header.cf.fx {
 header.cf.fx ul {
   margin-top: 3px !important;
 }
+
+
+.contact label, .contact input {
+  display: block;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.footer form {
+  width: 50%;
+  margin: 10px auto 0px;
+}
+
+.footer form input {
+  width: 100%;
+}
+
+.footer form p {
+  text-align:justify;
+}
+
+.footer form input[type='submit'] {
+  text-transform: none;
+  width: 105px;
+  height: 34px;
+  float: left;
+  line-height: 34px;
+  color: #FFF;
+  font-family: "Damion",cursive;
+  font-size: 25px;
+  background-color: #5E3C3D;
+}
