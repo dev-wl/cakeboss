@@ -11,65 +11,57 @@
                         <div class="col-12">
                             
                             <!-- BEGIN DIRECT MAIL SUBSCRIBE FORM -->
-
-                            <link rel="stylesheet" type="text/css"
-                            href="https://www.dm-mailinglist.com/subscribe_forms/embed.css?v=2&f=80d854
-                            89&sbg=1" media="all">
+                            <link rel="stylesheet" type="text/css" href="https://www.dm-mailinglist.com/subscribe_forms/embed.css?v=2&f=a7bd8bd5&sbg=1" media="all">
                             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
                             <script src="https://www.dm-mailinglist.com/subscribe_forms/localized.js" charset="UTF-8"></script>
                             <script src="https://www.dm-mailinglist.com/subscribe_forms/subscribe_embed.js" charset="UTF-8"></script>
-
                             <div>
-                                <form method="post" action="https://www.dm-mailinglist.com/subscribe" data-directmail-use-ajax="1" data-form-id="80d85489" 
-                                class="directmail-subscribe-form" accept-charset="UTF-8">
+                                <form method="post" action="https://www.dm-mailinglist.com/subscribe" data-directmail-use-ajax="1" data-form-id="a7bd8bd5" class="directmail-subscribe-form" accept-charset="UTF-8">
                                     <input type="hidden" name="email"></input>
-                                    <input type="hidden" name="form_id" value="80d85489"></input>
-                                    <div style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 12.8000001907349px; line-height: normal;" container>
-                                        <table>
-                                            <tr>
-                                                <td colspan=1>Skinnygirl Coffee and Teas Newsletter</td>
-                                            </tr>
-                                            <tr>
-                                                <td style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 12.8000001907349px; line-height: normal;" class="description" colspan=1>Sign up for news and
-                                                    promotions on your new favorite coffee and teas. You may unsubscribe at
-                                                    anytime.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <label for="directmail-80d85489-first_name">First Name:</label>
-                                                    <input type="text" id="directmail-80d85489-first_name" name="first_name" value="" placeholder="First Name" ></input>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <label for="directmail-80d85489-last_name">Last Name:</label>
-                                                    <input type="text" id="directmail-80d85489-last_name" name="last_name" value="" placeholder="Last Name" ></input>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <label for="directmail-80d85489-custom_1">Country:</label>
-                                                    <input type="text" id="directmail-80d85489-custom_1" name="custom_1" value="" placeholder="Country" ></input>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <label for="directmail-80d85489-subscriber_email">Email*:</label>
-                                                    <input type="email" id="directmail-80d85489-subscriber_email" name="subscriber_email" value="" placeholder="Email*" 
-                                                        class="directmail-required-field" required="required"></input>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <input type="submit" value="Subscribe"></input>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </div>
+                                    <input type="hidden" name="form_id" value="a7bd8bd5"></input>
+                                        <div style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 12.8px; line-height: normal;">
+                                            <table>
+                                                <tr>
+                                                    <td colspan=1>Cake Boss Coffee Newsletter</td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 12.8px; line-height: normal;" colspan=1> For updates on Cake Boss Coffees please sign up for our newsletter. You may unsubscibe at anytime.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <label for="directmail-a7bd8bd5-first_name">First Name:</label>
+                                                        <input type="text" id="directmail-a7bd8bd5-first_name" name="first_name" value="" placeholder="First Name" ></input>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <label for="directmail-a7bd8bd5-last_name">Last Name:</label>
+                                                        <input type="text" id="directmail-a7bd8bd5-last_name" name="last_name" value="" placeholder="Last Name" ></input>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <label for="directmail-a7bd8bd5-custom_1">Country:</label>
+                                                        <input type="text" id="directmail-a7bd8bd5-custom_1" name="custom_1" value="" placeholder="Country" ></input>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <label for="directmail-a7bd8bd5-subscriber_email">Email*:</label>
+                                                        <input type="email" id="directmail-a7bd8bd5-subscriber_email" name="subscriber_email" value="" placeholder="Email*" class="directmail-required-field" required="required"></input>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <input type="submit" value="Subscribe"></input>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
                                 </form>
                             </div>
 
-                            <!-- END DIRECT MAIL SUBSCRIBE FORM -->
+                        <!-- END DIRECT MAIL SUBSCRIBE FORM -->  
 
                         </div>
                     </form>
