@@ -5009,6 +5009,13 @@ header.cf.fx ul {
   margin-top: 3px !important;
 }
 
+header.cf.fx .left {
+  padding-right: 35px;
+}
+
+header.cf.fx .right {
+  padding-left: 0px;
+}
 
 .contact label, .contact input {
   display: block;
