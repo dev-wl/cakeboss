@@ -5100,4 +5100,8 @@ article.our-team .center-align.content {
   .story-open .col-8.main {
     margin-top: 50px;
   }
+  .our-team .content .text  {
+    padding: 0px 10px;
+    text-align: justify;
+  }
 }
