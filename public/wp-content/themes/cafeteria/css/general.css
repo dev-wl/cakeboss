@@ -5092,4 +5092,8 @@ article.our-team .center-align.content {
   article.our-team .center-align.content {
     margin-top: 10px;
   }
+
+  .footer form {
+    width: 80%;
+  }
 }
