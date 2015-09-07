@@ -5048,6 +5048,10 @@ header.cf.fx .right {
   background-color: #5E3C3D;
 }
 
+.footer form input[type='submit'] {
+  padding: 0px 5px 0px 1px;
+}
+
 .contact-form {
   width: 50%;
   margin: 0 auto;
