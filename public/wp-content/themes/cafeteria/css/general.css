@@ -5082,6 +5082,10 @@ article.our-team .center-align.content {
   line-height: 19px;
 }
 
+.story-open .main form .col-7 input[type="submit"] {
+  -webkit-padding-start: 12px;
+}
+
 
 @media (max-width: 500px) {
   .contact-form {
