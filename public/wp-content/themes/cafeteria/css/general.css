@@ -5128,4 +5128,8 @@ article.our-team .center-align.content {
    header.cf.fx .left {
     margin-left: 10%;
   }
+
+  header.cf .left{
+    margin-left: 5%;
+  }
 }
