@@ -5077,6 +5077,11 @@ article.our-team .center-align.content {
   margin-top: 50px;
 }
 
+.our-menu .background .text p {
+  font-size: 12px;
+  line-height: 19px;
+}
+
 
 @media (max-width: 500px) {
   .contact-form {
