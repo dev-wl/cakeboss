@@ -5109,3 +5109,19 @@ article.our-team .center-align.content {
     text-align: justify;
   }
 }
+
+@media only screen and (min-device-width: 280px) {
+  header.cf.fx .menu-drop{
+    margin-top: -145px;
+  }
+}
+
+@media only screen and (min-device-width: 768px){
+  header.cf .col-6 {
+    width: auto !important;
+  }
+
+   header.cf.fx .left {
+    margin-left: 10%;
+  }
+}

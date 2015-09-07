@@ -80,9 +80,11 @@
 <script>
     $(document).ready(function() {
         $(window).on('scroll', function(e) {
-            if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-                return;
-            }
+            // if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+            //     return;
+            // }
+
+            // $('header.cf .left').css('width', '100%');
             if($(window).scrollTop() > $('header.cf').height()) {
                 $('header.cf').addClass('fx');
                 $('div.logo').css('display', 'none');
