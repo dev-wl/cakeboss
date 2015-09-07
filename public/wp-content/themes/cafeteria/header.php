@@ -85,7 +85,7 @@
             // }
 
             h = $('header.cf').height();
-            if($('#wpadminbar').css('display') == block)
+            if($('#wpadminbar').css('display') == 'block')
                 h -= $('#wpadminbar').height();
             // $('header.cf .left').css('width', '100%');
             if($(window).scrollTop() > h) {
