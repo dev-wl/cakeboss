@@ -5036,7 +5036,7 @@ header.cf.fx .right {
   text-align:justify;
 }
 
-.footer form input[type='submit'] {
+.footer form input[type='submit'], .contact-form input[type='submit'] {
   text-transform: none;
   width: 110px;
   height: 34px;
@@ -5046,4 +5046,41 @@ header.cf.fx .right {
   font-family: "Damion",cursive;
   font-size: 25px;
   background-color: #5E3C3D;
+}
+
+.contact-form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.contact-form p, .contact-form span {
+  color: #777;
+}
+
+.contact-form input[type="text"], .contact-form textarea, .contact-form input[type="email"] {
+  width: 100%;
+}
+
+.contact-form textarea {
+  height: 5em;
+}
+
+.clearfix {
+  clear:both;
+}
+
+article.our-team .center-align.content {
+  margin-top: 50px;
+}
+
+
+@media (max-width: 500px) {
+  .contact-form {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  article.our-team .center-align.content {
+    margin-top: 10px;
+  }
 }

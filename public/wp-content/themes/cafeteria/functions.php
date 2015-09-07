@@ -33,3 +33,33 @@ function exclude_category($query) {
 	return $query;
 }
 add_filter('pre_get_posts', 'exclude_category');
+
+add_action('wpcf7_before_send_mail', 'save_form' );
+
+function save_form( $wpcf7 ) {
+	
+   global $wpdb;
+ 
+   /*
+    Note: since version 3.9 Contact Form 7 has removed $wpcf7->posted_data
+    and now we use an API to get the posted data.
+   */
+ 
+   $submission = WPCF7_Submission::get_instance();
+ 
+   if ( $submission ) {
+ 
+       $submited = array();
+       $submited['title'] = $wpcf7->title();
+       $submited['posted_data'] = $submission->get_posted_data();
+ 
+    }
+
+	$wpdb->insert( $wpdb->prefix . 'tps_forms', array( 
+    	'name' => $submited['posted_data']['your-name'],
+    	'email' => $submited['posted_data']['your-email'],
+    	'subj' => $submited['posted_data']['your-subject'],
+    	'message' => $submited['posted_data']['your-message'],
+    	'date_add' => @date('Y-m-d H:i:s')
+	));
+}
