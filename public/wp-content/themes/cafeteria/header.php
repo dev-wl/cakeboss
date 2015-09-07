@@ -84,8 +84,11 @@
             //     return;
             // }
 
+            h = $('header.cf').height();
+            if($('#wpadminbar').css('display') == block)
+                h += $('#wpadminbar').height();
             // $('header.cf .left').css('width', '100%');
-            if($(window).scrollTop() > $('header.cf').height()) {
+            if($(window).scrollTop() > h) {
                 $('header.cf').addClass('fx');
                 $('div.logo').css('display', 'none');
             } else {
