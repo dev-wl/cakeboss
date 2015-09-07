@@ -86,7 +86,7 @@
 
             h = $('header.cf').height();
             if($('#wpadminbar').css('display') == block)
-                h += $('#wpadminbar').height();
+                h -= $('#wpadminbar').height();
             // $('header.cf .left').css('width', '100%');
             if($(window).scrollTop() > h) {
                 $('header.cf').addClass('fx');
