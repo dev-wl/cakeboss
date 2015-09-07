@@ -5096,4 +5096,8 @@ article.our-team .center-align.content {
   .footer form {
     width: 80%;
   }
+
+  .story-open .col-8.main {
+    margin-top: 50px;
+  }
 }
