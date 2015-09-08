@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'spoletoregular';
+    src: url('../fonts/ufonts.com_spoleto-webfont.eot');
+    src: url('../fonts/ufonts.com_spoleto-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ufonts.com_spoleto-webfont.woff2') format('woff2'),
+         url('../fonts/ufonts.com_spoleto-webfont.woff') format('woff'),
+         url('../fonts/ufonts.com_spoleto-webfont.ttf') format('truetype'),
+         url('../fonts/ufonts.com_spoleto-webfont.svg#spoletoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .col-1,
 .col-2,
 .col-3,
@@ -5088,6 +5101,11 @@ article.our-team .center-align.content {
 
 #load-logo {
   background:url('/wp-content/uploads/2015/09/background-300x255.jpg') !important;
+}
+
+header ul a, div.box h2, h1.firstfont, h2.firstfont, h3.firstfont, h4.firstfont, h5.firstfont, h6.firstfont, .footer form input[type="submit"],
+.contact-form input[type="submit"], .info a, #searchsubmit, .story-open .main form .col-7 input[type="submit"] {
+  font-family: 'spoletoregular' !important;
 }
 
 @media (max-width: 500px) {
