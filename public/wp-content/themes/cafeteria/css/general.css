@@ -5086,6 +5086,9 @@ article.our-team .center-align.content {
   -webkit-padding-start: 12px;
 }
 
+#load-logo {
+  background:url('/wp-content/uploads/2015/09/background-300x255.jpg') !important;
+}
 
 @media (max-width: 500px) {
   .contact-form {
