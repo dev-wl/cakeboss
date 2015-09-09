@@ -5108,6 +5108,10 @@ header ul a, div.box h2, h1.firstfont, h2.firstfont, h3.firstfont, h4.firstfont,
   font-family: 'spoletoregular' !important;
 }
 
+.footer form input[type="submit"] {
+  width: 141px;
+}
+
 @media (max-width: 500px) {
   .contact-form {
     width: 80%;
