@@ -1,4 +1,4 @@
-    <?php if(is_page_template('page-home.php') or is_page_template('template-contact.php')){ ?>
+    <?php if(/*is_page_template('page-home.php') or*/ is_page_template('template-contact.php')){ ?>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 <script src="https://www.dm-mailinglist.com/subscribe_forms/localized.js" charset="UTF-8"></script>
 <script src="https://www.dm-mailinglist.com/subscribe_forms/subscribe_embed.js" charset="UTF-8"></script>

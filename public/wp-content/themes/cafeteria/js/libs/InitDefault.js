@@ -14,7 +14,7 @@ jQuery(function($) {
             if ($window.scrollTop() > offset - window.innerHeight )
             {
                 var yPos = -(($window.scrollTop()) / 5 );
-                var coords = '50% ' + ( yPos ) + 'px';
+                var coords = '50% ' + ( yPos - 60) + 'px';
                 $obj.css({ backgroundPosition:  coords });
             }
         });
@@ -30,7 +30,7 @@ jQuery(function($) {
                 if ($window.scrollTop() > offset - window.innerHeight )
                 {
                     var yPos = -(($window.scrollTop() - offset) / 5 );
-                    var coords = '50% ' + ( yPos ) + 'px';
+                    var coords = '50% ' + ( yPos - 60 ) + 'px';
                     $obj.css({ backgroundPosition:  coords });
                 }
             });
