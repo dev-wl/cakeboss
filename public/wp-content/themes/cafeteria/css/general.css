@@ -303,6 +303,7 @@ p {
   margin: 0 0 1em 0;
   text-align: left;
   line-height: 1.5;
+  text-align: justify;
 }
 strong {
   font-weight: bold;
@@ -686,6 +687,7 @@ p {
   font-size: 15px;
   line-height: 25px;
   color: #474747;
+  text-align: justify;
 }
 .center-align {
   width: 986px;
@@ -3854,6 +3856,7 @@ p.errorh1 {
   position: relative;
   height: 100%;
   width: 100%;
+  padding-top: 2px;
 }
 .slideUp {
   animation-name: slideUp;
@@ -4794,7 +4797,7 @@ p.errorh1 {
     top: 15px;
   }
   .footer {
-    height: 1035px;
+    height: 679px;
   }
   .footer .caption {
     font-size: 30px;
@@ -4952,7 +4955,8 @@ p.errorh1 {
 }
 @media (max-width: 435px) {
   .center-align {
-    width: 280px;
+    width: 303px;
+    /*margin-left: 15px;*/
   }
   article .line-cake .line {
     width: 50px;
@@ -5024,6 +5028,12 @@ p.errorh1 {
   section .center-align .top {
     display: none;
   }
+  .contact-form p {
+    line-height: 30px;
+  }
+  article.our-team .center-align.content .textalignleft h2.firstfont.caption {
+    display: none;
+  }
 }
 
 
@@ -5081,6 +5091,8 @@ header.cf.fx .right {
   font-family: "Damion",cursive;
   font-size: 25px;
   background-color: #5E3C3D;
+  margin-bottom: 10px;
+  /*margin-top:5px;*/
 }
 
 .contact-form input[type='submit'] {
@@ -5139,7 +5151,7 @@ h3.firstfont {
 }
 
 p.copy {
-  margin-top: 0px !important;
+  margin-top: 40px !important;
 }
 
 .our-menu .background .info h3 {
@@ -5172,9 +5184,13 @@ p.copy {
     margin-top: 50px;
   }
   .our-team .content .text  {
-    padding: 0px 10px;
+    padding: 0px 0px;
     padding-left: 0px;
     text-align: justify;
+  }
+
+  .footer.footer-small {
+    
   }
 }
 
