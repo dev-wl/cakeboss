@@ -7,36 +7,6 @@
             <div class="maskkeyframebug">
                 <div class="center-align">
                     <a href="#top" class="top"></a>
-
-                    <h2 class="firstfont caption"> <?php echo ale_get_meta('contacttit'); ?></h2>
-                    <?php if(ale_get_option('formcontact') !== '1'){ ?>
-                    <form method="post" action="https://www.dm-mailinglist.com/subscribe" data-directmail-use-ajax="1" data-form-id="a7bd8bd5" class="directmail-subscribe-form contact" accept-charset="UTF-8" class="col-8">
-                        <div class="col-12">
-                            <!-- BEGIN DIRECT MAIL SUBSCRIBE FORM -->
-                            
-                            <input type="hidden" name="email"/>
-                            <input type="hidden" name="form_id" value="a7bd8bd5"/>
-                                <div>
-                                    <p>Cake Boss Coffee Newsletter</p>
-                                    <p>For updates on Cake Boss Coffees please sign up for our newsletter. You may unsubscibe at anytime.</p>
-                                    
-                                    <label for="directmail-a7bd8bd5-first_name">First Name:</label>
-                                    <input type="text" id="directmail-a7bd8bd5-first_name" name="first_name" value="" placeholder="First Name" />
-                                    <label for="directmail-a7bd8bd5-last_name">Last Name:</label>
-                                    <input type="text" id="directmail-a7bd8bd5-last_name" name="last_name" value="" placeholder="Last Name" />
-                                    <label for="directmail-a7bd8bd5-custom_1">Country:</label>
-                                    <input type="text" id="directmail-a7bd8bd5-custom_1" name="custom_1" value="" placeholder="Country" />
-                                    <label for="directmail-a7bd8bd5-subscriber_email">Email*:</label>
-                                    <input type="email" id="directmail-a7bd8bd5-subscriber_email" name="subscriber_email" value="" placeholder="Email*" class="directmail-required-field" required="required"/>
-                                    <input type="submit" value="Subscribe"/>    
-                                </div>
-
-    
-                            <!-- END DIRECT MAIL SUBSCRIBE FORM -->  
-                        </div>
-                    </form>
-                    <div style="clear:both;"></div>
-                    <?php } ?>
                     
                     <?php if (ale_get_option('copyrights')) : ?>
                         <p class="copy"><?php echo ale_option('copyrights'); ?></p>

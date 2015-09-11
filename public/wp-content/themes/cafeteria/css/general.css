@@ -8,6 +8,28 @@
          url('../fonts/ufonts.com_spoleto-webfont.svg#spoletoregular') format('svg');
     font-weight: normal;
     font-style: normal;
+}
+
+@font-face {
+    font-family: 'frankgothic';
+    src: url('../fonts/frank.eot');
+    src: url('../fonts/frank.eot') format('embedded-opentype'),
+         url('../fonts/frank.woff2') format('woff2'),
+         url('../fonts/frank.woff') format('woff'),
+         url('../fonts/frank.ttf') format('truetype'),
+         url('../fonts/frank.svg#myfont') format('svg');
+}
+
+@font-face {
+    font-family: 'chunkfiveregular';
+    src: url('../chunk-webfont.eot');
+    src: url('../chunk-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../chunk-webfont.woff2') format('woff2'),
+         url('../chunk-webfont.woff') format('woff'),
+         url('../chunk-webfont.ttf') format('truetype'),
+         url('../chunk-webfont.svg#chunkfiveregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
 }
 
@@ -3703,7 +3725,7 @@ blockquote div:before {
   color: #fff;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
 }
-.footer form {
+.contact-form form {
   margin-top: 45px;
   color: #8b8b8b;
 }
@@ -4469,7 +4491,7 @@ p.errorh1 {
     font-family: 'Cinzel';
     font-size: 18px;
     line-height: 35px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
   }
   .menu-drop ul.ul-drop li ul {
     cursor: pointer;
@@ -5036,20 +5058,20 @@ header.cf.fx .right {
   margin-bottom: 5px;
 }
 
-.footer form {
+.contact-form {
   width: 50%;
   margin: 10px auto 0px;
 }
 
-.footer form input {
+.contact-form input {
   width: 100%;
 }
 
-.footer form p {
+.contact-form p {
   text-align:justify;
 }
 
-.footer form input[type='submit'], .contact-form input[type='submit'] {
+.contact-form input[type='submit'] {
   text-transform: none;
   width: 110px;
   height: 34px;
@@ -5061,7 +5083,7 @@ header.cf.fx .right {
   background-color: #5E3C3D;
 }
 
-.footer form input[type='submit'] {
+.contact-form input[type='submit'] {
   padding: 0px 5px 0px 1px;
 }
 
@@ -5075,7 +5097,7 @@ header.cf.fx .right {
 }
 
 .contact-form input[type="text"], .contact-form textarea, .contact-form input[type="email"] {
-  width: 100%;
+  width: 96%;
 }
 
 .contact-form textarea {
@@ -5103,13 +5125,25 @@ article.our-team .center-align.content {
   background:url('/wp-content/uploads/2015/09/background-300x255.jpg') !important;
 }
 
-header ul a, div.box h2, h1.firstfont, h2.firstfont, h3.firstfont, h4.firstfont, h5.firstfont, h6.firstfont, .footer form input[type="submit"],
+header ul a, div.box h2, h1.firstfont, h2.firstfont, /* h3.firstfont, */ h4.firstfont, h5.firstfont, h6.firstfont, .footer form input[type="submit"],
 .contact-form input[type="submit"], .info a, #searchsubmit, .story-open .main form .col-7 input[type="submit"] {
-  font-family: 'spoletoregular' !important;
+  font-family: 'frankgothic' !important;
 }
 
-.footer form input[type="submit"] {
-  width: 141px;
+h3.firstfont {
+  font-family: 'chunkfiveregular' !important;
+}
+
+.contact-form input[type="submit"] {
+  width: 149px;
+}
+
+p.copy {
+  margin-top: 0px !important;
+}
+
+.our-menu .background .info h3 {
+  font-size: 20px !important;
 }
 
 @media (max-width: 500px) {
@@ -5127,11 +5161,11 @@ header ul a, div.box h2, h1.firstfont, h2.firstfont, h3.firstfont, h4.firstfont,
     margin-top: 10px;
   }
 
-  .footer form {
+  .contact-formform {
     width: 100%;
   }
 
-  .footer form p {
+  .contact-form form p {
   }
 
   .story-open .col-8.main {

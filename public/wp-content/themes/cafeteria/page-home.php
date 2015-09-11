@@ -104,7 +104,7 @@ get_header(); ?>
             </div> -->
         </article>
     </div>
-<?php } else { echo'<div class="heightonhome cf"></div>'; } ?>
+<?php } else { /*echo'<div class="heightonhome cf"></div>';*/ } ?>
 
 <!-- ## Home Gallery -->
 <?php if(ale_get_meta('galleryonhome')=='on') { ?>
@@ -169,7 +169,7 @@ get_header(); ?>
             <div class="background-opacity"></div>
         </div>
     </section>
-<?php } else { echo'<div class="heightonhome cf"></div>'; } ?>
+<?php } else { /*echo'<div class="heightonhome cf"></div>';*/ } ?>
 
 <!-- Our Team -->
 <?php if(ale_get_meta('teamonhome')=='on') { ?>
@@ -222,7 +222,7 @@ get_header(); ?>
             </div>
         </div>
     </article>
-<?php } else { echo'<div class="heightonhome cf"></div>'; } ?>
+<?php } else { /*echo'<div class="heightonhome cf"></div>';*/ } ?>
 
 <!-- ## Home Price -->
 <?php if(ale_get_meta('menuonhome')=='on') { ?>
@@ -313,7 +313,7 @@ get_header(); ?>
             <div class="background-opacity"></div>
         </div>
     </section>
-<?php } else { echo'<div class="heightonhome cf"></div>'; } ?>
+<?php } else { /*echo'<div class="heightonhome cf"></div>'; */} ?>
 
 <!-- Our Events -->
 <?php if(ale_get_meta('eventsonhome')=='on') { ?>
@@ -378,6 +378,23 @@ get_header(); ?>
 
         </div>
     </article>
-<?php } else { echo'<div class="heightonhome cf"></div>'; } ?>
-
+<?php } else { /*echo'<div class="heightonhome cf"></div>'; */} ?>
+<!-- About us -->
+<a name="about"></a>
+<article class="our-team">
+        <h2 class="firstfont caption colormain">About us</h2>
+        <div class="center-align">
+            <div class="line-cake">
+                <div class="cake"></div>
+                <div class="line left"></div>
+                <div class="line right"></div>
+            </div>
+        </div>
+        <!-- ## ## ## ## ## ## ## ## ## ## ## -->
+        <div class="center-align content">
+            <div class="text story textalignleft">
+               <p><?php $id=90; $post = get_page($id); echo $post->post_content;  ?></p>
+            </div>
+        </div>
+    </article>
 <?php get_footer(); ?>
