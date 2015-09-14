@@ -52,7 +52,7 @@
         <?php ale_part('notfound')?>
     <?php endif; ?>
     <!-- Recomended menu -->
-    <article class="our-menu">
+    <!-- <article class="our-menu">
         <h2 class="caption firstfont colormain"><?php _e('Recommended menu','aletheme'); ?></h2>
         <div class="center-align">
             <div class="line-cake">
@@ -89,6 +89,6 @@
                 <?php endif; wp_reset_query(); ?>
             </div>
         </div>
-    </article>
+    </article> -->
 
 <?php get_footer(); ?>
