@@ -39,7 +39,8 @@
     if ( get_query_var('paged') ) $paged = get_query_var('paged');
     if ( get_query_var('page') ) $paged = get_query_var('page');
     add_filter( 'pre_get_posts', 'custom_posts_per_page' );
-    query_posts( '&post_type=menu&paged=' . $paged );
+    // query_posts( '&post_type=menu&paged=' . $paged );
+    query_posts( '&post_type=menu&paged=' . $paged . '&showposts=-1');
     if (have_posts()) : while (have_posts()) : the_post(); ?>
         <div class="col-3">
             <div class="background">
