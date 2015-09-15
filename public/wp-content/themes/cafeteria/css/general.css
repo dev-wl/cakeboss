@@ -5162,6 +5162,41 @@ p.copy {
   font-size: 20px !important;
 }
 
+.our-services .content .square {
+  position: relative;
+  margin: 0 auto;
+  width: 165px;
+  height: 165px;
+  background: #fff;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-shadow: 0px 15px 15px rgba(34, 34, 34, 0.6);
+  -moz-box-shadow: 0px 15px 15px rgba(34, 34, 34, 0.6);
+  box-shadow: 0px 15px 15px rgba(34, 34, 34, 0.6);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.our-services .content .square:hover {
+  -webkit-box-shadow: 0px 30px 30px rgba(34, 34, 34, 0.6);
+  -moz-box-shadow: 0px 30px 30px rgba(34, 34, 34, 0.6);
+  box-shadow: 0px 30px 30px rgba(34, 34, 34, 0.6);
+}
+.our-services .content .square .img {
+  visibility: hidden;
+  position: absolute;
+  left: 50%;
+  top: -30px;
+  margin-left: -82px;
+  width: 165px;
+  height: 165px;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+}
+
 @media (max-width: 500px) {
   .contact-form {
     width: 100%;

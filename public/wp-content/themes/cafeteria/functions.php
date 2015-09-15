@@ -28,7 +28,7 @@ if ( is_readable($locale_file) )
 
 function exclude_category($query) {
 	if ( $query->is_home() ) {
-		$query->set('cat', '-4');
+		$query->set('cat', '-4 -11');
 	}
 	return $query;
 }

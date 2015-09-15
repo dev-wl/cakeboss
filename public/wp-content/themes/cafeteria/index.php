@@ -11,13 +11,11 @@
         </div>
 
         <div class="center-align content">
-
             <?php if (have_posts()){ ?>
                 <div class="back-line"></div>
                 <div class="cub-top"></div>
                 <div class="cub-bot"></div>
             <?php } ?>
-
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                 <div class="item cf">
                     <div class="text">
