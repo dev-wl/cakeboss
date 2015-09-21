@@ -5243,7 +5243,7 @@ p.copy {
   }
 }
 
-@media only screen and (device-width: 768px){
+@media only screen and (width: 768px){
   header.cf .col-6 {
     width: auto !important;
     overflow: hidden;
