@@ -859,8 +859,8 @@ header .center-align > ul > li > a {
   border-bottom: 1px dashed rgba(94, 60, 61, 0.7);
 }
 header .center-align > ul > li:hover > ul {
-  /*visibility: visible;
-  opacity: 1;*/
+  visibility: visible;
+  opacity: 1;
 }
 header .center-align > ul > li:hover > ul li > ul {
   top: 0;
