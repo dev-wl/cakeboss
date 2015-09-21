@@ -834,6 +834,7 @@ header .left > li {
 header .right {
   padding-left: 165px;
   text-align: left;
+   display: none;
 }
 header .right > li {
   display: inline-block;
