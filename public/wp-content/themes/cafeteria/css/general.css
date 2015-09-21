@@ -5254,12 +5254,10 @@ p.copy {
 
   header.cf .left{
     margin-left: 3.5%;
-    /*width: 37% !important;*/
-    overflow: hidden;
+    width: 37% !important;
   }
 
   header.cf .right {
     /*width: 40% !important;*/
-    overflow: hidden;
   }
 }
