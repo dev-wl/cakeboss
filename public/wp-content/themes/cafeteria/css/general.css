@@ -834,7 +834,7 @@ header .right {
   padding-left: 165px;
   text-align: left;
 
-  width: 30% !important; /*!!!*/
+  width: 10% !important; /*!!!*/
 }
 header .right > li {
   display: inline-block;
