@@ -5255,10 +5255,12 @@ p.copy {
 
   header.cf .left{
     margin-left: 3.5%;
+    display: none;
     /*width: 27% !important;*/
   }
 
   header.cf .right {
+    display: none;
     /*width: 40% !important;*/
   }
 }
