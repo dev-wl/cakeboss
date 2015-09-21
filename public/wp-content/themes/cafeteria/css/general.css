@@ -5245,7 +5245,7 @@ p.copy {
 
 @media only screen and (device-width: 768px){
   header.cf .col-6 {
-    width: auto !important;
+    width: 50% !important;
   }
 
    header.cf.fx .left {
@@ -5254,10 +5254,10 @@ p.copy {
 
   header.cf .left{
     margin-left: 3.5%;
-    width: 27% !important;
+    /*width: 27% !important;*/
   }
 
   header.cf .right {
-    width: 40% !important;
+    /*width: 40% !important;*/
   }
 }
