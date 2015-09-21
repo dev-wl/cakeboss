@@ -824,7 +824,7 @@ header .logo a.mobcustomlogo:hover {
 header .left {
   padding-right: 165px;
   text-align: right;
-  display: none;
+  width: 1% !important;
 }
 header .left > li {
   text-align: left;
@@ -834,7 +834,7 @@ header .left > li {
 header .right {
   padding-left: 165px;
   text-align: left;
-   display: none;
+  width: 1% !important;
 }
 header .right > li {
   display: inline-block;
