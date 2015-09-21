@@ -5243,9 +5243,12 @@ p.copy {
   }
 }
 
-@media only screen and (width: 1024px){
+@media only screen and (device-width: 768px){
   header.cf .col-6 {
     width: auto !important;
+  }
+
+  header .cf {
     overflow: hidden;
   }
 
@@ -5259,7 +5262,6 @@ p.copy {
   }
 
   header.cf .right {
-    display: none;
     /*width: 40% !important;*/
   }
 }
