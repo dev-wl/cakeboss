@@ -5243,12 +5243,12 @@ p.copy {
   }
 }
 
-@media only screen and (width: 1024px){
+@media only screen and (device-width: 768px){
   header.cf .col-6 {
     width: auto !important;
   }
 
-  header .cf {
+  header.cf {
     overflow: hidden;
   }
 
@@ -5258,10 +5258,6 @@ p.copy {
 
   header.cf .left{
     margin-left: 3.5%;
-    /*width: 27% !important;*/
-  }
-
-  header.cf .right {
-    /*width: 40% !important;*/
-  }
+}
+  
 }
