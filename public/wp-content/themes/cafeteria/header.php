@@ -99,10 +99,10 @@
             }
         });
 
-        if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-            $('div.center-align #menu-right-general-menu .shop').on('touchstart', function(e) {
+        // if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        //     $('div.center-align #menu-right-general-menu .shop').on('touchstart', function(e) {
                 // e.preventDefault();
-            });
+            // });
         }
     });
 </script>
