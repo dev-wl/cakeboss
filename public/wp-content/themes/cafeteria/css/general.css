@@ -824,6 +824,7 @@ header .logo a.mobcustomlogo:hover {
 header .left {
   padding-right: 165px;
   text-align: right;
+  width: 40% !important;
 }
 header .left > li {
   text-align: left;
@@ -5195,10 +5196,6 @@ p.copy {
   height: 165px;
   background-position: 50% 100%;
   background-repeat: no-repeat;
-}
-
-header .left {
-  width: 40% !important;
 }
 
 @media (max-width: 500px) {
