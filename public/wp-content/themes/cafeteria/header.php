@@ -84,20 +84,20 @@
             //     return;
             // }
 
-            h = $('header.cf').height();
-            if($(window).height() < 990) {
-                h -= 30;
-            }
-            if($('#wpadminbar').css('display') == 'block')
-                h -= $('#wpadminbar').height();
-            // $('header.cf .left').css('width', '100%');
-            if($(window).scrollTop() > h) {
-                $('header.cf').addClass('fx');
-                $('div.logo').css('display', 'none');
-            } else {
-                $('header.cf').removeClass('fx');
-                $('div.logo').css('display', 'block');
-            }
+            // h = $('header.cf').height();
+            // if($(window).height() < 990) {
+            //     h -= 30;
+            // }
+            // if($('#wpadminbar').css('display') == 'block')
+            //     h -= $('#wpadminbar').height();
+            // // $('header.cf .left').css('width', '100%');
+            // if($(window).scrollTop() > h) {
+            //     $('header.cf').addClass('fx');
+            //     $('div.logo').css('display', 'none');
+            // } else {
+            //     $('header.cf').removeClass('fx');
+            //     $('div.logo').css('display', 'block');
+            // }
         });
     });
 </script>
