@@ -96,7 +96,7 @@
                 $('div.logo').css('display', 'none');
             } else {
                 $('header.cf').removeClass('fx');
-                // $('div.logo').css('display', 'block');
+                $('div.logo').css('display', 'block');
             }
         });
     });
