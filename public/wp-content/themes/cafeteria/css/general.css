@@ -5250,12 +5250,12 @@ p.copy {
 
    header.cf.fx .left {
     margin-left: 15%;
-    overflow: hidden;
   }
 
   header.cf .left{
     margin-left: 3.5%;
     /*width: 37% !important;*/
+    overflow: hidden;
   }
 
   header.cf .right {
