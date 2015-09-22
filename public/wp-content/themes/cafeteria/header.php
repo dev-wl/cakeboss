@@ -90,7 +90,6 @@
             }
             if($('#wpadminbar').css('display') == 'block') {
                 h += $('#wpadminbar').height();
-                $('header.fx').css('top', '30px');
             }
             if($(window).scrollTop() > h) {
                 $('header.cf').addClass('fx');
