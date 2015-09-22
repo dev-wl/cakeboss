@@ -5232,7 +5232,7 @@ p.copy {
       
   }
 
-  .logo {
+  header.cf div.logo {
     padding-left: 12px;
     margin-left: -359px !important;
     overflow: hidden;
