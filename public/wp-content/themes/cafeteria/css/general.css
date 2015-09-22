@@ -4727,6 +4727,10 @@ p.errorh1 {
   header .menu-drop {
     top: 10px !important;
   }
+  header.cf.fx {
+    min-height: 0px !important;
+    max-height: 0px;
+  }
 }
 /* 640
 /* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
