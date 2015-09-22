@@ -4723,8 +4723,8 @@ p.errorh1 {
   }
 }
 
-@media (orientation: landscape) {
-  .menu-drop {
+@media (orientation: portrait) {
+  header .menu-drop {
     display: none;
   }
 }
