@@ -88,8 +88,10 @@
             if($(window).height() < 990) {
                 h += 30;
             }
-            if($('#wpadminbar').css('display') == 'block')
+            if($('#wpadminbar').css('display') == 'block') {
                 h += $('#wpadminbar').height();
+                $('header.cf.fx').css('top', '30px');
+            }
             if($(window).scrollTop() > h) {
                 $('header.cf').addClass('fx');
                 $('div.logo').css('display', 'none');
