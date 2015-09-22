@@ -5231,6 +5231,10 @@ p.copy {
   .footer.footer-small {
       
   }
+
+  header.cf {
+    overflow: hidden;
+  }
 }
 
 @media only screen and (min-device-width: 280px) and (max-width: 400px){
