@@ -89,7 +89,7 @@
                 h -= 30;
             }
             if($('#wpadminbar').css('display') == 'block')
-                h -= $('#wpadminbar').height();
+                h += $('#wpadminbar').height();
             if($(window).scrollTop() > h) {
                 $('header.cf').addClass('fx');
                 $('div.logo').css('display', 'none');
