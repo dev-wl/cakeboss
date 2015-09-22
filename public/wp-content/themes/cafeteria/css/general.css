@@ -5233,7 +5233,7 @@ p.copy {
   }
 
   .logo {
-    /*padding-left: 15px;*/
+    padding-left: 10px;
     margin-left: -159px !important;
     overflow: hidden;
     width: 99% !important;
