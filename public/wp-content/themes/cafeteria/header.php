@@ -103,6 +103,6 @@
         //     $('div.center-align #menu-right-general-menu .shop').on('touchstart', function(e) {
                 // e.preventDefault();
             // });
-        }
+        //}
     });
 </script>
