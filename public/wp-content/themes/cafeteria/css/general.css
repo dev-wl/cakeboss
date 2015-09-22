@@ -5057,7 +5057,7 @@ p.errorh1 {
 }
 
 header.cf.fx {
-  min-height: 40px !important;
+  min-height: 40px; /*!important;*/
 }
 
 header.cf.fx ul {
