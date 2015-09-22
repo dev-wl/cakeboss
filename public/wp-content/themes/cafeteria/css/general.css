@@ -4722,6 +4722,12 @@ p.errorh1 {
     height: 249px;
   }
 }
+
+@media (orientation: landscape) {
+  .menu-drop {
+    display: none;
+  }
+}
 /* 640
 /* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
 @media (max-width: 640px) {
