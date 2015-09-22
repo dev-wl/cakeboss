@@ -4723,9 +4723,9 @@ p.errorh1 {
   }
 }
 
-@media (orientation: portrait) {
+@media (max-width: 840px) and (orientation: landscape) {
   header .menu-drop {
-    display: none;
+    top: 10px !important;
   }
 }
 /* 640
