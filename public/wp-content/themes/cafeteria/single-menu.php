@@ -90,5 +90,5 @@
             </div>
         </div>
     </article> -->
-
+<div class="clearfix"></div>
 <?php get_footer(); ?>

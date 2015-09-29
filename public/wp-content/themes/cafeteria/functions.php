@@ -63,3 +63,11 @@ function save_form( $wpcf7 ) {
     	'date_add' => @date('Y-m-d H:i:s')
 	));
 }
+
+function buy_now( $atts ) {
+  extract( shortcode_atts( array(
+      'link' => 'http://www.coffeemarvel.com/Cake-Boss-s/2196.htm',
+      ), $atts ) );
+    return "<a href='{$link}' class='shop-link'>Buy now</a>";
+}
+add_shortcode('shop', 'buy_now');

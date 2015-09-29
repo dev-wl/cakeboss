@@ -18,12 +18,12 @@ get_header(); ?>
             <?php if($slider):?>
                 <?php foreach ($slider['slides'] as $slide) : ?>
                     <li style="background-image: url('<?php echo $slide['image'] ?>'); ">
-                        <div class="box">
+                        <!-- <div class="box">
                             <?php if($slide['title']){ ?><h2 class="firstfont caption colormain"><?php echo $slide['title']; ?></h2><?php } ?>
                             <?php if($slide['description']){ ?><p class="text"><?php echo $slide['description']; ?></p><?php } ?>
                             <?php if($slide['url']){ ?><a href="<?php echo $slide['url']; ?>"><?php _e('Read More','aletheme'); ?></a><?php } ?>
                         </div>
-                        <div class="shadow"></div>
+                        <div class="shadow"></div> -->
                     </li>
                 <?php endforeach; ?>
             <?php endif;?>

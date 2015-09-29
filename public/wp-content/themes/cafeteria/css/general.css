@@ -5277,3 +5277,20 @@ p.copy {
     margin-left: 3.5%;
   }
 }
+
+ul.flex-direction-nav {
+  display: none;
+}
+
+a.shop-link {
+  margin-top: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  padding: 15px;
+  border: 1px solid #95B8BB;
+  background-color: #95B8BB;
+  border-radius: 5px;
+  float: right;
+  margin-bottom: 20px;
+}
