@@ -28,6 +28,7 @@ jQuery(function($) {
 
     if($('.our-services').length){
         var serv = $('.our-services .content .circle .img');
+        var serv1 = $('.our-services .content .circle');
         $(window).scroll(function()
         {
             var offset = serv.offset().top;
@@ -36,6 +37,7 @@ jQuery(function($) {
             if (offset < topOfWindow + 500)
             {
                 serv.addClass('fadeIn');
+                serv1.addClass('fadeIn');
             }
         });
     }

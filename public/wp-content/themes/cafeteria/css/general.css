@@ -1161,6 +1161,7 @@ article .line-cake .line.right {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  visibility: hidden;
 }
 .our-services .content .circle:hover {
   -webkit-box-shadow: 0 30px 30px rgba(255, 216, 128, 0.6);
