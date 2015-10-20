@@ -43,7 +43,7 @@ get_header(); ?>
                     <div class="line right"></div>
                 </div>
             </div>
-                
+                <a name="products"></a>
                 <?php
                 global $post;
                 $args = array('category' => 4, 'numberposts' => -1 );
@@ -57,10 +57,10 @@ get_header(); ?>
                     <?php $i++; ?>
                         <div class="col-3">
                                 <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
-                            <div class="circle" style="background-image: url('<?php echo $url; ?>'); background-position: 50% 52%; background-repeat: no-repeat; background-size: 100% auto;">
+                            <a href="<?php echo post_permalink($post->ID);?>"><div class="circle" style="background-image: url('<?php echo $url; ?>'); background-position: 50% 52%; background-repeat: no-repeat; background-size: 100% auto;">
                                 <div class="img"></div>
-                            </div>
-                            <h2 class="firstfont caption colormain" style="top: 148px;"><?php the_title(); ?></h2>
+                            </div></a>
+                            <a href="<?php echo post_permalink($post->ID);?>"><h2 class="firstfont caption colormain" style="top: 148px;"><?php the_title(); ?></h2></a>
                             <p class="text text-center"><?php echo $post->post_content; ?></p>
                         </div>
                     <?php } if($i == 4): {
