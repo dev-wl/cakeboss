@@ -5307,6 +5307,12 @@ a.shop-link {
   font-weight: 800;
 }
 
+.blogpost img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
 .blogpost h3 {
   font-family: "spoletoregular";
   font-size: 20px;
