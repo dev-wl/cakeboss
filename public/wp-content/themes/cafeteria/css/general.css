@@ -5295,3 +5295,19 @@ a.shop-link {
   float: right;
   margin-bottom: 20px;
 }
+
+.blogpost {
+  width: 45%;
+  float: left;
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+.blogpost .shortened a {
+  font-weight: 800;
+}
+
+.blogpost h3 {
+  font-family: "spoletoregular";
+  font-size: 20px;
+}
