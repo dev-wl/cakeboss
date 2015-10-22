@@ -5317,3 +5317,12 @@ a.shop-link {
   font-family: "spoletoregular";
   font-size: 20px;
 }
+
+a.buy_now {
+  padding: 5px;
+  background-color: #5E3C3D;
+  color: #fff;
+  font-size: 25px;
+  font-family: "spoletoregular";
+  padding-right: 10px
+}
