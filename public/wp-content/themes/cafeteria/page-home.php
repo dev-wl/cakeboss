@@ -29,6 +29,7 @@ get_header(); ?>
             <?php endif;?>
         </ul>
     </div>
+                <a name="products"></a>
 
 <!-- Services -->
 <?php if(ale_get_meta('serviceonhome')=='on') { ?>
@@ -37,7 +38,6 @@ get_header(); ?>
         <article class="our-services cf">
             <h2 class="firstfont caption colormain"><?php echo ale_get_meta('servtit'); ?></h2>
             <div class="center-align">
-                <a name="products"></a>
                 <div class="line-cake">
                     <div class="cake"></div>
                     <div class="line left"></div>
