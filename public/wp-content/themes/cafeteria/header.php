@@ -101,7 +101,7 @@
         });
 
         if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-            $('#menu-mobile-menu li:eq(2), #menu-mobile-menu li:eq(4)').click(function(e) {e.preventDefault();})
+            $('#menu-mobile-menu li:eq(2), #menu-mobile-menu li:eq(10)').click(function(e) {e.preventDefault();})
         }
 
         // if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
