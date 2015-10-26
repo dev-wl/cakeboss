@@ -100,6 +100,10 @@
             }
         });
 
+        if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+            $('#menu-mobile-menu li:eq(2)').click(function(e) {e.preventDefault();})
+        }
+
         // if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
         //     $('div.center-align #menu-right-general-menu .shop').on('touchstart', function(e) {
                 // e.preventDefault();
