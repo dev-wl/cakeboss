@@ -90,12 +90,6 @@ add_filter('get_the_excerpt', 'new_trim_excerpt');
 // }
 
 // function my_post_meta_box( $object, $box ) { ?>
-<!-- //   <p>
-//     <label for="buy-now-link">Link to shop:</label>
-//     <br />
-//     <input type="text" name="buy-now-link" id="buy-now-link" style="width: 97%;" value="<?php echo wp_specialchars( get_post_meta( $object->ID, 'buy-now-link', true ), 1 ); ?>" />
-//     <input type="hidden" name="my_meta_box_nonce" value="<?php echo wp_create_nonce( plugin_basename( __FILE__ ) ); ?>" />
-//   </p> -->
 <?php //}
 
 // function my_save_post_meta_box( $post_id, $post ) {
