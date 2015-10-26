@@ -4227,6 +4227,21 @@ p.errorh1 {
 .location_field {
   display: none;
 }
+
+/* 828 - 1202
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+@media (min-width: 828px) and (max-width: 1202px) {
+  #menu-general-menu, #menu-right-general-menu {
+    position: absolute;
+  }
+
+  #menu-right-general-menu {
+    position: absolute;
+    float: right;
+    right: 0px;
+  }
+}
+
 /* 1010
 /* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
 @media (max-width: 1010px) {
