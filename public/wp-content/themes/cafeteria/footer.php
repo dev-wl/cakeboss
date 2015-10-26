@@ -64,6 +64,10 @@
     <?php if(ale_get_option('skinselector') == "1") { ale_part('colorselector'); } ?>
 
     <!-- Scripts -->
+    <script type="text/javascript">
+    if($('body').height() < $(window).height())
+        $('.footer.footer-small').css('margin-top',  $('body').height() - $('header').height()- $('.story-time-line').height() - $('.header-back').height() -  $('.footer.footer-small').height())
+    </script>
     <?php wp_footer(); ?>
 </body>
 </html>
