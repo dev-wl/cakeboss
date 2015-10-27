@@ -199,13 +199,13 @@ function ale_gallery_metabox_html($post_id) {
 	$return = '';
 	
 	$intro = '<p><a href="media-upload.php?post_id=' . $post_id .'&amp;type=image&amp;TB_iframe=1&amp;width=640&amp;height=715" id="add_image" class="thickbox" title="' . __( 'Add Image', 'aletheme' ) . '">' . __( 'Upload Images', 'aletheme' ) . '</a> | <a href="media-upload.php?post_id=' . $post_id .'&amp;type=image&amp;tab=gallery&amp;TB_iframe=1&amp;width=640&amp;height=715" id="manage_gallery" class="thickbox" title="' . __( 'Manage Gallery', 'aletheme' ) . '">' . __( 'Manage Gallery', 'aletheme' ) . '</a></p>
-	<p><b style="color:#990000;">To remove the image from gallery, delete it permanently or check the options "Don\'t display image in gallery." in image properties</b></p>
+	<p><b style="color:#990000;">To remove the image from gallery, delete it permanently or check the options "Don\'t display image in gallery." in image properties. Please note, gallery and slider images should be 982x407</b></p>
 	';
 	$return .= apply_filters( 'ale_gallery_metabox_intro', $intro);
 
 	$loop = get_posts($args);
 	if (empty($loop)) {
-		return '<p>Gallery is empty. You must upload new images. You are not able to use old images uploaded from Media Library. <b style="color:#990000;">After uploading close the modal window, don\'t insert images into post.</b></p><a href="media-upload.php?post_id=' . $post_id .'&amp;type=image&amp;TB_iframe=1&amp;width=640&amp;height=715" id="add_image" class="thickbox" title="' . __( 'Add Image', 'aletheme' ) . '">' . __( 'Upload Images', 'aletheme' ) . '</a>';
+		return '<p>Gallery is empty. You must upload new images. You are not able to use old images uploaded from Media Library. <b style="color:#990000;">After uploading close the modal window, don\'t insert images into post. Please note, gallery and slider images should be 982x407</b></p><a href="media-upload.php?post_id=' . $post_id .'&amp;type=image&amp;TB_iframe=1&amp;width=640&amp;height=715" id="add_image" class="thickbox" title="' . __( 'Add Image', 'aletheme' ) . '">' . __( 'Upload Images', 'aletheme' ) . '</a>';
 	}
 	
 	foreach ($loop as $image) {
