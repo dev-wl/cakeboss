@@ -15,9 +15,14 @@
                 <!-- <div class="back-line"></div>
                 <div class="cub-top"></div>
                 <div class="cub-bot"></div> -->
-            <?php } ?>
+            <?php } 
+            $i = 0;
+            ?>
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-                
+                <?php if($i == 0): ?>
+                    <div class="product-row">
+                <?php endif; ?>
+                <?php $i++; ?>
                 <div class="blogpost">
                     <?php if (has_post_thumbnail()): ?>
                         <?php the_post_thumbnail(); ?>
@@ -27,8 +32,17 @@
                     <div class='shortened'><p><?php the_excerpt(); ?></p></div>
                 </div>
 
+
+                <?php if($i == 2):
+                    $i = 0; ?>
+                </div><div class="clearfix"></div>
+                <?php endif; ?>
+
             <?php endwhile; else: ?>
                 <?php ale_part('notfound')?>
+            <?php endif; ?>
+            <?php if($i != 0) : ?>
+                </div><div class="clearfix"></div>
             <?php endif; ?>
             <div class="clearfix"></div>
         </div>
