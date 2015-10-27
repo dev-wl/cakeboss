@@ -4979,6 +4979,13 @@ p.errorh1 {
     height: 166px;
   }
 }
+
+@media (max-width: 435px) and (orientation: landscape) {
+  .blogpost {
+    width: 42% !important;
+  }
+}
+
 @media (max-width: 435px) {
   .center-align {
     width: 303px;
