@@ -74,7 +74,7 @@ add_shortcode('shop', 'buy_now');
 
 function new_trim_excerpt($text) {
   $text = rtrim($text, '[...]');
-  return str_replace('[&hellip', ' <a href="' . get_permalink($post->ID) . '">Read More </a>', $text);
+  return str_replace('[&hellip', ' <a href="' . get_permalink($post->ID) . '" style="white-space:nowrap;">Read More </a>', $text);
 }
 add_filter('get_the_excerpt', 'new_trim_excerpt');
 
