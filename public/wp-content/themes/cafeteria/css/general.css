@@ -4980,7 +4980,7 @@ p.errorh1 {
   }
 }
 
-@media (max-width: 435px) and (orientation: landscape) {
+@media (max-width: 586px) and (orientation: landscape) {
   .blogpost {
     width: 42% !important;
   }
