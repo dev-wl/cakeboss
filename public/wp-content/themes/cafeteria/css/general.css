@@ -5140,6 +5140,10 @@ header.cf.fx .right {
   /*margin-top:5px;*/
 }
 
+.comment-form.cf input[type='submit'] {
+  -webkit-padding-start: 4px !important;
+}
+
 .contact-form input[type='submit'] {
   padding: 0px 5px 0px 1px;
 }
