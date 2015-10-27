@@ -5064,6 +5064,10 @@ p.errorh1 {
   .story-slider.cf .outlines {
     display: none;
   }
+
+  .blogpost {
+    width: 79%;
+  }
 }
 
 
