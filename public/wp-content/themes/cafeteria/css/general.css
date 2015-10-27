@@ -5068,6 +5068,10 @@ p.errorh1 {
   .blogpost {
     width: 79% !important;
   }
+
+  .blogpost h3 {
+    font-size: 28px;
+  }
 }
 
 
