@@ -5060,6 +5060,10 @@ p.errorh1 {
   article.our-team .center-align.content .textalignleft h2.firstfont.caption {
     display: none;
   }
+
+  .story-slider.cf .outlines {
+    display: none;
+  }
 }
 
 
