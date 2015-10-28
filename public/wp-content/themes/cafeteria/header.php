@@ -104,11 +104,14 @@
         if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
             $('#menu-mobile-menu li:eq(0), #menu-mobile-menu li:eq(2), #menu-mobile-menu li:eq(10)').click(function(e) {
                 var target = $( e.target );
+
+                console.log(target.nodeName);
+
+
                 if ( !target.is( "ul.sub-menu li a" ) ) {
                     e.preventDefault();
                 }
 
-                console.log(target.nodeName);
 
                 if(target.is('#menu-mobile-menu li:eq(10)') || target.is('#menu-mobile-menu li:eq(6)'))
                     $('#menu-mobile-menu li:eq(0), #menu-mobile-menu li:eq(1)').toggle("slow");
