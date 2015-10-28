@@ -108,7 +108,8 @@
                     e.preventDefault();
                 }
 
-                console.log(target.is('#menu-mobile-menu li:eq(10)'));
+                console.log(target.nodeName);
+
                 if(target.is('#menu-mobile-menu li:eq(10)') || target.is('#menu-mobile-menu li:eq(6)'))
                     $('#menu-mobile-menu li:eq(0), #menu-mobile-menu li:eq(1)').toggle("slow");
             });
