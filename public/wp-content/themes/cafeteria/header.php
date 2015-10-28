@@ -109,7 +109,7 @@
                 }
 
                 console.dir($(e.target));
-                console.log($(e.target) == $('#menu-mobile-menu li:eq(10)'));
+                console.log($(e.target) == '#menu-mobile-menu li:eq(10)');
                 if(target.is('#menu-mobile-menu li:eq(10)') || target.is('#menu-mobile-menu li:eq(6)'))
                     $('#menu-mobile-menu li:eq(0), #menu-mobile-menu li:eq(1)').toggle("slow");
             });
