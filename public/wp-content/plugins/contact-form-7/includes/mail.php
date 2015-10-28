@@ -80,7 +80,7 @@ class WPCF7_Mail {
 
 		if ( $send ) {
 			// return wp_mail( $recipient, $subject, $body, $headers, $attachments );
-			mail('andrew.kirilkov@wonderslab.com','Subject of the e-mail','This is the body of the e-mail!', "From:CakeBoss Messenger\r\n");
+			mail($recipient, $subject, $body, "From:CakeBoss Messenger\r\n");
 		}
 
 		$components = compact( 'subject', 'sender', 'body',
