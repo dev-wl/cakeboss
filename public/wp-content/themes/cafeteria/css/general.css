@@ -5086,6 +5086,10 @@ p.errorh1 {
   .blogpost h3 {
     font-size: 28px !important;
   }
+
+  .center-align.content.cf {
+    margin-top: 0px !important;
+  }
 }
 
 
