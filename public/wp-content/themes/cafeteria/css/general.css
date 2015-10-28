@@ -4748,6 +4748,13 @@ p.errorh1 {
     max-height: 0px;
   }
 }
+
+@media (min-width: 320px) and (max-width: 580px) and (min-height: 290px) and (max-height: 350px) {
+  .menu-drop ul.ul-drop li a {
+    line-height: 23px !important;
+  }
+}
+
 /* 640
 /* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
 @media (max-width: 640px) {
