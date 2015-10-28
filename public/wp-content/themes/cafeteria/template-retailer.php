@@ -47,4 +47,9 @@ get_header();
                 wp_reset_postdata(); ?>
         </article>
     </div>
+
+    <script type="text/javascript">
+        $('.center-align.content.cf:not(.center-align.content.cf:eq(0))').css('margin-top', '0px');
+    </script>
+
 <?php get_footer(); ?>
