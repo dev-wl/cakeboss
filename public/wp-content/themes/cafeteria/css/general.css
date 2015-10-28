@@ -4228,6 +4228,11 @@ p.errorh1 {
   display: none;
 }
 
+@media (max-device-width: 1280px) {
+  .contact-form input[type='submit']{
+    margin-top: -5px;
+  }
+}
 /* 828 - 1202
 /* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
 @media (min-width: 828px) and (max-width: 1202px) {
