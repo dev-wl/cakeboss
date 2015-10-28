@@ -86,7 +86,7 @@
 
             h = $('header.cf').height();
             if($(window).height() < 990) {
-                h += 60;
+                h += 80;
             }
             if($('#wpadminbar').css('display') == 'block') {
                 h += $('#wpadminbar').height();
