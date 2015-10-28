@@ -108,7 +108,7 @@
                     e.preventDefault();
                 }
 
-                $('#menu-mobile-menu li:eq(0)').toggle("slow");
+                $('#menu-mobile-menu li:eq(0), #menu-mobile-menu li:eq(1)').toggle("slow");
             });
         }
 
