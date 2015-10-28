@@ -104,10 +104,13 @@
         if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
             $('#menu-mobile-menu li:eq(0), #menu-mobile-menu li:eq(4), #menu-mobile-menu li:eq(12)').click(function(e) {
                 var target = $( e.target );
-                console.log(target);
                 if ( !target.is( "ul.sub-menu li a" ) ) {
                     e.preventDefault();
                 }
+            });
+
+            $('#menu-mobile-menu li:eq(8), #menu-mobile-menu li:eq(12)').click(function() {
+                $('#menu-mobile-menu li:eq(0), #menu-mobile-menu li:eq(3), #menu-mobile-menu li:eq(4)').toggle("slow");
             });
         }
 
