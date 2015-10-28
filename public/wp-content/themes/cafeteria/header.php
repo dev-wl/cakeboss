@@ -110,7 +110,7 @@
             });
 
             $('#menu-mobile-menu li:eq(8), #menu-mobile-menu li:eq(12)').click(function() {
-                $('#menu-mobile-menu li:eq(0), #menu-mobile-menu li:eq(1), #menu-mobile-menu li:eq(2)').toggle("slow");
+                $('#menu-mobile-menu li:eq(0)').toggle("slow");
             });
         }
 
