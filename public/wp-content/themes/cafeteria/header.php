@@ -108,6 +108,7 @@
                     e.preventDefault();
                 }
 
+                console.log('t = ' +target);
                 if(target.is('#menu-mobile-menu li:eq(10)') || target.is('#menu-mobile-menu li:eq(6)'))
                     $('#menu-mobile-menu li:eq(0), #menu-mobile-menu li:eq(1)').toggle("slow");
             });
