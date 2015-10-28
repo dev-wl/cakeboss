@@ -4740,7 +4740,7 @@ p.errorh1 {
 }
 
 @media (max-width: 840px) and (orientation: landscape) {
-  header .menu-drop {
+  header.cf.fx .menu-drop {
     top: 10px !important;
   }
   header.cf.fx {
