@@ -4749,7 +4749,7 @@ p.errorh1 {
   }
 }
 
-@media (min-width: 320px) and (max-width: 580px) and (min-height: 290px) and (max-height: 350px) {
+@media (min-width: 320px) and (max-width: 580px) and (min-height: 290px) and (max-height: 350px) and (orientaton: landscape) {
   .menu-drop ul.ul-drop li a {
     line-height: 23px !important;
   }
