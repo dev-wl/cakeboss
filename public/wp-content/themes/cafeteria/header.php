@@ -107,9 +107,7 @@
                 if ( !target.is( "ul.sub-menu li a" ) ) {
                     e.preventDefault();
                 }
-            });
 
-            $('#menu-mobile-menu li:eq(8), #menu-mobile-menu li:eq(12)').click(function() {
                 $('#menu-mobile-menu li:eq(0)').toggle("slow");
             });
         }
