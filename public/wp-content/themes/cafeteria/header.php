@@ -105,7 +105,7 @@
             $('#menu-mobile-menu li:eq(0), #menu-mobile-menu li:eq(2), #menu-mobile-menu li:eq(10)').click(function(e) {
                 var target = $( e.target );
 
-                console.log(target.nodeName);
+                console.log($( e.target.nodeName ));
 
 
                 if ( !target.is( "ul.sub-menu li a" ) ) {
