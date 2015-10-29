@@ -361,6 +361,7 @@ get_header(); ?>
                             </p>
                         </li>
                     <?php } ?>
+                    <a name="about"></a>
                     <?php if(ale_get_meta('eventimg4')){ ?>
                         <li>
                             <img src="<?php echo ale_get_meta('eventimg4'); ?>" alt="<?php echo ale_get_meta('eventtit4'); ?>" />
@@ -379,7 +380,6 @@ get_header(); ?>
         </div>
     </article>
 <?php } else { /*echo'<div class="heightonhome cf"></div>'; */} ?>
-<a name="about"></a>
 <!-- About us -->
 <article class="our-team">
         <h2 class="firstfont caption colormain">About us</h2>
