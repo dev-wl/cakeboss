@@ -108,6 +108,13 @@
                     e.preventDefault();
                 }
             });
+
+            $('#menu-general-menu li:eq(0), #menu-general-menu li:eq(4), #menu-right-general-menu li:eq(0), #menu-right-general-menu li:eq(5)').click(function(e) {
+                var target = $( e.target );
+                if ( !target.is( "ul.sub-menu li a" ) ) {
+                    e.preventDefault();
+                }
+            });
         }
 
         // if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
