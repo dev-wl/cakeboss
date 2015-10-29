@@ -361,7 +361,6 @@ get_header(); ?>
                             </p>
                         </li>
                     <?php } ?>
-                    <a name="about"></a>
                     <?php if(ale_get_meta('eventimg4')){ ?>
                         <li>
                             <img src="<?php echo ale_get_meta('eventimg4'); ?>" alt="<?php echo ale_get_meta('eventtit4'); ?>" />
@@ -376,7 +375,7 @@ get_header(); ?>
                 <div class="outlines"></div>
                 <div class="shadows"></div>
             </div>
-
+<a name="about"></a>
         </div>
     </article>
 <?php } else { /*echo'<div class="heightonhome cf"></div>'; */} ?>
