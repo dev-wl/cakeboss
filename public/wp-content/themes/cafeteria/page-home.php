@@ -379,8 +379,8 @@ get_header(); ?>
         </div>
     </article>
 <?php } else { /*echo'<div class="heightonhome cf"></div>'; */} ?>
-<!-- About us -->
 <a name="about"></a>
+<!-- About us -->
 <article class="our-team">
         <h2 class="firstfont caption colormain">About us</h2>
         <div class="center-align">

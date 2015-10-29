@@ -4233,6 +4233,7 @@ p.errorh1 {
     margin-top: -5px;
   }
 }
+
 /* 828 - 1202
 /* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
 @media (min-width: 828px) and (max-width: 1202px) {
@@ -4243,7 +4244,25 @@ p.errorh1 {
   #menu-right-general-menu {
     position: absolute;
     float: right;
-    right: 5px;
+    right: 55px;
+  }
+
+  header {
+    overflow: initial !important;
+  }
+
+  ul.sub-menu {
+    border-top: 1px dashed #fff;
+    top: 35px !important;
+  }
+}
+
+@media (min-width: 828px) and (max-width: 1202px) and (min-device-width: 1281px) {
+
+  #menu-right-general-menu {
+    position: absolute;
+    float: right;
+    right: 0px;
   }
 }
 
