@@ -170,7 +170,7 @@ get_header(); ?>
         </div>
     </section>
 <?php } else { /*echo'<div class="heightonhome cf"></div>';*/ } ?>
-
+<a name="about"></a>
 <!-- Our Team -->
 <?php if(ale_get_meta('teamonhome')=='on') { ?>
     <article class="our-team">
@@ -314,7 +314,7 @@ get_header(); ?>
         </div>
     </section>
 <?php } else { /*echo'<div class="heightonhome cf"></div>'; */} ?>
-<a name="about"></a>
+
 <!-- Our Events -->
 <?php if(ale_get_meta('eventsonhome')=='on') { ?>
     <article class="our-events">
