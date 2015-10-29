@@ -123,4 +123,10 @@
             // });
         //}
     });
+    
+    $('#menu-mobile-menu li:eq(1), #menu-general-menu li:eq(1)').click(function() {
+        $(document.body).animate({
+            'scrollTop':   $('a[name="about"]').offset().top
+        }, 2000);
+    });
 </script>
