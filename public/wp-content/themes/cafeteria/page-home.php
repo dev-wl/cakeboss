@@ -314,7 +314,7 @@ get_header(); ?>
         </div>
     </section>
 <?php } else { /*echo'<div class="heightonhome cf"></div>'; */} ?>
-
+<a name="about"></a>
 <!-- Our Events -->
 <?php if(ale_get_meta('eventsonhome')=='on') { ?>
     <article class="our-events">
@@ -375,10 +375,11 @@ get_header(); ?>
                 <div class="outlines"></div>
                 <div class="shadows"></div>
             </div>
-<a name="about"></a>
+
         </div>
     </article>
 <?php } else { /*echo'<div class="heightonhome cf"></div>'; */} ?>
+
 <!-- About us -->
 <article class="our-team">
         <h2 class="firstfont caption colormain">About us</h2>
