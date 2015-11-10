@@ -1,6 +1,5 @@
 <div <?php post_class(); ?> id="post-<?php the_ID()?>" data-post-id="<?php the_ID()?>">
-    <h2 class="caption firstfont colormain"><?php the_title(); ?></h2>
-    <h3 class="firstfont info"><?php _e('Posted on','aletheme'); ?> - <?php echo get_the_date(); ?> / <?php _e('Author','aletheme'); ?> - <?php echo get_the_author(); ?> / <?php if(get_the_category()){ _e('Category','aletheme');?> - <?php echo the_category(', '); } ?></h3>
+    <!-- <h3 class="firstfont info"><?php _e('Posted on','aletheme'); ?> - <?php echo get_the_date(); ?> / <?php _e('Author','aletheme'); ?> - <?php echo get_the_author(); ?> / <?php if(get_the_category()){ _e('Category','aletheme');?> - <?php echo the_category(', '); } ?></h3> -->
 
     <?php
     if(get_post_type() == 'post'){
@@ -43,9 +42,11 @@
             </ul>
         </div>
     <?php } elseif(get_the_post_thumbnail($post->ID,'post-slider')) { ?>
-        <div class="story-slider thumba cf">
-            <div class="outlines"></div>
-            <div class="shadow"></div>
-            <?php echo get_the_post_thumbnail($post->ID, $thumbsize); ?>
-        </div>
+        <!-- <div class="story-slider thumba cf"> -->
+            <!-- <div class="outlines"></div> -->
+            <!-- <div class="shadow"></div> -->
+            <?php echo get_the_post_thumbnail($post->ID); ?>
+        <!-- </div> -->
     <?php } ?>
+
+    <h2 class="firstfont colormain"><?php the_title(); ?></h2>

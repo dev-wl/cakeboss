@@ -1,12 +1,39 @@
 <?php get_header(); ?>
-
     <article class="story-time-line">
-        <h2 class="caption firstfont colormain"><?php _e('Our story','aletheme'); ?></h2>
+        <!-- <h2 class="caption firstfont colormain"><?php _e('Our story','aletheme'); ?></h2> -->
         <div class="center-align">
-            <div class="line-cake">
+            <p class="inner-header">Blog</p>
+            <img src="/wp-content/themes/cafeteria/css/images/cup-blog.png" />
+            <!-- <div class="line-cake">
                 <div class="cake"></div>
                 <div class="line left"></div>
                 <div class="line right"></div>
+            </div> -->
+
+            <div class="filterwrapper">
+                <div class="filter-line cf">
+                    <p><?php _e('SORT BY','aletheme');?>:</p>
+                    <a href="<?php echo home_url(); ?>/blog">
+                        <span class="triangle"></span>
+                        <span class="ref"><?php _e('All', 'aletheme')?></span>
+                    </a>
+                    <?php $args = array(
+                        'type'                     => 'post',
+                        'taxonomy'                 => 'category',
+                    );
+
+                    $categories = get_categories( $args );
+                    foreach($categories as $cat){ ?>
+                        <?php
+                            if(in_array($cat->name, array('Main page bottom menu', 'Retailers', 'Uncategorized')))
+                                continue;
+                        ?>
+                        <a href="<?php echo home_url(); ?>/category/<?php echo $cat->slug; ?>">
+                            <span class="triangle"></span>
+                            <span class="ref"><?php echo $cat->name; ?></span>
+                        </a>
+                    <?php } ?>
+                </div>
             </div>
         </div>
 

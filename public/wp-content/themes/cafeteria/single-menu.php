@@ -3,16 +3,22 @@
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
         <article class="menu-open">
             <h2 class="firstfont caption colormain"><?php the_title(); ?></h2>
+            <h3 class="menu-category firstfont caption colormain">
+                <?php
+                    $cats = get_the_terms( $post->ID, 'menu-category' );
+                    echo $cats[0]->name;
+                ?>
+            </h3>
             <div class="center-align">
-                <div class="line-cake">
+<!--                 <div class="line-cake">
                     <div class="cake"></div>
                     <div class="line left"></div>
                     <div class="line right"></div>
                 </div>
-            </div>
+ -->            </div>
             <div class="center-align">
 
-                <div class="menu-slider">
+                <!-- <div class="menu-slider">
                     <div class="outlines"></div>
                     <div class="shadow"></div>
                     <ul class="slides">
@@ -40,7 +46,7 @@
                         }
                         ?>
                     </ul>
-                </div>
+                </div> -->
 
                 <div class="text story">
                     <?php the_content(); ?>
@@ -91,4 +97,11 @@
         </div>
     </article> -->
 <div class="clearfix"></div>
+
+<script>
+if($('.text.story').find('p:nth-child(1) a img').length == 1) {
+    $('.firstfont.caption.colormain').insertAfter($('.text.story p:nth-child(1)')[0]);
+}
+</script>
+
 <?php get_footer(); ?>
