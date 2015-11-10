@@ -9,10 +9,17 @@ if (isset($_POST['contact'])) {
 
 get_header(); ?>
 
+
 <!-- Gallery -->
     <div class="slider cf">
         <div class="triang top"></div>
         <div class="triang bot"></div>
+
+        <!--page title-->
+        <div class="single-title">
+            <p>New Single Serve Coffee Cups</p>
+        </div>
+
         <ul class="slides">
             <?php $slider = ale_sliders_get_slider(ale_get_option('homeslugfull')); ?>
             <?php if($slider):?>
@@ -29,46 +36,87 @@ get_header(); ?>
             <?php endif;?>
         </ul>
     </div>
-                <a name="products"></a>
 
+    <!-- <div class="mosaic">
+        <img src = "wp-content/themes/cafeteria/css/images/20454_ADV_tlc_01-cb-buddy-valastro_0203_1.jpg" class="Carlo"/>
+        <img src = "wp-content/themes/cafeteria/css/images/22358_012711_BsicBdayB_0424.jpg" class="second-mosaic"/>
+        <img src = "wp-content/themes/cafeteria/css/images/20757_20090316_036.jpg" class="third-mosaic"/>
+        <img src = "wp-content/themes/cafeteria/css/images/img_2615-1.jpg" class="bottom-mosaic"/>
+    </div> -->
+    
+    <div class="clearfix"></div>
+
+    <a name="products"></a>
+
+<!--Bottom menu-->
+    <div class="bottom-menu">
+        <p class="get-you-coffe">Get your <span>COFFEE</span> on!</p>
+
+        <?php
+            global $post;
+            $args = array('category' => 16, 'numberposts' => -1, 'orderby' => 'post_date', 'order' => 'ASC' );
+            $myposts = get_posts( $args );
+            $i = 0;
+            foreach ( $myposts as $post ) : {
+                setup_postdata( $post );
+                $i++; ?>
+                <div class="col-4 col-xs-12 bottom-menu-item">
+                    <?php
+                        $linkTo = '';
+                        if($i == 1) {
+                            $linkTo = '/menu';
+                        } elseif ($i == 2) {
+                            $linkTo = '/blog';
+                        } elseif ($i == 3) {
+                            $linkTo = '/newsletter';
+                        }
+                    ?>
+                    <a href="<?php echo $linkTo;?>"><h2 class="firstfont menu-title colormain" style="top: 148px;"><?php the_title(); ?></h2></a>
+                    <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
+                    <a href="<?php echo post_permalink($post->ID);?>"><div><img src="<?php echo $url; ?>" class="bottom-menu-img"/></div></a>
+                    <p class="text text-center"><?php echo get_the_content(); ?></p>
+                </div>
+        <?php } endforeach; ?>
+    </div>
+    <div class="clearfix"></div>
 <!-- Services -->
 <?php if(ale_get_meta('serviceonhome')=='on') { ?>
-    <div>
+    <!-- <div> -->
         <!-- Our Services -->
-        <article class="our-services cf">
-            <h2 class="firstfont caption colormain"><?php echo ale_get_meta('servtit'); ?></h2>
+        <!-- <article class="our-services cf">
+            <h2 class="firstfont caption colormain"><?php //echo ale_get_meta('servtit'); ?></h2>
             <div class="center-align">
                 <div class="line-cake">
                     <div class="cake"></div>
                     <div class="line left"></div>
                     <div class="line right"></div>
                 </div>
-            </div>
+            </div> -->
                 <?php
-                global $post;
-                $args = array('category' => 4, 'numberposts' => -1 );
-                $myposts = get_posts( $args );
-                $i = 0;
-                foreach ( $myposts as $post ) : {
-                    setup_postdata( $post );
-                    if($i == 0): ?>
-                        <div class="center-align content cf">
-                    <?php endif; ?>
-                    <?php $i++; ?>
-                        <div class="col-3">
+                // global $post;
+                // $args = array('category' => 4, 'numberposts' => -1 );
+                // $myposts = get_posts( $args );
+                // $i = 0;
+                // foreach ( $myposts as $post ) : {
+                //     setup_postdata( $post );
+                //     if($i == 0): ?>
+                        <!-- <div class="center-align content cf"> -->
+                    <?php //endif; ?>
+                    <?php //$i++; ?>
+                        <!-- <div class="col-3"> -->
                                 <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
-                            <a href="<?php echo post_permalink($post->ID);?>"><div class="circle" style="background-image: url('<?php echo $url; ?>'); background-position: 50% 52%; background-repeat: no-repeat; background-size: 100% auto;">
-                                <div class="img"></div>
-                            </div></a>
-                            <a href="<?php echo post_permalink($post->ID);?>"><h2 class="firstfont caption colormain" style="top: 148px;"><?php the_title(); ?></h2></a>
-                            <p class="text text-center"><?php echo $post->post_content; ?></p>
-                        </div>
-                    <?php } if($i == 4): {
-                            $i = 0; ?>
-                        </div>
-                        <?php } endif; ?>
-                <?php endforeach;
-                wp_reset_postdata(); ?>
+                            <!-- <a href="<?php echo post_permalink($post->ID);?>"><div class="circle" style="background-image: url('<?php echo $url; ?>'); background-position: 50% 52%; background-repeat: no-repeat; background-size: 100% auto;"> -->
+                                <!-- <div class="img"></div> -->
+                            <!-- </div></a> -->
+                            <!-- <a href="<?php //echo post_permalink($post->ID);?>"><h2 class="firstfont caption colormain" style="top: 148px;"><?php the_title(); ?></h2></a> -->
+                            <!-- <p class="text text-center"><?php //echo $post->post_content; ?></p> -->
+                        <!-- </div> -->
+                    <?php //} if($i == 4): {
+                            //$i = 0; ?>
+                        <!-- </div> -->
+                        <?php //} endif; ?>
+                <?php //endforeach;
+                //wp_reset_postdata(); ?>
 
             <!-- <div class="center-align content cf">
                 <div class="col-3">
@@ -102,8 +150,8 @@ get_header(); ?>
 
 
             </div> -->
-        </article>
-    </div>
+        <!-- </article>
+    </div> -->
 <?php } else { /*echo'<div class="heightonhome cf"></div>';*/ } ?>
 
 <!-- ## Home Gallery -->
@@ -382,7 +430,8 @@ get_header(); ?>
 <!-- About us -->
 <a name="about"></a>
 <article class="our-team">
-        <h2 class="firstfont caption colormain">About us</h2>
+        <img src = "/wp-content/themes/cafeteria/css/images/Biscup.png" />
+        <h2 class="menu-title colormain">About Cake Boss Coffee</h2>
         <div class="center-align">
             <div class="line-cake">
                 <div class="cake"></div>

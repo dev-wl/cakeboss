@@ -28,7 +28,7 @@ if ( is_readable($locale_file) )
 
 function exclude_category($query) {
 	if ( $query->is_home() ) {
-		$query->set('cat', '-4 -11');
+		$query->set('cat', '-4 -11 -16');
 	}
 	return $query;
 }
@@ -77,6 +77,12 @@ function new_trim_excerpt($text) {
   return str_replace('[&hellip', ' <a href="' . get_permalink($post->ID) . '" style="white-space:nowrap;">Read More </a>', $text);
 }
 add_filter('get_the_excerpt', 'new_trim_excerpt');
+
+function new_get_excerpt($text) {
+  $text = rtrim($text, '[...]');
+  return str_replace('[&hellip', ' ', $text);
+}
+add_filter('the_excerpt', 'new_get_excerpt');
 
 
 

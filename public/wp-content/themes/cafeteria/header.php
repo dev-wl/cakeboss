@@ -60,7 +60,7 @@
                     wp_nav_menu(array(
                         'theme_location'=> 'header_right_menu',
                         'menu'			=> 'Header Right Menu',
-                        'menu_class'	=> 'col-6 right',
+                        'menu_class'	=> 'col-6 left',
                         'walker'		=> new Aletheme_Nav_Walker(),
                         'container'		=> '',
                     ));
