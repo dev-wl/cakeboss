@@ -13,6 +13,10 @@ get_header(); ?>
     header.cf + .single-title {
         display: none !important;
     }
+
+    .single-title {
+        margin-top: -14px !important;
+    }
 </style>
 
 <!-- Gallery -->
