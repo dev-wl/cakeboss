@@ -4273,7 +4273,7 @@ p.errorh1 {
   .footerinfo-wrapper .footer-right {
     float: right !important;
     width: initial;
-    margin-right: 70px;
+    margin-right: 70pxp;
   }
 }
 
@@ -4349,7 +4349,7 @@ p.errorh1 {
     width: 60%;
   }
 
-  .text.story p img:nth-child(1) {
+  .text.story p img:nth-child(3) {
       max-width: 75%;
       height: auto;
       margin: 0px auto;
