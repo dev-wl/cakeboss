@@ -5469,13 +5469,14 @@ header .center-align > ul > li ul li a:hover {
 }
 
 #menu-right-general-menu {
-  padding-right: 20px;
+  padding-right: 20px !important;
 }
 
 .single-title {
   background-color: #5F9EA0;
   height: 72px;
   padding-top: 1px;
+  margin-top: -21px;
 }
 
 .single-title p {
@@ -6012,5 +6013,4 @@ article.story-time-line h2 {
 
 .header-back {
   margin-bottom: 0px !important;
-  height: 0px;
 }
