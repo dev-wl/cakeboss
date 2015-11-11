@@ -92,7 +92,7 @@
             if($(window).height() < 990) {
                 h += 100;
             }
-            if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) && $(document).height() < 850) {
                 h += 170;
             }
             if($('#wpadminbar').css('display') == 'block') {
