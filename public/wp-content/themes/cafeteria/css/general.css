@@ -4258,6 +4258,7 @@ p.errorh1 {
 @media (max-width: 1560px) {
   .logo {
     left: 8% !important;
+    display: block !important;
   }
 
   .bottom-menu {
