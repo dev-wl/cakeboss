@@ -432,13 +432,13 @@ get_header(); ?>
 <article class="our-team">
         <img src = "/wp-content/themes/cafeteria/css/images/Biscup.png" />
         <h2 class="menu-title colormain">About Cake Boss Coffee</h2>
-        <div class="center-align">
+        <!-- <div class="center-align">
             <div class="line-cake">
                 <div class="cake"></div>
                 <div class="line left"></div>
                 <div class="line right"></div>
             </div>
-        </div>
+        </div> -->
         <!-- ## ## ## ## ## ## ## ## ## ## ## -->
         <div class="center-align content">
             <div class="text story textalignleft">

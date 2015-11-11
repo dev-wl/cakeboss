@@ -2002,6 +2002,10 @@ section .center-align .top {
   margin-top: 80px;
   margin-bottom: 30px;
 }
+
+article.menu-open h2 {
+  font-family: "ChunkFive" !important;
+}
 /* Home Our-Team
 /* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
 .our-team .content {
@@ -4293,6 +4297,18 @@ p.errorh1 {
   .logo {
     display: none;
   }
+  
+  .bottom-menu {
+    width: 96% !important;
+  }
+
+  .bottom-menu-item {
+    margin-right: 41px !important;
+  }
+
+  .col-6.left:first-child {
+    margin-left: 16% !important;
+  }
 
   #menu-right-general-menu {
     /*position: absolute;
@@ -4305,7 +4321,7 @@ p.errorh1 {
   }
 
   ul.sub-menu {
-    border-top: 1px dashed #fff;
+    /*border-top: 1px dashed #fff;*/
     top: 35px !important;
   }
 
@@ -4315,6 +4331,29 @@ p.errorh1 {
 
   .footer-right {
     width: 60%;
+  }
+
+  .text.story p img:nth-child(1) {
+      max-width: 75%;
+      height: auto;
+      margin: 0px auto;
+      display: block;
+  }
+
+  .our-menu .center-align > img {
+    width: 90%;
+    display: block;
+    margin: 0px auto;
+  }
+
+  .story-time-line .center-align > img {
+    display: block;
+    width: 90%;
+    margin: 0px auto;
+  }
+  
+  .story-time-line .center-align .inner-header {
+    left: 11%;
   }
 }
 
@@ -4407,7 +4446,7 @@ p.errorh1 {
     font-size: 25px;
   }
   .our-menu .background img {
-    height: 116px;
+    /*height: 116px;*/
   }
   .our-menu .background .hover {
     height: 116px;
@@ -4423,6 +4462,28 @@ p.errorh1 {
     margin-left: 0;
     padding: 0 5px;
   }
+
+  .our-menu .center-align > img {
+    width: 100% !important;
+    display: block;
+  }
+
+  .our-menu .center-align p.products-header {
+    top: 2.5% !important;
+    font-size: 44px !important;
+    left: 2% !important;
+  }
+  
+  .story-time-line .center-align > img {
+    display: block;
+    width: 90%;
+    margin: 0px auto;
+  }
+  
+  .story-time-line .center-align .inner-header {
+    top: 19% !important;
+  }
+
   .our-menu .background .info h3 {
     font-size: 20px;
   }
@@ -4775,7 +4836,7 @@ p.errorh1 {
     font-size: 30px;
   }
   .our-menu .background img {
-    height: 144px;
+    /*height: 144px;*/
   }
   .our-menu .background .hover {
     height: 144px;
@@ -4985,7 +5046,7 @@ p.errorh1 {
     margin-top: 30px;
   }
   .our-menu .background img {
-    height: 116px;
+    /*height: 116px;*/
   }
   .our-menu .background .hover {
     height: 116px;
@@ -5113,6 +5174,17 @@ p.errorh1 {
   .gallery-open .gallery-slider {
     height: 166px;
   }
+
+  .our-menu .center-align p.products-header {
+      top: 1.5% !important;
+      font-size: 30px !important;
+      left: 2% !important;
+  }
+
+  .story-time-line .center-align .inner-header {
+    top: 12% !important;
+    font-size: 41px;
+  }
 }
 
 @media (max-width: 586px) and (orientation: landscape) {
@@ -5172,7 +5244,7 @@ p.errorh1 {
     height: 116px;
   }
   .our-menu .background img {
-    height: 134px;
+    /*height: 134px;*/
   }
   .our-menu .background .hover {
     height: 134px;
@@ -5233,6 +5305,45 @@ p.errorh1 {
 @media (max-width: 400px) {
   .footer .footerinfo-wrapper {
      max-width: 93% !important;
+  }
+  
+  .our-menu .center-align p.products-header {
+      top: 0.7% !important;
+      font-size: 23px !important;
+      left: 2% !important;
+  }
+    
+  .bottom-menu {
+    width: 92% !important;
+  }
+
+  .our-team > img {
+    margin-top: -163px !important;
+    width: 90%;
+    margin-bottom: -75px !important;
+    height: auto !important;
+  }
+
+  .footerinfo-wrapper {
+    margin-top: 29px !important;
+  }
+
+  .story-time-line .center-align .inner-header {
+      top: 9% !important;
+      font-size: 34px;
+      left: 8%;
+  }
+  
+  .single-title p {
+    font-size: 21px !important;
+  }
+
+  .footer-left a[href="http://twitter.com"] {
+    margin-left: 5px;
+  }
+
+  p.privacy {
+    margin-left: 1px !important;
   }
 }
 
@@ -5863,9 +5974,6 @@ p.products-header {
   font-size: 25px;
 }
 
-.text.story p img:nth-child(1) {
-    max-width: 75%;
-    height: auto;
-    margin: 0px auto;
-    display: block;
+article.story-time-line h2 {
+  font-family: "ChunkFive" !important;
 }

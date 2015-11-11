@@ -3,11 +3,11 @@
     <article class="story-time-line">
         <h2 class="caption firstfont colormain"><?php echo single_cat_title("", false); ?></h2>
         <div class="center-align">
-            <div class="line-cake">
+            <!-- <div class="line-cake">
                 <div class="cake"></div>
                 <div class="line left"></div>
                 <div class="line right"></div>
-            </div>
+            </div> -->
         </div>
 
         <div class="center-align content">
