@@ -93,7 +93,7 @@
                 h += 100;
             }
             if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) && $(document).height() < 960) {
-                h += 290;
+                return;
             }
             if($('#wpadminbar').css('display') == 'block') {
                 h += $('#wpadminbar').height();
