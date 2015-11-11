@@ -102,7 +102,7 @@
 
         //prevent dropdown clicks on mobile devices
         if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-            $('#menu-mobile-menu li:eq(0), #menu-mobile-menu li:eq(5),  #menu-mobile-menu li:eq(7), #menu-mobile-menu li:eq(10), #menu-mobile-menu li:eq(16)').click(function(e) {
+            $('#menu-mobile-menu li:eq(0), #menu-mobile-menu li:eq(5),  #menu-mobile-menu li:eq(7), #menu-mobile-menu li:eq(13), #menu-mobile-menu li:eq(16)').click(function(e) {
                 var target = $( e.target );
                 if ( !target.is( "ul.sub-menu li a" ) ) {
                     e.preventDefault();
