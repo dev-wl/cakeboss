@@ -5334,6 +5334,10 @@ p.errorh1 {
 }
 
 @media (max-width: 400px) {
+  .logo {
+    display: block;
+  }
+
   .footer .footerinfo-wrapper {
      max-width: 93% !important;
      margin-top: 19px !important;
