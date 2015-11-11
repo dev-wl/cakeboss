@@ -76,7 +76,11 @@
         global $post;
         ale_part('innerheaders');
     } ?>
-
+    <!--page title-->
+    <div class="single-title">
+        <p>New Single Serve Coffee Cups</p>
+    </div>
+    
 <script>
     $(document).ready(function() {
         $(window).on('scroll', function(e) {
