@@ -5837,6 +5837,7 @@ p.copy {
 @media (max-width: 650px) {
   .footer-left {
     width: 100%;
+    margin-left: initial !important;
   }
 
   .footer-right {
