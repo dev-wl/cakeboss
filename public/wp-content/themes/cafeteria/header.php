@@ -92,8 +92,8 @@
             if($(window).height() < 990) {
                 h += 100;
             }
-            if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) && $(document).height() < 956) {
-                h += 170;
+            if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) && $(document).height() < 960) {
+                h += 190;
             }
             if($('#wpadminbar').css('display') == 'block') {
                 h += $('#wpadminbar').height();
