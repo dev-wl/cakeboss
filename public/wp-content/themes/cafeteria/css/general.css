@@ -5828,7 +5828,7 @@ p.copy {
     /*overflow: hidden;*/
     width: 92% !important;
     bottom: initial !important;
-    margin-left: 10% !important;
+    margin-left: -90% !important;
     top: 32px;
   }
 }
