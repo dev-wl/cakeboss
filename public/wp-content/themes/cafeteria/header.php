@@ -80,7 +80,7 @@
     <div class="single-title">
         <p>New Single Serve Coffee Cups</p>
     </div>
-    
+
 <script>
     $(document).ready(function() {
         $(window).on('scroll', function(e) {
@@ -90,6 +90,9 @@
 
             h = $('header.cf').height();
             if($(window).height() < 990) {
+                h += 100;
+            }
+            if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
                 h += 100;
             }
             if($('#wpadminbar').css('display') == 'block') {
