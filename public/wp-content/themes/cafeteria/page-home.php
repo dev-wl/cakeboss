@@ -47,7 +47,7 @@ get_header(); ?>
     <div class="clearfix"></div>
 
     <a name="products"></a>
-    <a name="about"></a>
+    
 <!--Bottom menu-->
     <div class="bottom-menu">
         <p class="get-you-coffe">Get your <span>COFFEE</span> on!</p>
@@ -77,6 +77,7 @@ get_header(); ?>
                     <p class="text text-center"><?php echo get_the_content(); ?></p>
                 </div>
         <?php } endforeach; ?>
+            <a name="about"></a>
     </div>
     <div class="clearfix"></div>
 <!-- Services -->
