@@ -5896,7 +5896,7 @@ p.copy {
   .footerinfo-wrapper .footer-left {
     float: none !important;
     width: 50%;
-    margin-left: initial !important;
+    margin-left: auto !important;
   }
 }
 
