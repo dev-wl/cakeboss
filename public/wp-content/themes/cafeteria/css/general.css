@@ -5901,6 +5901,10 @@ p.copy {
   header.cf .left{
     /*margin-left: 3.5%;*/
   }
+
+  .bottom-menu-item {
+    margin-right: 27px !important;
+  }
 }
 
 ul.flex-direction-nav {
