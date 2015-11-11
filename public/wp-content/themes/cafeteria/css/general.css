@@ -4262,7 +4262,7 @@ p.errorh1 {
   }
 
   header.cf.cf .logo {
-    display: none;
+    display: none !important;
   }
 
   .bottom-menu {
