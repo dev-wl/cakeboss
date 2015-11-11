@@ -101,7 +101,7 @@
 
 <script>
 if($('.text.story').find('p:nth-child(2) a img').length == 1) {
-    $('.firstfont.caption.colormain').insertAfter($('.text.story p:nth-child(1)')[0]);
+    $('.firstfont.caption.colormain').insertAfter($('.text.story p:nth-child(2)')[0]);
 }
 </script>
 
