@@ -11,7 +11,7 @@ get_header(); ?>
 
 <style>
     header.cf .single-title {
-        display: none;
+        display: none !important;
     }
 </style>
 
