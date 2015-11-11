@@ -10,7 +10,7 @@ if (isset($_POST['contact'])) {
 get_header(); ?>
 
 <style>
-    header.cf .single-title {
+    header.cf + .single-title {
         display: none !important;
     }
 </style>
