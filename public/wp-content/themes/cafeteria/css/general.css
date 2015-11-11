@@ -4264,12 +4264,12 @@ p.errorh1 {
     width: 100%;
   }
 
-  .footer-left {
+  .footerinfo-wrapper .footer-left {
     float: left !important;
     margin-left: 70px;
   }
 
-  .footer-right {
+  .footerinfo-wrapper .footer-right {
     float: right !important;
   }
 }
