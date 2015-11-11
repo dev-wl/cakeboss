@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <style>
     .header-back {
-       
+       height: 13px;
     }
 
     .triang.bot {
