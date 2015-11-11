@@ -5859,7 +5859,7 @@ p.copy {
     /*overflow: hidden;*/
     width: 92% !important;
     bottom: initial !important;
-    margin-left: 0px !important;
+    /*margin-left: 0px !important;*/
     top: 32px;
   }
 
