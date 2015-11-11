@@ -5537,7 +5537,8 @@ header .center-align > ul > li ul li a:hover {
 
 .bottom-menu-item {
   max-width: 300px !important;
-  margin-right: 83px;
+  /*margin-right: 83px;*/
+  margin-right: 51px !important;
 }
 
 .bottom-menu-item:last-child {
