@@ -362,7 +362,7 @@ get_header(); ?>
         </div>
     </section>
 <?php } else { /*echo'<div class="heightonhome cf"></div>'; */} ?>
-
+<a name="about"></a>
 <!-- Our Events -->
 <?php if(ale_get_meta('eventsonhome')=='on') { ?>
     <article class="our-events">
@@ -428,7 +428,6 @@ get_header(); ?>
     </article>
 <?php } else { /*echo'<div class="heightonhome cf"></div>'; */} ?>
 <!-- About us -->
-<a name="about"></a>
 <article class="our-team">
         <img src = "/wp-content/themes/cafeteria/css/images/Biscup.png" />
         <h2 class="menu-title colormain">About Cake Boss Coffee</h2>
