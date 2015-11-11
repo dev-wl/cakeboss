@@ -5823,9 +5823,9 @@ p.copy {
   }
 
   header.cf div.logo {
-    padding-left: 15px;
+    /*padding-left: 15px;
     margin-left: -155px !important;
-    overflow: hidden;
+    overflow: hidden;*/
     width: 93% !important;
   }
 }
