@@ -4299,6 +4299,10 @@ p.errorh1 {
     margin-top: -5px;
   }
 
+  .logo {
+    display: none !important;
+  }
+
   header.cf.fx {
     background: none;
   }
