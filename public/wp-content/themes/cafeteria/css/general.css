@@ -5826,10 +5826,18 @@ p.copy {
     /*padding-left: 15px;
     margin-left: -155px !important;*/
     /*overflow: hidden;*/
-    width: 93% !important;
+    width: 92% !important;
     bottom: initial !important;
     margin-left: 0px !important;
     top: 32px;
+  }
+
+  .logo a:last-child {
+    overflow: hidden;
+    height: initial;
+    width: initial;
+    border: none !important;
+    border-radius: 0px !important;
   }
 }
 
