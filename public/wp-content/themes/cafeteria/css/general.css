@@ -4261,6 +4261,10 @@ p.errorh1 {
     display: block !important;
   }
 
+  header.cf.cf .logo {
+    display: none;
+  }
+
   .bottom-menu {
     width: 84% !important;
   }
