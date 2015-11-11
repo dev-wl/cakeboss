@@ -4263,6 +4263,14 @@ p.errorh1 {
   .footerinfo-wrapper {
     max-width: 100% !important;
   }
+  
+  .text.story p a img:nth-child(1), img.headerImage {
+      max-width: 75% !important;
+      height: auto !important;
+      margin: 0px auto !important;
+      display: block !important;
+  }
+
 
   .footerinfo-wrapper .footer-left {
     float: left !important;
@@ -4347,13 +4355,6 @@ p.errorh1 {
 
   .footer-right {
     width: 60%;
-  }
-
-  /*.text.story p a img:nth-child(1),*/ img.headerImage {
-      max-width: 75% !important;
-      height: auto !important;
-      margin: 0px auto !important;
-      display: block !important;
   }
 
   .our-menu .center-align > img {
