@@ -5892,6 +5892,12 @@ p.copy {
     display: block !important;
     top: 5%;
   }
+
+  .footer-left {
+    float: none !important;
+    width: 50%;
+    margin: 0px !important;
+  }
 }
 
 @media only screen and (device-width: 768px){
