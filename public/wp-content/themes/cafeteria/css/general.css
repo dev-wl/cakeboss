@@ -5360,6 +5360,10 @@ p.errorh1 {
     margin-top: 29px !important;
   }
 
+  .footer-left {
+    width: 83%;
+  }
+
   .story-time-line .center-align .inner-header {
       top: 9% !important;
       font-size: 34px;
