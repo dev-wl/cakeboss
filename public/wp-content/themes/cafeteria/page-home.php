@@ -47,7 +47,7 @@ get_header(); ?>
     <div class="clearfix"></div>
 
     <a name="products"></a>
-
+    <a name="about"></a>
 <!--Bottom menu-->
     <div class="bottom-menu">
         <p class="get-you-coffe">Get your <span>COFFEE</span> on!</p>
@@ -362,7 +362,7 @@ get_header(); ?>
         </div>
     </section>
 <?php } else { /*echo'<div class="heightonhome cf"></div>'; */} ?>
-<a name="about"></a>
+
 <!-- Our Events -->
 <?php if(ale_get_meta('eventsonhome')=='on') { ?>
     <article class="our-events">
