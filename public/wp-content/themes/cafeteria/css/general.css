@@ -5735,12 +5735,14 @@ a.shop-link {
   text-decoration: none;
   color: #fff;
   font-size: 25px;
-  padding: 15px;
-  border: 1px solid #95B8BB;
-  background-color: #95B8BB;
+  padding: 9px 31px 2px 31px;
+  /*border: 1px solid #95B8BB;*/
+  background-color: #B22222;
   border-radius: 5px;
-  float: right;
+  float: left;
   margin-bottom: 20px;
+  font-family: "ChunkFive";
+  text-transform: uppercase;
 }
 
 .blogpost {
@@ -5859,4 +5861,11 @@ p.products-header {
   color: #000;
   font-family: "MyriadPro-Semibold";
   font-size: 25px;
+}
+
+.text.story p img:nth-child(1) {
+    max-width: 75%;
+    height: auto;
+    margin: 0px auto;
+    display: block;
 }

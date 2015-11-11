@@ -49,6 +49,7 @@
                 </div> -->
 
                 <div class="text story">
+                    <div class="clearfix"></div>
                     <?php the_content(); ?>
                 </div>
 
