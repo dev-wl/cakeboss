@@ -5824,8 +5824,8 @@ p.copy {
 
   header.cf div.logo {
     /*padding-left: 15px;
-    margin-left: -155px !important;
-    overflow: hidden;*/
+    margin-left: -155px !important;*/
+    overflow: hidden;
     width: 93% !important;
     bottom: initial !important;
     margin-left: 0px !important;
