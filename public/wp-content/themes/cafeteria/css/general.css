@@ -5821,23 +5821,6 @@ p.copy {
   .footer.footer-small {
       
   }
-
-  header.cf div.logo {
-    /*padding-left: 15px;
-    margin-left: -155px !important;*/
-    /*overflow: hidden;*/
-    width: 92% !important;
-    bottom: initial !important;
-    margin-left: 0px !important;
-    top: 32px;
-  }
-
-  .logo a:last-child {
-    overflow: hidden;
-    width: initial !important;
-    border: none !important;
-    border-radius: 0px !important;
-  }
 }
 
 @media only screen and (min-device-width: 280px) and (max-width: 400px){
@@ -5870,6 +5853,22 @@ p.copy {
    max-width: 80% !important;
   }
 
+  header.cf div.logo {
+    /*padding-left: 15px;
+    margin-left: -155px !important;*/
+    /*overflow: hidden;*/
+    width: 92% !important;
+    bottom: initial !important;
+    margin-left: 0px !important;
+    top: 32px;
+  }
+
+  .logo a:last-child {
+    overflow: hidden;
+    width: initial !important;
+    border: none !important;
+    border-radius: 0px !important;
+  }
 }
 
 @media only screen and (device-width: 768px){
