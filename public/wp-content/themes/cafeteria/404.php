@@ -1,4 +1,10 @@
 <?php get_header(); ?>
+<style>
+    .header-back {
+       background-image: url('wp-content/themes/cafeteria/css/images/BG_Stripes_Bottom.png') !important;
+    }
+</style>
+
     <article class="our-team">
         <h2 class="firstfont caption colormain"><?php _e('Error 404','aletheme'); ?></h2>
         <div class="center-align">
