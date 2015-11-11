@@ -1714,8 +1714,7 @@ section .center-align .top {
   color: #b1dae6;
 }
 .our-menu .gallery .col-3 {
-  /*margin-bottom: 35px;*/
-  margin-bottom: 11px;
+  margin-bottom: 35px;
 }
 .our-menu .gallery .col-3:nth-child(4n+1) {
   padding-right: 10px;
@@ -4882,7 +4881,8 @@ p.errorh1 {
     padding-right: 15px;
   }
   .our-menu .gallery .col-3 {
-    margin-bottom: 35px;
+    /*margin-bottom: 35px;*/
+    margin-bottom: 7px;
   }
   .our-menu .gallery .col-3:nth-child(4n+1) {
     padding-right: 10px;
