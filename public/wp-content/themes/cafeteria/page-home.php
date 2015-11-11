@@ -73,7 +73,7 @@ get_header(); ?>
                     ?>
                     <a href="<?php echo $linkTo;?>"><h2 class="firstfont menu-title colormain" style="top: 148px;"><?php the_title(); ?></h2></a>
                     <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
-                    <a href="<?php echo post_permalink($post->ID);?>"><div><img src="<?php echo $url; ?>" class="bottom-menu-img"/></div></a>
+                    <a href="<?php echo $linkTo;?>"><div><img src="<?php echo $url; ?>" class="bottom-menu-img"/></div></a>
                     <p class="text text-center"><?php echo get_the_content(); ?></p>
                 </div>
         <?php } endforeach; ?>
