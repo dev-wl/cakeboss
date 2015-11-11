@@ -4260,6 +4260,10 @@ p.errorh1 {
     left: 8% !important;
   }
 
+  .bottom-menu {
+    width: 84% !important;
+  }
+
   .footerinfo-wrapper {
     max-width: 100% !important;
   }
