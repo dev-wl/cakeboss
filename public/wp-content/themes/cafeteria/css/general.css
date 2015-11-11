@@ -4259,6 +4259,19 @@ p.errorh1 {
   .logo {
     left: 8% !important;
   }
+
+  .footerinfo-wrapper {
+    width: 100%;
+  }
+
+  .footer-left {
+    float: left !important;
+    margin-left: 70px;
+  }
+
+  .footer-right {
+    float: right !important;
+  }
 }
 
 @media (max-device-width: 1280px) {
