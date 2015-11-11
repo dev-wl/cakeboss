@@ -5822,13 +5822,13 @@ p.copy {
       
   }
 
-  header.cf div.logo {
+  body header.cf div.logo {
     /*padding-left: 15px;
     margin-left: -155px !important;*/
     /*overflow: hidden;*/
     width: 92% !important;
     bottom: initial !important;
-    margin-left: -90% !important;
+    margin-left: 0% !important;
     top: 32px;
   }
 }
