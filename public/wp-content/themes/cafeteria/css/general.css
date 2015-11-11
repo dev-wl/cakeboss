@@ -5895,8 +5895,7 @@ p.copy {
 
   .footer-left {
     float: none !important;
-    width: 50%;
-    margin: 0px !important;
+    width: 50%;;
   }
 }
 
