@@ -4349,7 +4349,7 @@ p.errorh1 {
     width: 60%;
   }
 
-  .text.story p img:nth-child(3) {
+  .text.story p a img:nth-child(1) {
       max-width: 75%;
       height: auto;
       margin: 0px auto;
