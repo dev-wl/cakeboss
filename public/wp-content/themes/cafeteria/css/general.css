@@ -5888,8 +5888,9 @@ p.copy {
 @media only screen and (device-width: 768px) and (orientation: portrait) {
   header.cf div.logo {
     bottom: initial !important;
-    left: 27% !important;
+    left: 47% !important;
     display: block !important;
+    top: 5%;
   }
 }
 
