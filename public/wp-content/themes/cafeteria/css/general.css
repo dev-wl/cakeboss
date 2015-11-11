@@ -5893,7 +5893,7 @@ p.copy {
     top: 5%;
   }
 
-  .footer-left {
+  .footerinfo-wrapper .footer-left {
     float: none !important;
     width: 50%;;
   }
