@@ -5826,10 +5826,10 @@ p.copy {
     /*padding-left: 15px;
     margin-left: -155px !important;*/
     /*overflow: hidden;*/
-    /*width: 93% !important;*/
-    /*bottom: initial !important;*/
-    /*margin-left: 0px !important;*/
-    /*top: 32px;*/
+    width: 3% !important;
+    bottom: initial !important;
+    margin-left: 0px !important;
+    top: 32px;
   }
 }
 
