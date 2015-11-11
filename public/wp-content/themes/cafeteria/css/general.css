@@ -5828,6 +5828,10 @@ p.copy {
     overflow: hidden;*/
     width: 93% !important;
   }
+
+  header .logo {
+    bottom: initial !important;
+  }
 }
 
 @media only screen and (min-device-width: 280px) and (max-width: 400px){
