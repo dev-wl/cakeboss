@@ -5834,8 +5834,7 @@ p.copy {
 
   .logo a:last-child {
     overflow: hidden;
-    height: initial;
-    width: initial;
+    width: initial !important;
     border: none !important;
     border-radius: 0px !important;
   }
