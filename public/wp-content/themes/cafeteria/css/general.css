@@ -5361,7 +5361,7 @@ p.errorh1 {
   }
 
   .footer-left {
-    width: 50%;
+    width: 50% !important;
   }
 
   .story-time-line .center-align .inner-header {
