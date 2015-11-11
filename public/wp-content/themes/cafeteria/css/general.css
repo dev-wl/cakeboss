@@ -4350,10 +4350,10 @@ p.errorh1 {
   }
 
   .text.story p a img:nth-child(1) {
-      max-width: 75%;
-      height: auto;
-      margin: 0px auto;
-      display: block;
+      max-width: 75% !important;
+      height: auto !important;
+      margin: 0px auto !important;
+      display: block !important;
   }
 
   .our-menu .center-align > img {
