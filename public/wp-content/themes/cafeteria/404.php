@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <style>
     .header-back {
-       background-image: url('/wp-content/themes/cafeteria/css/images/BG_Stripes_Bottom.png') !important;
+       
     }
 </style>
 
