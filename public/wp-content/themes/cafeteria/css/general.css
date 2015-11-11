@@ -5823,7 +5823,13 @@ p.copy {
   }
 
   header.cf div.logo {
-    margin-left: 100px !important;
+    /*padding-left: 15px;
+    margin-left: -155px !important;*/
+    /*overflow: hidden;*/
+    width: 92% !important;
+    bottom: initial !important;
+    margin-left: 10% !important;
+    top: 32px;
   }
 }
 
