@@ -5827,10 +5827,8 @@ p.copy {
     margin-left: -155px !important;
     overflow: hidden;*/
     width: 93% !important;
-  }
-
-  header .logo {
     bottom: initial !important;
+    margin-left: 0px !important;
   }
 }
 
