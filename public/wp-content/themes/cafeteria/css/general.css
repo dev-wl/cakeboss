@@ -5223,6 +5223,10 @@ p.errorh1 {
   .footer .footerinfo-wrapper {
    max-width: 86% !important;
   }
+
+  .footer-left {
+    margin-left: initial !important;
+  }
 }
 
 @media (max-width: 435px) {
