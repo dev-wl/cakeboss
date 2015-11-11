@@ -3,6 +3,10 @@
     .header-back {
        
     }
+
+    .triang.bot {
+        display: none !important;
+    }
 </style>
 
     <article class="our-team">
