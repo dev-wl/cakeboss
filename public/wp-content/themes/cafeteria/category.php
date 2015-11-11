@@ -27,13 +27,15 @@
                 <?php ale_part('notfound')?>
             <?php endif; ?>
 
+            <div class="clearfix"></div>
+
         </div>
 
-        <!-- <div class="center-align">
+        <div class="center-align">
             <div class="pagination cf">
                 <h3 class="left firstfont"><?php echo get_previous_posts_link(__('Newest Stories','aletheme')); ?></h3>
                 <h3 class="right firstfont"><?php echo get_next_posts_link(__('Oldest Stories','aletheme')); ?></h3>
             </div>
-        </div> -->
+        </div>
     </article>
 <?php get_footer(); ?>
