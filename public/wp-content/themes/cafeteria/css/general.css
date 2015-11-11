@@ -4261,7 +4261,7 @@ p.errorh1 {
   }
 
   .footerinfo-wrapper {
-    max-width: 100%;
+    max-width: 100% !important;
   }
 
   .footerinfo-wrapper .footer-left {
