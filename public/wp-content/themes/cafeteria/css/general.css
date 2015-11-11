@@ -5336,6 +5336,7 @@ p.errorh1 {
 @media (max-width: 400px) {
   .footer .footerinfo-wrapper {
      max-width: 93% !important;
+     margin-top: 19px !important;
   }
   
   .our-menu .center-align p.products-header {
