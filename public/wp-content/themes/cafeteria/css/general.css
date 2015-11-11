@@ -4256,6 +4256,10 @@ p.errorh1 {
   display: none;
 }
 
+.footer-left a[href="http://twitter.com"] {
+  margin-left: 10px;
+}
+
 @media (max-width: 1560px) {
   .logo {
     left: 8% !important;
