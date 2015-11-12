@@ -6036,13 +6036,13 @@ p.copy {
   }
 }
 
-@media only screen and (device-width: 1024px) { /*and (device-width: 768px)*/
+@media only screen and (device-width: 768px) { /*and (device-width: 768px)*/ /*1024px*/
   body header.cf .center-align {
     width: 986px !important;
   }
 }
 
-@media only screen and (device-width: 768px) { /* (device-width: 768px) { */
+@media only screen and (device-width: 768px) { /* (device-width: 768px) { */ /*1024px*/
   header.cf .col-6 {
     width: auto !important;
   }
