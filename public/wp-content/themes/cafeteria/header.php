@@ -176,7 +176,7 @@
 
         console.log($(e.target));
         if($(e.target).is($(menu)) || $(e.target).is($(box)) || $(e.target).is($(box2)) | $(e.target).is($(box3))) {
-            console.log($(e.target));
+            e.stopPropagation();
             return;
         }
         if($(box).hasClass('active')) {
