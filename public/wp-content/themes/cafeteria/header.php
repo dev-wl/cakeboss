@@ -100,12 +100,12 @@
 <script>
     $('.sr-wrapper').click(function(e){
         e.stopPropagation();
-        if($(this).find('div').classList.contains('active') == true) {
-            $(this).find('div').classList.remove('active');
+        if($('.sr-menu').hasClass('active') == true) {
+            $('.sr-menu').removeClass('active');
             $('.mobile-menu').removeClass('active');
         }
         else {
-            this.classList.add('active');
+            $('.sr-menu').classList.add('active');
             $('.mobile-menu').addClass('active');
         }
     });
