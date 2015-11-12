@@ -6043,13 +6043,13 @@ p.copy {
 
   .mobile-menu li a, .mobile-menu li  {
     color: #fff;
-    font-size: 21px !important;
+    font-size: 24px !important;
     font-family: "ChunkFive" !important;
   }
 
   .mobile-menu li ul li a {
     font-family: "ChunkFive" !important;
-    font-size: 14px !important;
+    font-size: 17px !important;
   }
 }
 
