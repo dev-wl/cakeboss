@@ -105,7 +105,7 @@
             $('.mobile-menu').removeClass('active');
         }
         else {
-            $('.sr-menu').classList.add('active');
+            $('.sr-menu').addClass('active');
             $('.mobile-menu').addClass('active');
         }
     });
