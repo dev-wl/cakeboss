@@ -4331,7 +4331,8 @@ p.errorh1 {
 .mobile-menu.active {
   left:0px;
   /*background-color: #B22222;*/
-  background: linear-gradient(to top, #48D1CC, #5F9EA0);
+  /*background: linear-gradient(to top, #48D1CC, #5F9EA0);*/
+  background: #5E3C3D none repeat scroll 0% 0%;
   z-index: 10000;
   padding-top: 10px;
   transition-property: left;
@@ -6033,6 +6034,14 @@ p.copy {
 
   .sr-menu {
     display: block !important;
+    height: 100%;
+    width: 39%;
+  }
+
+  .mobile-menu li a, .mobile-menu li  {
+    color: #fff;
+    font-size: 21px !important;
+    font-family: "ChunkFive" !important;
   }
 }
 
