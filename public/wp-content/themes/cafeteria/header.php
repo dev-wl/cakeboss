@@ -100,8 +100,8 @@
 <script>
     $('.sr-wrapper').click(function(e){
         e.stopPropagation();
-        if(this.find('.sr-menu').classList.contains('active') == true) {
-            this.find('.sr-menu').classList.remove('active');
+        if(this.find('div').classList.contains('active') == true) {
+            this.find('div').classList.remove('active');
             $('.mobile-menu').removeClass('active');
         }
         else {
