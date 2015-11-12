@@ -170,8 +170,9 @@
 
     $(window).on('touchend', function(e) {
         var box = $('.mobile-menu');
+        var box1 = $('.mobile-menu ul');
         var menu = $('.sr-menu');
-        if($(e.target).is($(menu)) || $(e.target).is($(box)))
+        if($(e.target).is($(menu)) || $(e.target).is($(box)) || $(e.target).is($(box1)))
             return;
         if($(box).hasClass('active')) {
                 $(box).removeClass('active');
