@@ -4256,7 +4256,7 @@ p.errorh1 {
   display: none;
 }
 
-.footer-left a[href="http://twitter.com"] {
+.footer-left a:nth-child(1) {
   margin-left: 10px;
 }
 
