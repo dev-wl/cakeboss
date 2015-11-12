@@ -6241,3 +6241,9 @@ article.story-time-line h2 {
 .slider .triang.top { 
   background: none !important;
 }
+
+.sr-wrapper {
+  width: 50px;
+  height: 50px;
+  background: transparent;
+}

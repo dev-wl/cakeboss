@@ -78,7 +78,9 @@
     } ?>
     <!--page title-->
     <div class="single-title">
-        <div class="sr-menu">   
+        <div class="sr-wrapper">
+            <div class="sr-menu">   
+            </div>
         </div>
         <p>New Single Serve Coffee Cups</p>
     </div>
