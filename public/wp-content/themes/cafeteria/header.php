@@ -166,4 +166,11 @@
             'scrollTop':   $('a[name="about"]').offset().top
         }, 2000);
     });
+
+    $(window).on('click', function(e) {
+        var box = $('mobile-menu ul');
+        if (e.target != $(box) && e.target.parentNode != $(box)){
+            $(box).removeClass('active');
+    });
+});
 </script>
