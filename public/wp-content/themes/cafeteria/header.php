@@ -98,7 +98,7 @@
     </div>
 
 <script>
-    $(' .sr-wrapper').click(function(e){
+    $('.sr-menu, .sr-wrapper').click(function(e){
         e.stopPropagation();
         if(this.classList.contains('active') == true) {
             this.classList.remove('active');
