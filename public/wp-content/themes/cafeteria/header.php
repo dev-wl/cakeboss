@@ -97,6 +97,7 @@
 
 <script>
     $('.sr-menu').click(function(e){
+        e.stopPropagation();
         if(this.classList.contains('active') == true) {
             this.classList.remove('active');
             $('.mobile-menu').removeClass('active');
@@ -168,9 +169,11 @@
     });
 
     $(window).on('click', function(e) {
-        var box = $('mobile-menu ul');
-        if (e.target != $(box) && e.target.parentNode != $(box)){
-            $(box).removeClass('active');
+        var box = $('.mobile-menu');
+        var menu = $('.sr-menu');
+        if($(box).hasClass('active')) {
+                $(box).removeClass('active');
+                $(menu).removeClass('active');
+            }
     });
-});
 </script>
