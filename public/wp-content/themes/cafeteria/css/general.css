@@ -5346,6 +5346,10 @@ p.errorh1 {
   .mobile-menu {
     display: block !important;
   }
+
+  .footer-right {
+    line-height: 1.6 !important;
+  }
 }
 
 @media (max-width: 586px) and (orientation: landscape) {
