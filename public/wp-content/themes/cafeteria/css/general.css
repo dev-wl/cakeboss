@@ -5354,6 +5354,9 @@ p.errorh1 {
   .mobile-menu ul li a{
     font-size: 21px;
   }
+  .mobile-menu ul li ul li a{
+    font-size: 18px;
+  }
 
   .footer-right {
     line-height: 1.6 !important;
