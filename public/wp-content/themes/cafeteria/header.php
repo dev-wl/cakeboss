@@ -171,7 +171,7 @@
     $(window).on('click touchend', function(e) {
         var box = $('.mobile-menu');
         var menu = $('.sr-menu');
-        if(e.target == $(menu))
+        if($(e.target).is($(menu)))
             return;
         if($(box).hasClass('active')) {
                 $(box).removeClass('active');
