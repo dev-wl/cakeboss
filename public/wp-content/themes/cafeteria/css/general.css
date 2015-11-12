@@ -6046,6 +6046,10 @@ p.copy {
     font-size: 21px !important;
     font-family: "ChunkFive" !important;
   }
+
+  .mobile-menu li ul li a {
+    font-family: "ChunkFive" !important;
+  }
 }
 
 @media only screen and (device-width: 768px) { /*and (device-width: 768px)*/ /*1024px*/
