@@ -4268,6 +4268,8 @@ p.errorh1 {
   background-color: #fff;
   padding-top: 1px;
   transition: background 0s 0.3s;
+  -webkit-transition: background 0s 0.3s;
+  transition: background 0s 0.3s;
   margin-top: 36px;
   position: absolute;
   margin-left: 15px;
@@ -4281,6 +4283,9 @@ p.errorh1 {
   height: 4px;
   background-color: #fff;
   content: " ";
+  -webkit-transition-duration: 0.3s, 0.3s;
+  -webkit-transition-delay: 0.3s, 0s;
+  -webkit-transform-origin: 11px;
   transition-duration: 0.3s, 0.3s;
   transition-delay: 0.3s, 0s;
   transform-origin: 11px;
@@ -4290,11 +4295,13 @@ p.errorh1 {
   margin-bottom: 3px;
   margin-top: 6px;
   transition-property: top, transform;
+  -webkit-transition-property: top, transform;
 }
 
 .sr-menu:after {
   margin-top: 3px;
   transition-property: bottom, transform;
+  -webkit-transition-property: bottom, transform;
 }
 
 .sr-menu.active {
@@ -4305,17 +4312,21 @@ p.errorh1 {
   top: 0;
   /*transform: rotate(45deg);*/
   transform: rotate(48deg);
+  -webkit-transform: rotate(48deg);
 }
 
 .sr-menu.active:after {
   bottom: 0;
   /*transform: rotate(-45deg);*/
   transform: rotate(-47deg);
+  -webkit-transform: rotate(-47deg);
 }
 
 .sr-menu.active:before, .sr-menu.active:after {
   transition-delay: 0s, 0.3s;
   transform-origin: 11px;
+  -webkit-transition-delay: 0s, 0.3s;
+  -webkit-transform-origin: 11px;
 }
 
 .mobile-menu {
@@ -4326,6 +4337,8 @@ p.errorh1 {
   width: 130px;
   transition-property: left;
   transition-duration: 0.5s;
+  -webkit-transition-property: left;
+  -webkit-transition-duration: 0.5s;
 }
 
 .mobile-menu.active {
@@ -4337,6 +4350,8 @@ p.errorh1 {
   padding-top: 10px;
   transition-property: left;
   transition-duration: 0.5s;
+  -webkit-transition-property: left;
+  -webkit-transition-duration: 0.5s;
 }
 
 .mobile-menu ul li {
