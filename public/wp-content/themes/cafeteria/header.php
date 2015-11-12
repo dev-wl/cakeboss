@@ -31,20 +31,20 @@
                 <a href="<?php echo home_url(); ?>/" class="mobalelogo"><?php echo bloginfo('name'); ?></a>
             <?php } ?>
         </div>
-        <div class="menu-drop">
-            <a>Menu</a>
+        <!-- <div class="menu-drop">
+            <a>Menu</a> -->
             <?php
-            if ( has_nav_menu( 'mobile_menu' ) ) {
-                wp_nav_menu(array(
-                    'theme_location'=> 'mobile_menu',
-                    'menu'			=> 'Mobile Menu',
-                    'menu_class'	=> 'ul-drop',
-                    'walker'		=> new Aletheme_Nav_Walker(),
-                    'container'		=> '',
-                ));
-            } ?>
-        </div>
-
+            // if ( has_nav_menu( 'mobile_menu' ) ) {
+            //     wp_nav_menu(array(
+            //         'theme_location'=> 'mobile_menu',
+            //         'menu'			=> 'Mobile Menu',
+            //         'menu_class'	=> 'ul-drop',
+            //         'walker'		=> new Aletheme_Nav_Walker(),
+            //         'container'		=> '',
+            //     ));
+            // }
+             ?>
+        <!-- </div> -->
         <div class="center-align">
                 <?php if ( has_nav_menu( 'header_left_menu' ) ) {
                     wp_nav_menu(array(
@@ -72,28 +72,54 @@
             <div class="triang top"></div>
             <div class="triang bot"></div>
         </div>
-    <?php } elseif(!is_page_template('page-home.php')){
+    <?php } elseif(true/*!is_page_template('page-home.php')*/){
         global $post;
         ale_part('innerheaders');
     } ?>
     <!--page title-->
     <div class="single-title">
+        <div class="sr-menu">   
+        </div>
         <p>New Single Serve Coffee Cups</p>
     </div>
 
+    <div class="mobile-menu">
+        <?php 
+            wp_nav_menu(array(
+                'theme_location'=> 'mobile_menu',
+                'menu'          => 'Mobile Menu',
+                'menu_class'    => 'ul-drop',
+                'walker'        => new Aletheme_Nav_Walker(),
+                'container'     => '',
+            ));
+        ?>
+    </div>
+
 <script>
+    $('.sr-menu').click(function(e){
+        if(this.classList.contains('active') == true) {
+            this.classList.remove('active');
+            $('.mobile-menu').removeClass('active');
+        }
+        else {
+            this.classList.add('active');
+            $('.mobile-menu').addClass('active');
+        }
+    });
+
+    mobile = false;
     $(document).ready(function() {
         $(window).on('scroll', function(e) {
-            // if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-            //     return;
-            // }
+            if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                mobile = true;
+            }
 
             h = $('header.cf').height();
-            if($(window).height() < 990) {
+            if(!mobile && $(window).height() < 990) {
                 // h += 100;
                 return;
             }
-            if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            if(mobile) {
                 if($(window).width() < 700 && $(document).height() < 960)
                     return;
                 if($(window).width() == 768 && $(document).height() < 2800)
@@ -112,7 +138,7 @@
         });
 
         //prevent dropdown clicks on mobile devices
-        if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        if(mobile) {
             $('#menu-mobile-menu li:eq(0), #menu-mobile-menu li:eq(5),  #menu-mobile-menu li:eq(7), #menu-mobile-menu li:eq(13), #menu-mobile-menu li:eq(16)').click(function(e) {
                 var target = $( e.target );
                 if ( !target.is( "ul.sub-menu li a" ) ) {

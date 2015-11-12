@@ -1,13 +1,13 @@
 <?php get_header(); ?>
 
     <article class="our-menu">
-        <h2 class="firstfont caption colormain"><?php _e('Our menu','aletheme'); ?></h2>
+       <!--  <h2 class="firstfont caption colormain"><?php _e('Our menu','aletheme'); ?></h2>
         <div class="center-align">
             <div class="line-cake">
                 <div class="cake"></div>
                 <div class="line left"></div>
                 <div class="line right"></div>
-            </div>
+            </div> -->
         </div>
 
         <div class="center-align content cf">
@@ -40,21 +40,24 @@
                 query_posts( $query_string.'&post_type=menu&posts_per_page=-1');
                 if (have_posts()) : while (have_posts()) : the_post(); ?>
                     <div class="col-3">
+                        <?php
+                            $cats = get_the_terms( $post->ID, 'menu-category' );
+                        ?>
                         <div class="background">
                             <a href="<?php echo the_permalink(); ?>">
                                 <div class="hover"></div>
                                 <?php echo get_the_post_thumbnail($post->ID,'menu-thumba'); ?>
                             </a>
-                            <?php if(ale_get_meta('itemicon')){ ?><div style="background-image: url('<?php echo ale_get_meta('itemicon'); ?>');" class="circle"></div><?php } ?>
-                            <h2 class="firstfont colormain"><?php the_title(); ?></h2>
+                            <?php if(false /*ale_get_meta('itemicon')*/){ ?><div style="background-image: url('<?php echo ale_get_meta('itemicon'); ?>');" class="circle"></div><?php } ?>
+                            <h2 class="firstfont colormain"><a href="<?php echo the_permalink();?>"><?php the_title(); ?></a></h2>
                             <div class="text">
-                                <?php echo ale_trim_excerpt(10); ?>
+                                <?php echo $cats[0]->name; //ale_trim_excerpt(10); ?>
                             </div>
-                            <div class="line"></div>
+                            <!-- <div class="line"></div>
                             <div class="info">
                                 <h3 class="firstfont"><?php echo ale_get_meta('itemprice'); ?></h3>
                                 <a href="<?php echo the_permalink(); ?>"><?php _e('Description','aletheme'); ?></a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 <?php endwhile; else: ?>

@@ -10,7 +10,7 @@ if (isset($_POST['contact'])) {
 get_header(); ?>
 
 <style>
-    header.cf + .single-title {
+    header.cf .single-title {
         display: none !important;
     }
 
@@ -25,9 +25,9 @@ get_header(); ?>
         <div class="triang bot"></div>
 
         <!--page title-->
-        <div class="single-title">
+        <!-- <div class="single-title">
             <p>New Single Serve Coffee Cups</p>
-        </div>
+        </div> -->
 
         <ul class="slides">
             <?php $slider = ale_sliders_get_slider(ale_get_option('homeslugfull')); ?>
