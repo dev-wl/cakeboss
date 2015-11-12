@@ -171,9 +171,14 @@
     $(window).on('touchend', function(e) {
         var box = $('.mobile-menu');
         var box2 = $('.mobile-menu.active ul');
+        var box3 = $('li.menu-item');
         var menu = $('.sr-menu');
-        if($(e.target).is($(menu)) || $(e.target).is($(box)) || $(e.target).is($(box2)))
+
+        console.log($(e.target));
+        if($(e.target).is($(menu)) || $(e.target).is($(box)) || $(e.target).is($(box2)) | $(e.target).is($(box3))) {
+            console.log($(e.target));
             return;
+        }
         if($(box).hasClass('active')) {
                 $(box).removeClass('active');
                 $(menu).removeClass('active');
