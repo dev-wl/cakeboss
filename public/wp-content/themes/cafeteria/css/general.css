@@ -6042,7 +6042,7 @@ p.copy {
   }
 }
 
-@media only screen and (device-width: 768) { /* (device-width: 768px) { */
+@media only screen and (device-width: 768px) { /* (device-width: 768px) { */
   header.cf .col-6 {
     width: auto !important;
   }
