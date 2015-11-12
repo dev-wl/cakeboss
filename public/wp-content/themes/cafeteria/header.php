@@ -171,8 +171,9 @@
     $(window).on('touchend', function(e) {
         var box = $('.mobile-menu');
         var box1 = $('.mobile-menu ul');
+        var box2 = $('.mobile-menu ul li ul');
         var menu = $('.sr-menu');
-        if($(e.target).is($(menu)) || $(e.target).is($(box)) || $(e.target).is($(box1)))
+        if($(e.target).is($(menu)) || $(e.target).is($(box)) || $(e.target).is($(box1)) || $(e.target).is($(box2)))
             return;
         if($(box).hasClass('active')) {
                 $(box).removeClass('active');
