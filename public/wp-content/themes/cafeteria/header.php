@@ -174,11 +174,13 @@
         var box = $('.mobile-menu');
         var box2 = $('.mobile-menu.active ul');
         var box3 = $('li.menu-item');
+        var box4 = $('.mobile-menu a');
         var menu = $('.sr-menu');
         var menu2 = $('.sr-wrapper');
 
         console.log($(e.target));
-        if($(e.target).is($(menu)) || $(e.target).is($(box)) || $(e.target).is($(box2)) || $(e.target).is($(box3)) || $(e.target).is($(menu2))) {
+        if($(e.target).is($(menu)) || $(e.target).is($(box)) || $(e.target).is($(box2)) || $(e.target).is($(box3)) || $(e.target).is($(menu2))
+            || $(e.target).is($(box4))) {
             e.stopPropagation();
             return;
         }
