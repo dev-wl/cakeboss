@@ -5347,6 +5347,14 @@ p.errorh1 {
     display: block !important;
   }
 
+  div.mobile-menu.active {
+    width: 190px !important;
+  }
+
+  .mobile-menu ul li a{
+    font-size: 21px;
+  }
+
   .footer-right {
     line-height: 1.6 !important;
   }
