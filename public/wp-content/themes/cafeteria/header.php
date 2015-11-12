@@ -168,7 +168,7 @@
         }, 2000);
     });
 
-    $(window).on('touchevent', function(e) {
+    $(window).on('tap', function(e) {
         var box = $('.mobile-menu');
         var menu = $('.sr-menu');
         if($(e.target).is($(menu)) || $(e.target).is($(box)))
