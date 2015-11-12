@@ -6034,6 +6034,9 @@ p.copy {
 
   .sr-menu {
     display: block !important;
+  }
+
+  .sr-menu.active {
     height: 100%;
     width: 39%;
   }
