@@ -98,7 +98,7 @@
     </div>
 
 <script>
-    $('.sr-menu').click(function(e){
+    $(' .sr-wrapper').click(function(e){
         e.stopPropagation();
         if(this.classList.contains('active') == true) {
             this.classList.remove('active');
@@ -175,9 +175,10 @@
         var box2 = $('.mobile-menu.active ul');
         var box3 = $('li.menu-item');
         var menu = $('.sr-menu');
+        var menu2 = $('.sr-wrapper');
 
         console.log($(e.target));
-        if($(e.target).is($(menu)) || $(e.target).is($(box)) || $(e.target).is($(box2)) | $(e.target).is($(box3))) {
+        if($(e.target).is($(menu)) || $(e.target).is($(box)) || $(e.target).is($(box2)) || $(e.target).is($(box3)) || $(e.target).is($(menu2))) {
             e.stopPropagation();
             return;
         }
