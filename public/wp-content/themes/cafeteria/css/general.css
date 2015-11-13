@@ -5548,6 +5548,15 @@ p.errorh1 {
   p.privacy {
     margin-left: 1px !important;
   }
+  
+  body .slider.cf {
+    height: 181px;
+  }
+
+  ul.slides li {
+    height: 181px !important;
+    background-size: 100% !important;
+  }
 }
 
 /*WL-AK styles*/
@@ -6012,6 +6021,17 @@ p.copy {
   }
 }
 
+@media (max-width: 670px) { /*iph6*/
+  .slider.cf {
+    height: 319px;
+  }
+
+  ul.slides li {
+    height: 319px !important;
+    background-size: 100% !important;
+  }
+}
+
 @media (max-width: 650px) {
   .footer-left {
     width: 100%;
@@ -6082,6 +6102,15 @@ p.copy {
     font-family: "ChunkFive" !important;
     font-size: 17px !important;
   }
+
+  .slider.cf {
+    height: 435px;
+  }
+
+  ul.slides li {
+    height: 435px !important;
+    background-size: 100% !important;
+  }
 }
 
 @media only screen and (device-width: 768px) { /*and (device-width: 768px)*/ /*1024px*/
@@ -6117,6 +6146,15 @@ p.copy {
 
   .bottom-menu-item {
     margin-right: 27px !important;
+  }
+
+  .slider.cf {
+    height: 579px;
+  }
+
+  ul.slides li {
+    height: 579px !important;
+    background-size: 100% !important;
   }
 }
 

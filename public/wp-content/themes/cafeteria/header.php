@@ -125,7 +125,7 @@
             if(mobile) {
                 if($(window).width() < 700 && $(document).height() < 960)
                     return;
-                if($(window).width() == 768 || $(window).width() <= 640 /* && $(document).height() < 2800*/)
+                if($(window).width() <= 768 /* && $(document).height() < 2800*/)
                     return;
             }
             if($('#wpadminbar').css('display') == 'block') {
