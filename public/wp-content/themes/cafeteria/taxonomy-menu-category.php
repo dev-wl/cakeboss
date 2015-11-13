@@ -45,8 +45,9 @@
                         ?>
                         <div class="background">
                             <a href="<?php echo the_permalink(); ?>">
-                                <div class="hover"></div>
-                                <?php echo get_the_post_thumbnail($post->ID,'menu-thumba'); ?>
+                                <!-- <div class="hover"></div> -->
+                                <?php //echo get_the_post_thumbnail($post->ID,'menu-thumba'); ?>
+                                <?php echo get_the_post_thumbnail($post->ID,'large'); ?>
                             </a>
                             <?php if(false /*ale_get_meta('itemicon')*/){ ?><div style="background-image: url('<?php echo ale_get_meta('itemicon'); ?>');" class="circle"></div><?php } ?>
                             <h2 class="firstfont colormain"><a href="<?php echo the_permalink();?>"><?php the_title(); ?></a></h2>
