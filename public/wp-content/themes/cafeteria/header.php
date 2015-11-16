@@ -9,6 +9,7 @@
 	<?php wp_head(); ?>
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" title="no title" charset="utf-8">
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
 </head>
 <body <?php body_class(); echo 'style="'; if(ale_get_meta('custombg')){echo 'background-image:url('.ale_get_meta('custombg').');';} if(ale_get_meta('custompagecss')){ echo ale_get_meta('custompagecss');}echo ' background-position:center;"'; ?> >
 
@@ -170,7 +171,7 @@
         }, 2000);
     });
 
-    $(window).on('touchend', function(e) {
+    $(window).on('tap', function(e) {
         var box = $('.mobile-menu');
         var box2 = $('.mobile-menu.active ul');
         var box3 = $('li.menu-item');
@@ -178,7 +179,6 @@
         var menu = $('.sr-menu');
         var menu2 = $('.sr-wrapper');
 
-        console.log($(e.target));
         if($(e.target).is($(menu)) || $(e.target).is($(box)) || $(e.target).is($(box2)) || $(e.target).is($(box3)) || $(e.target).is($(menu2))
             || $(e.target).is($(box4))) {
             e.stopPropagation();

@@ -4390,17 +4390,32 @@ p.errorh1 {
       display: block !important;
   }
 
-
   .footerinfo-wrapper .footer-left {
     float: left !important;
-    margin-left: 70px;
-    width: initial;
+    margin-left: 90px;
+    width: 360px;
   }
 
   .footerinfo-wrapper .footer-right {
     float: right !important;
     width: initial;
-    margin-right: 70px;
+    margin-right: 100px;
+  }
+}
+
+@media (min-device-width: 1281px) and (max-width: 1220px) {
+  .logo {
+    display: none !important;
+  }
+  
+  #menu-general-menu .col-6.left {
+    margin-left: 17% !important;
+  }
+}
+
+@media (min-device-width: 1281px) and (max-width: 850px) {
+  .sr-menu {
+    display: block !important;
   }
 }
 
@@ -4434,7 +4449,7 @@ p.errorh1 {
   }
 }
 
-/* 828 - 1202
+/* 828 - 1202 */
 /* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
 @media (min-width: 828px) and (max-width: 1202px) {
   .logo {
@@ -5362,6 +5377,14 @@ p.errorh1 {
   .footer-right {
     line-height: 1.6 !important;
   }
+
+  .footer-right {
+    margin-right: !initial !important;
+  }
+
+  .our-menu .pagination {
+    margin-top: 90px;
+  }
 }
 
 @media (max-width: 586px) and (orientation: landscape) {
@@ -5560,6 +5583,11 @@ p.errorh1 {
 }
 
 /*WL-AK styles*/
+
+.our-menu .pagination {
+  margin-top: 80px;
+}
+
 .fx {
   position: fixed;
   top:0;
@@ -5721,7 +5749,8 @@ header .center-align > ul > li ul li a:hover {
 .bottom-menu-item {
   max-width: 300px !important;
   /*margin-right: 83px;*/
-  margin-right: 51px !important;
+  /*margin-right: 51px !important;*/
+  margin-right: 35px !important;
 }
 
 .bottom-menu-item:last-child {
@@ -6023,12 +6052,12 @@ p.copy {
 
 @media (max-width: 670px) { /*iph6*/
   .slider.cf {
-    height: 319px;
+    height: 314px;
   }
 
   ul.slides li {
-    height: 319px !important;
-    background-size: 100% !important;
+    height: 314px !important;
+    /*background-size: 100% !important;*/
   }
 }
 
@@ -6149,11 +6178,11 @@ p.copy {
   }
 
   .slider.cf {
-    height: 579px;
+    height: 420px;
   }
 
   ul.slides li {
-    height: 579px !important;
+    height: 420px !important;
     background-size: 100% !important;
   }
 }
@@ -6243,7 +6272,10 @@ p.inner-header {
 }
 
 .col-12.main .post img {
-  width: 100%;
+  /*width: 100%;*/
+  width: 80%;
+  display: block;
+  margin: 0px auto;
   height: auto;
 }
 
@@ -6316,4 +6348,21 @@ article.story-time-line h2 {
   height: 72px;
   background: transparent;
   position: absolute;
+}
+
+.flex-active-slide {
+  /*float: initial !important;*/
+}
+
+.slider {
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+
+.slider .slides > li {
+  background-size: 100% !important;
+  margin:0px auto;
+  float: none !important;
+  width: 80% !important;
+  margin-right: auto !important;
 }

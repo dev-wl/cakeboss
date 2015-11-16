@@ -86,7 +86,6 @@ get_header(); ?>
                     <p class="text text-center"><?php echo get_the_content(); ?></p>
                 </div>
         <?php } endforeach; ?>
-            <a name="about"></a>
     </div>
     <div class="clearfix"></div>
 <!-- Services -->
@@ -281,7 +280,7 @@ get_header(); ?>
         </div>
     </article>
 <?php } else { /*echo'<div class="heightonhome cf"></div>';*/ } ?>
-
+<a name="about"></a>
 <!-- ## Home Price -->
 <?php if(ale_get_meta('menuonhome')=='on') { ?>
     <section class="home-price nokeyframebug" <?php if(ale_get_meta('menubg')){ echo 'style="background-image: url('.ale_get_meta('menubg').');"'; } ?>>

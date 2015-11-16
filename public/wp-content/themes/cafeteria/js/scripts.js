@@ -5,7 +5,7 @@ jQuery(function($) {
 
     /* DROP MENU */
     $('.ul-drop > li').click(function(){
-        $(this).children('ul').toggle({display: "toggle"});
+        //$(this).children('ul').toggle({display: "toggle"});
     });
 
     $('.menu-drop > a').click(function(){

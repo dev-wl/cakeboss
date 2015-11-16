@@ -12,7 +12,7 @@
     <!-- Scripts -->
     <script type="text/javascript">
     if($('body').height() < $(window).height())
-        $('.footer.footer-small').css('margin-top',  $('body').height() - $('header').height()- $('.story-time-line').height() - $('.header-back').height() -  $('.footer.footer-small').height())
+        $('.footer.footer-small').css('margin-top',  $('body').height() - $('header').height()- $('.story-time-line').height() - $('.header-back').height() -  $('.footer.footer-small').height() + 15)
     </script>
     <?php wp_footer(); ?>
 </body>
