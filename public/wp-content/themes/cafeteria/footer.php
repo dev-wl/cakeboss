@@ -12,7 +12,18 @@
     <!-- Scripts -->
     <script type="text/javascript">
     if($('body').height() < $(window).height())
-        $('.footer.footer-small').css('margin-top',  $('body').height() - $('header').height()- $('.story-time-line').height() - $('.header-back').height() -  $('.footer.footer-small').height() + 15)
+        $('html, body').css('height', '100%');
+        $('.menu-open').css({height: '56%', minHeight: '350px'});
+        $('.story-time-line').css({height: '56%', minHeight: '350px'});
+        $('.story-open').css({height: '56%', minHeight: '350px'});
+        // if(navigator.userAgent.toLowerCase().indexOf('chrome') > -1) {
+        //     if($('body').find('article.menu-open').length > 0)
+        //         $('.footer.footer-small').css('margin-top',  $('body').height() - $('header').height()- $('.single-title').height() - $('.header-back').height() -  $('.footer.footer-small').height() + 120);
+        //     else
+        //         $('.footer.footer-small').css('margin-top',  $('body').height() - $('header').height()- $('.story-time-line').height() - $('.header-back').height() -  $('.footer.footer-small').height() + 70);
+        // }
+        // else
+        //     $('.footer.footer-small').css('margin-top',  $('body').height() - $('header').height()- $('.story-time-line').height() - $('.header-back').height() -  $('.footer.footer-small').height() + 48);
     </script>
     <?php wp_footer(); ?>
 </body>

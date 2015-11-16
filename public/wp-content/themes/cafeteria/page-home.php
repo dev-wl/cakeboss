@@ -59,7 +59,7 @@ get_header(); ?>
     
 <!--Bottom menu-->
     <div class="bottom-menu">
-        <p class="get-you-coffe">Get your <span>COFFEE</span> on!</p>
+        <img class="get-you-coffe" src="/wp-content/themes/cafeteria/css/images/script.png" />
 
         <?php
             global $post;
