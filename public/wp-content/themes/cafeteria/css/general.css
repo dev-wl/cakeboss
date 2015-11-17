@@ -6425,3 +6425,7 @@ article > h2.firstfont.caption.colormain {
 .col-4 .background a:first-child:hover + h2 a {
   color: #5F9EA0 !important;
 }
+
+.header-back .triang.top {
+  background: transparent url("/wp-content/themes/cafeteria/css/images/BG_Stripes_Bottom_1.png") repeat scroll 0% 0% !important;
+}
