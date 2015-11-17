@@ -5754,6 +5754,11 @@ header .center-align > ul > li ul li a:hover {
   margin-right: 35px !important;
 }
 
+.bottom-menu-item p.text.text-center {
+  width: 86%;
+  margin: 0px auto;
+}
+
 .bottom-menu-item:last-child {
   margin-right: 0px !important;
 }
