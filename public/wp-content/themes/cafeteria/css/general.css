@@ -6426,6 +6426,9 @@ article > h2.firstfont.caption.colormain {
   color: #5F9EA0 !important;
 }
 
+header.cf {
+  background: transparent url("/wp-content/themes/cafeteria/css/images/BG_Stripes_1.jpg") repeat scroll 0% 0%;
+}
 .header-back .triang.top {
   background: transparent url("/wp-content/themes/cafeteria/css/images/BG_Stripes_Bottom_1.png") repeat scroll 0% 0% !important;
 }
