@@ -6224,6 +6224,10 @@ header.cf {
     /*margin-left: 15%;*/
   }
 
+   .col-6.left:first-child {
+    margin-left: 22% !important;
+  }
+
   header.cf .left{
     /*margin-left: 3.5%;*/
   }
