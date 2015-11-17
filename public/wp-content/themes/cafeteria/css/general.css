@@ -5601,6 +5601,10 @@ p.errorh1 {
     float: initial !important;
     margin-bottom: 35px;
   }
+
+  .col-4 .background {
+    height: 334px !important;
+  }
 }
 
 /*WL-AK styles*/
