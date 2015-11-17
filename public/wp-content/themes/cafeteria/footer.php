@@ -11,9 +11,9 @@
 
     <!-- Scripts -->
     <script type="text/javascript">
-    if($('body').height() < ($(window).height() - 50))
+    if($('body').height() < ($(window).height())) {
         $('.footer.footer-small').css({position:'absolute', bottom: 0});
-
+    }
         // $('html, body').css('height', '100%');
         // $('.menu-open').css({height: '56%', minHeight: '350px'});
         // $('.story-time-line').css({height: '56%', minHeight: '350px'});
