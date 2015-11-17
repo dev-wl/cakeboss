@@ -6232,6 +6232,10 @@ header.cf {
     height: 420px !important;
     background-size: 100% !important;
   }
+
+  .our-menu .col-4 {
+    margin-bottom: 0px !imoprtant;
+  }
 }
 
 @media only screen and (device-width: 768px) and (max-width: 942px) {
