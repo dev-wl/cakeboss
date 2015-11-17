@@ -6009,7 +6009,7 @@ p.copy {
 }
 
 .gallery.cf .col-4 {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .col-4 .background a:first-child:hover > img {
@@ -6439,7 +6439,7 @@ img.get-you-coffe {
 }
 
 .our-menu .gallery .col-4 {
-  margin-bottom: 35px;
+  /*margin-bottom: 35px;*/
 }
 .our-menu .gallery .col-4:nth-child(3n+1) {
   padding-right: 10px;
