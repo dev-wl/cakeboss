@@ -4392,13 +4392,13 @@ p.errorh1 {
   }
 
   .footerinfo-wrapper .footer-left {
-    float: left !important;
+    float: left;
     margin-left: 90px;
     width: 360px;
   }
 
   .footerinfo-wrapper .footer-right {
-    float: right !important;
+    float: right;
     width: initial;
     margin-right: 100px;
   }
