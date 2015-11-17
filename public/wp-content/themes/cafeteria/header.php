@@ -113,11 +113,11 @@
 
     mobile = false;
     $(document).ready(function() {
-        $(window).on('scroll', function(e) {
-            if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-                mobile = true;
-            }
+        if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            mobile = true;
+        }
 
+        $(window).on('scroll', function(e) {
             h = $('header.cf').height();
             if(!mobile && $(window).height() < 990) {
                 // h += 100;
