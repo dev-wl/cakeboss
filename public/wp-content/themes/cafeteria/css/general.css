@@ -5623,7 +5623,8 @@ header .logo {
   position: absolute;
   width: 200px;
   height: 333px;
-  left: 17%;
+  /*left: 17%;*/
+  left: 20%;
   margin-left: 0px !important;
   bottom: -200px !important;
 }
@@ -5634,7 +5635,8 @@ header .logo {
 }
 
 .col-6.left:first-child {
-  margin-left: 20%;
+  /*margin-left: 20%;*/
+  margin-left: 25%;
 }
 
 .center-align > ul {
