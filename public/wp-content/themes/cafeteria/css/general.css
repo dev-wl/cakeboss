@@ -6228,6 +6228,10 @@ header.cf {
     margin-left: 22% !important;
   }
 
+  header .logo a.customlogo img {
+    margin-left: -64px;
+  }
+
   header.cf .left{
     /*margin-left: 3.5%;*/
   }
