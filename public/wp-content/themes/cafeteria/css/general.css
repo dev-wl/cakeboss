@@ -4515,7 +4515,7 @@ p.errorh1 {
   }
 }
 
-@media (min-width: 828px) and (max-width: 1202px) and (min-device-width: 1281px) {
+@media (min-width: 828px) and (max-width: 1202px) and (min-device-width: 1280px) {
 
   #menu-right-general-menu {
     /*position: absolute;
@@ -4532,13 +4532,13 @@ p.errorh1 {
   }
 }
 
-@media (min-width: 828px) and (max-width: 1120px) and (min-device-width: 1281px) {
+@media (min-width: 828px) and (max-width: 1120px) and (min-device-width: 1280px) {
     .col-6.left:first-child {
       margin-left: 23% !important;
     }
 }
 
-@media (min-width: 828px) and (max-width: 910px) and (min-device-width: 1281px) {
+@media (min-width: 828px) and (max-width: 910px) and (min-device-width: 1280px) {
     .col-6.left:first-child {
       margin-left: 18% !important;
     }
