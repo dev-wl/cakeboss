@@ -6004,6 +6004,37 @@ p.copy {
   background-repeat: no-repeat;
 }
 
+.col-4 .background {
+  height: 375px !important;
+}
+
+.gallery.cf .col-4 {
+  margin-bottom: 35px;
+}
+
+.col-4 .background a:first-child:hover > img {
+  box-shadow: 0px 0px 15px 7px rgba(0,0,0,0.5);
+  border-radius: 50%;
+}
+
+.col-4 .background a:first-child:hover + h2 {
+  text-decoration: underline;
+}
+
+.col-4 .background a:first-child:hover + h2 a {
+  color: #5F9EA0 !important;
+}
+
+header.cf {
+  background: transparent url("/wp-content/themes/cafeteria/css/images/BG_Stripes_1.jpg") repeat scroll 0% 0% !important;
+}
+.header-back .triang.top {
+  height:  20px !important;
+  background: transparent url("/wp-content/themes/cafeteria/css/images/BG_Stripes_Bottom_1.png") repeat scroll 0% 0% !important;
+}
+
+
+
 @media (max-width: 500px) {
   .contact-form {
     width: 100%;
@@ -6427,33 +6458,4 @@ img.get-you-coffe {
 
 article > h2.firstfont.caption.colormain {
   font-family: "ChunkFive" !important;
-}
-
-.col-4 .background {
-  height: 375px !important;
-}
-
-.gallery.cf .col-4 {
-  margin-bottom: 35px;
-}
-
-.col-4 .background a:first-child:hover > img {
-  box-shadow: 0px 0px 15px 7px rgba(0,0,0,0.5);
-  border-radius: 50%;
-}
-
-.col-4 .background a:first-child:hover + h2 {
-  text-decoration: underline;
-}
-
-.col-4 .background a:first-child:hover + h2 a {
-  color: #5F9EA0 !important;
-}
-
-header.cf {
-  background: transparent url("/wp-content/themes/cafeteria/css/images/BG_Stripes_1.jpg") repeat scroll 0% 0% !important;
-}
-.header-back .triang.top {
-  height:  20px !important;
-  background: transparent url("/wp-content/themes/cafeteria/css/images/BG_Stripes_Bottom_1.png") repeat scroll 0% 0% !important;
 }
