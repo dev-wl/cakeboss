@@ -6420,8 +6420,9 @@ article > h2.firstfont.caption.colormain {
 
 .col-4 .background a:first-child:hover + h2 {
   text-decoration: underline;
+  color: #5F9EA0 !important;
 }
 
 .col-4 .background a:first-child:hover + h2 a {
-  color: #5F9EA0;
+  color: #5F9EA0 !important;
 }
