@@ -39,7 +39,7 @@
                 global $query_string;
                 query_posts( $query_string.'&post_type=menu&posts_per_page=-1');
                 if (have_posts()) : while (have_posts()) : the_post(); ?>
-                    <div class="col-3">
+                    <div class="col-4">
                         <?php
                             $cats = get_the_terms( $post->ID, 'menu-category' );
                         ?>
