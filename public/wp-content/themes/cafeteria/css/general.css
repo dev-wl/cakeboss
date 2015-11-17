@@ -4532,12 +4532,17 @@ p.errorh1 {
   }
 }
 
-@media (min-width: 828px) and (max-width: 1202px) and (min-device-width: 1120px) { 
+@media (min-width: 828px) and (max-width: 1202px) and (min-device-width: 895px) { 
    .col-6.left:first-child {
-      margin-left: 23% !important;
+      margin-left: 20% !important;
   }
 
 }
+
+ .col-6.left:first-child {
+    margin-left: 25% !important;
+  }
+
 
 /* 1010
 /* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
