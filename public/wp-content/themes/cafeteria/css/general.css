@@ -6207,8 +6207,8 @@ header.cf {
   }
 }
 
-@media only screen and (device-width: 768px) { /* (device-width: 768px) { */ /*1024px*/
   header.cf .col-6 {
+@media only screen and (device-width: 1024px) { /* (device-width: 768px) { */ /*1024px*/
     width: auto !important;
   }
 
