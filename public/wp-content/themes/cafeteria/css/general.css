@@ -6428,6 +6428,14 @@ article > h2.firstfont.caption.colormain {
   font-family: "ChunkFive" !important;
 }
 
+.col-4 .background {
+  height: 342px !important;
+}
+
+.col-4 {
+  margin-bottom: 0px !important;
+}
+
 .col-4 .background a:first-child:hover > img {
   box-shadow: 0px 0px 15px 7px rgba(0,0,0,0.5);
   border-radius: 50%;
