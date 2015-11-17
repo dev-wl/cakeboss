@@ -11,7 +11,7 @@
 
     <!-- Scripts -->
     <script type="text/javascript">
-    if($('body').height() < ($(window).height() - 70))
+    if($('body').height() < ($(window).height() - 50))
         $('.footer.footer-small').css({position:'absolute', bottom: 0});
 
         // $('html, body').css('height', '100%');
