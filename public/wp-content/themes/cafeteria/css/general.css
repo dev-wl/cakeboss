@@ -4538,7 +4538,7 @@ p.errorh1 {
     }
 }
 
-@media (min-width: 828px) and (max-width: 900px) and (min-device-width: 1281px) {
+@media (min-width: 828px) and (max-width: 920px) and (min-device-width: 1281px) {
     .col-6.left:first-child {
       margin-left: 20% !important;
     }
