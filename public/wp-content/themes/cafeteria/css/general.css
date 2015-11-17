@@ -5581,6 +5581,13 @@ p.errorh1 {
     height: 181px !important;
     background-size: 100% !important;
   }
+
+  .our-menu .col-4 {
+    width: 85%;
+    margin: 0px auto;
+    padding: 0px;
+    float: initial !important;
+  }
 }
 
 /*WL-AK styles*/
