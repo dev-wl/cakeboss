@@ -6417,3 +6417,9 @@ article > h2.firstfont.caption.colormain {
   box-shadow: 0px 0px 15px 7px rgba(0,0,0,0.5);
   border-radius: 50%;
 }
+
+.col-4 .background img:hover + h2 {
+  text-decoration: underline;
+}
+
+/*#5F9EA0*/
