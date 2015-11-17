@@ -15,7 +15,7 @@ get_header(); ?>
     }
 
     .single-title {
-        margin-top: -14px !important;
+        margin-top: -20px !important;
     }
 </style>
 
