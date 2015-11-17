@@ -5587,6 +5587,7 @@ p.errorh1 {
     margin: 0px auto;
     padding: 0px;
     float: initial !important;
+    margin-bottom: 35px;
   }
 }
 
@@ -6432,7 +6433,7 @@ article > h2.firstfont.caption.colormain {
   height: 342px !important;
 }
 
-.col-4 {
+.gallery.cf .col-4 {
   margin-bottom: 0px;
 }
 
