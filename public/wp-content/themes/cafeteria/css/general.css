@@ -4377,7 +4377,7 @@ p.errorh1 {
   }
 
   .bottom-menu {
-    width: 84% !important;
+    width: 77% !important;
   }
 
   .footerinfo-wrapper {
@@ -5769,7 +5769,8 @@ header .center-align > ul > li ul li a:hover {
 }
 
 .bottom-menu {
-  width: 56%;
+  /*width: 56%;*/
+  width: 57%;
   margin: 0px auto;
 }
 
