@@ -6390,3 +6390,25 @@ img.get-you-coffe {
   margin: 0px auto;
   margin-bottom: 30px;
 }
+
+.our-menu .gallery .col-4 {
+  margin-bottom: 35px;
+}
+.our-menu .gallery .col-4:nth-child(3n+1) {
+  padding-right: 10px;
+}
+.our-menu .gallery .col-4:nth-child(3n+2) {
+  padding-left: 3px;
+  padding-right: 7px;
+}
+.our-menu .gallery .col-4:nth-child(3n+3) {
+  padding-left: 7px;
+  padding-right: 3px;
+}
+.our-menu .gallery .col-4:nth-child(3n+3) {
+  padding-left: 10px;
+}
+
+article > h2.firstfont.caption.colormain {
+  font-family: "ChunkFive" !important;
+}

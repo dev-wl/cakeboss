@@ -45,7 +45,7 @@
     // query_posts( '&post_type=menu&paged=' . $paged );
     query_posts( '&post_type=menu&paged=' . $paged . '&showposts=-1');
     if (have_posts()) : while (have_posts()) : the_post(); ?>
-        <div class="col-3">
+        <div class="col-4">
             <?php
                 $cats = get_the_terms( $post->ID, 'menu-category' );
             ?>
