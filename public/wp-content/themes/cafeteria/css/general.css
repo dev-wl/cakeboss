@@ -5687,7 +5687,7 @@ header .center-align > ul > li ul li a:hover {
   background-color: #5F9EA0;
   height: 72px;
   padding-top: 1px;
-  margin-top: -20px;
+  margin-top: -20px !important;
 }
 
 .single-title p {
