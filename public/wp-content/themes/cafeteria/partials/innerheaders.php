@@ -29,7 +29,7 @@
         <div class="triang bot"></div>
     </div>
 <?php } else { ?>
-    <div class="header-back" style="background-image: none; height: 13px; margin-bottom: 60px;');">
+    <div class="header-back" style="background-image: none; height: 20px; margin-bottom: 60px;');">
         <div class="triang top"></div>
     </div>
 <?php } ?>
