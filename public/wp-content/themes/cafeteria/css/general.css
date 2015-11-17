@@ -6259,7 +6259,13 @@ header.cf {
 
   .footerinfo-wrapper .footer-left {
      float: initial !important; 
-     margin-left: initial !important; 
+     margin-left: auto !important; 
+    width: 50%; 
+  }
+
+  .footerinfo-wrapper .footer-right {
+     float: initial !important; 
+     margin-left: auto !important; 
     width: 50%; 
   }
 }
