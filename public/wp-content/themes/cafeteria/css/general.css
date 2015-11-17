@@ -956,7 +956,8 @@ header .center-align > ul > li ul li.line {
 }
 .header-back .triang {
   position: absolute;
-  height: 13px;
+  /*height: 13px;*/
+  height: 20px;
   width: 100%;
   z-index: 100;
 }
@@ -5686,7 +5687,7 @@ header .center-align > ul > li ul li a:hover {
   background-color: #5F9EA0;
   height: 72px;
   padding-top: 1px;
-  margin-top: -21px;
+  margin-top: -20px;
 }
 
 .single-title p {
@@ -6430,5 +6431,6 @@ header.cf {
   background: transparent url("/wp-content/themes/cafeteria/css/images/BG_Stripes_1.jpg") repeat scroll 0% 0% !important;
 }
 .header-back .triang.top {
+  height:  20px !important;
   background: transparent url("/wp-content/themes/cafeteria/css/images/BG_Stripes_Bottom_1.png") repeat scroll 0% 0% !important;
 }
