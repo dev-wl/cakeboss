@@ -6256,6 +6256,12 @@ header.cf {
   .our-menu .col-4 {
     margin-bottom: 0px !imoprtant;
   }
+
+  .footer-left {
+     float: initial !important; 
+     margin-left: initial !important; 
+    width: 50%; 
+  }
 }
 
 @media only screen and (device-width: 768px) and (max-width: 942px) {
