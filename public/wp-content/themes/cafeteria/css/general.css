@@ -4532,6 +4532,13 @@ p.errorh1 {
   }
 }
 
+@media (min-width: 828px) and (max-width: 1202px) and (min-device-width: 1120px) { 
+   .col-6.left:first-child {
+      margin-left: 23% !important;
+  }
+
+}
+
 /* 1010
 /* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
 @media (max-width: 1010px) {
