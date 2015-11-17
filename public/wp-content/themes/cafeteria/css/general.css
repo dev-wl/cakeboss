@@ -6265,7 +6265,7 @@ header.cf {
 
   .footerinfo-wrapper .footer-right {
      float: initial !important; 
-     margin-left: auto !important; 
+     margin-right: auto !important; 
     width: 50%; 
   }
 }
