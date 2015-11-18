@@ -6272,13 +6272,13 @@ header.cf {
      /*margin-left: auto !important; */
     /*width: 50%; */
     width: 36%; 
-    margin-left: 70px;
+    margin-left: 50px;
   }
 
   .footerinfo-wrapper .footer-right {
      /*float: initial !important; */
      /*margin-right: auto !important; */
-     margin-right: 70px; 
+     margin-right: 50px; 
     width: 50%; 
   }
 }
