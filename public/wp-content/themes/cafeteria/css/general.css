@@ -6209,6 +6209,10 @@ header.cf {
     height: 435px !important;
     background-size: 100% !important;
   }
+
+  .footer-right {
+    width: 100%;
+  }
 }
 
 @media only screen and (device-width: 768px) { /*and (device-width: 768px)*/ /*1024px*/
