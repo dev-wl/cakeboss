@@ -60,7 +60,7 @@ get_header(); ?>
 <!--Bottom menu-->
     <div class="bottom-menu">
         <img class="get-you-coffe" src="/wp-content/themes/cafeteria/css/images/script.png" />
-
+        <div class="ddd">
         <?php
             global $post;
             $args = array('category' => 16, 'numberposts' => -1, 'orderby' => 'post_date', 'order' => 'ASC' );
@@ -86,6 +86,7 @@ get_header(); ?>
                     <p class="text text-center"><?php echo get_the_content(); ?></p>
                 </div>
         <?php } endforeach; ?>
+        </div>
     </div>
     <div class="clearfix"></div>
 <!-- Services -->
