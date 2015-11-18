@@ -6269,13 +6269,15 @@ header.cf {
 
   .footerinfo-wrapper .footer-left {
      /*float: initial !important; */
-     margin-left: auto !important; 
+     /*margin-left: auto !important; */
     width: 50%; 
+    margin-left: 70px;
   }
 
   .footerinfo-wrapper .footer-right {
      /*float: initial !important; */
-     margin-right: auto !important; 
+     /*margin-right: auto !important; */
+     margin-right: 70px; 
     width: 50%; 
   }
 }
