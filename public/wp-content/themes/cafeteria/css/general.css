@@ -6118,6 +6118,14 @@ header.cf {
   .bottom-menu {
     max-width: 96%;
   }
+
+  .bottom-menu-item:first-child {
+    margin-left: 10px;
+  }
+
+  .bottom-menu-item {
+    margin-right: 10px !important;
+  }
 }
 
 @media only screen and (device-width: 768px) and (orientation:portrait) {
