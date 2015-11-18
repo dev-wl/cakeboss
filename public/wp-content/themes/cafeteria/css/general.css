@@ -6121,10 +6121,6 @@ header.cf {
   }
 
   .mobile-menu, .sr-menu { display: block; }
-
-  .bottom-menu-item p.text.text-center {
-    width: 45%;
-  }
 }
 
 @media (max-width: 670px) { /*iph6*/
@@ -6139,10 +6135,6 @@ header.cf {
 
   .col-4 .background {
     height: 224px !important;
-  }
-
-  .bottom-menu-item p.text.text-center {
-    width: 45%;
   }
 }
 
