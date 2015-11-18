@@ -6109,10 +6109,16 @@ header.cf {
   }
 }
 
+@media only screen and (device-width: 768px) and (orientation: landscape) {
+  .mobile-menu, .sr-menu { display: none; }
+}
+
 @media only screen and (device-width: 768px) and (orientation:portrait) {
   header.cf {
     overflow: initial !important;
   }
+
+  .mobile-menu, .sr-menu { display: block; }
 }
 
 @media (max-width: 670px) { /*iph6*/
@@ -6286,7 +6292,6 @@ header.cf {
     width: 64.5%; 
   }
 }
-
 
 @media only screen and (device-width: 768px) and (max-width: 942px) {
   .logo {
