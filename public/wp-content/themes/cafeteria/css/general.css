@@ -5659,7 +5659,8 @@ header .logo {
 }
 
 .col-6.left:first-child {
-  margin-left: 20%;
+  /*margin-left: 20%;*/
+  margin-left: 21%;
 }
 
 .center-align > ul {
