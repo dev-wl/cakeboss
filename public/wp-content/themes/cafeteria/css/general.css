@@ -6278,8 +6278,8 @@ header.cf {
   .footerinfo-wrapper .footer-right {
      /*float: initial !important; */
      /*margin-right: auto !important; */
-     margin-right: 0px; 
-    width: 50%; 
+     margin-right: 50px; 
+    width: 60%; 
   }
 }
 
