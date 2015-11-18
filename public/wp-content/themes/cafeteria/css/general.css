@@ -5772,7 +5772,8 @@ header .center-align > ul > li ul li a:hover {
 .bottom-menu {
   /*width: 56%;*/
   /*width: 57%;*/
-  max-width: 960px;
+  /*max-width: 960px;*/
+  max-width: 925px;
   /*width: 57%;*/
   margin: 0px auto;
 }
