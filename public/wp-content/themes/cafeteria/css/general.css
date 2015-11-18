@@ -4524,7 +4524,8 @@ p.errorh1 {
   }
 
   .col-6.left:first-child {
-    margin-left: 25% !important;
+    /*margin-left: 25% !important;*/
+    margin-left: 20.5% !important;
   }
 
   .logo {
