@@ -6285,14 +6285,10 @@ header.cf {
     /*width: 50%; */
     width: 64.5%; 
   }
+}
 
-  .mobile-menu {
-    display: none;
-  }
-
-  .sr-menu {
-    display: none;
-  }
+@media only screen and (device-width: 768px) and (orientation: landscape) {
+  .mobile-menu, .sr-menu { display: none; }
 }
 
 @media only screen and (device-width: 768px) and (max-width: 942px) {
