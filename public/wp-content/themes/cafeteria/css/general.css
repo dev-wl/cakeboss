@@ -6270,7 +6270,8 @@ header.cf {
   .footerinfo-wrapper .footer-left {
      /*float: initial !important; */
      /*margin-left: auto !important; */
-    width: 50%; 
+    /*width: 50%; */
+    width: 36%; 
     margin-left: 70px;
   }
 
