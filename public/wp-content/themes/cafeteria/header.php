@@ -128,6 +128,8 @@
                     return;
                 if($(window).width() <= 768 /* && $(document).height() < 2800*/)
                     return;
+                if($(window).height() < 800)
+                    return;
             }
             if($('#wpadminbar').css('display') == 'block') {
                 h += $('#wpadminbar').height();
