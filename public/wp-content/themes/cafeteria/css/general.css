@@ -6116,7 +6116,7 @@ header.cf {
   .mobile-menu, .sr-menu { display: none; }
 
   .bottom-menu {
-    width: 960px !important;
+    max-width: initial;
   }
 }
 
