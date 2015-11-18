@@ -6114,6 +6114,10 @@ header.cf {
 
 @media only screen and (device-width: 768px) and (orientation: landscape) {
   .mobile-menu, .sr-menu { display: none; }
+
+  .bottom-menu {
+    width: 960px;
+  }
 }
 
 @media only screen and (device-width: 768px) and (orientation:portrait) {
