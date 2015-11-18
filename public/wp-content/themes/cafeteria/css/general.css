@@ -6287,9 +6287,6 @@ header.cf {
   }
 }
 
-@media only screen and (device-width: 768px) and (orientation: landscape) {
-  .mobile-menu, .sr-menu { display: none; }
-}
 
 @media only screen and (device-width: 768px) and (max-width: 942px) {
   .logo {
