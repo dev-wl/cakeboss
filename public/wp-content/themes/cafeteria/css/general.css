@@ -6217,7 +6217,7 @@ header.cf {
   }
 }
 
-@media only screen and (device-width: 1024px) { /* (device-width: 768px) { */ /*1024px*/
+@media only screen and (device-width: 768px) { /* (device-width: 768px) { */ /*1024px*/
   header.cf .col-6 {
     width: auto !important;
   }
@@ -6272,7 +6272,7 @@ header.cf {
      /*margin-left: auto !important; */
     /*width: 50%; */
     width: 36%; 
-    margin-left: 30px;
+    margin-left: 70px;
   }
 
   .footerinfo-wrapper .footer-right {
