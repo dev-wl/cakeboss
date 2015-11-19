@@ -4428,11 +4428,24 @@ p.errorh1 {
   }
 }
 
+@media (max-device-width: 1280px) and (max-width: 1280px) {
+  .footer-left {
+    float: left;
+    margin-left: 90px;
+  }
+  .footer-right {
+    float: initial;
+    display: block;
+    width: initial;
+    margin: initial;
+  }
+} 
+
 @media (max-device-width: 1280px) {
   .contact-form input[type='submit']{
     margin-top: -5px;
   }
- !
+ 
   header.cf.fx {
     background: none;
   }
