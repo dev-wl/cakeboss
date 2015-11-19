@@ -144,9 +144,8 @@
                 $('div.logo').css('display', 'block');
             }
 
-            if($(window).scrollTop() > 16) {
-                console.log('singlescroll');
-            }
+            console.log('scrollTop: ' + $(window).scrollTop());
+           
         });
 
         //prevent dropdown clicks on mobile devices
