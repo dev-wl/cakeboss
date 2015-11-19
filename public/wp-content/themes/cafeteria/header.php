@@ -144,8 +144,8 @@
                 $('div.logo').css('display', 'block');
             }
 
-            if($(window).scrollTop() == 0) {
-                console.log('zeroscroll');
+            if($(window).scrollTop() > 0) {
+                console.log('no zeroscroll');
             }
         });
 
