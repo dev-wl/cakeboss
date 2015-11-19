@@ -4434,7 +4434,7 @@ p.errorh1 {
     margin-left: 90px;
   }
   .footer-right {
-    float: initial !important;
+    float: right;
     display: block !important;
     width: initial !important;
     margin: initial !important;
