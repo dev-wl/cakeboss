@@ -4403,11 +4403,11 @@ p.errorh1 {
   }
 
   .footer-small .footerinfo-wrapper .footer-right {
-    float: right;
+    /*float: right;*/
     /*width: initial;
     margin-right: 100px;*/
     display: block;
-    width: 63%;
+    width: 358px;
     margin: 0px auto;
   }
 }
