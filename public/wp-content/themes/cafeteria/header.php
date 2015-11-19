@@ -139,7 +139,8 @@
             if($(window).scrollTop() > h) {
                 $('header.cf').addClass('fx');
                 $('div.logo').css('display', 'none');
-            } else if($(window).scrollTop() < h || $(window).scrollTop() == 0) {
+            } 
+            if($(window).scrollTop() <= h || $(window).scrollTop() == 0) {
                 $('header.cf').removeClass('fx');
                 $('div.logo').css('display', 'block');
             }
