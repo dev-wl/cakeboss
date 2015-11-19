@@ -4435,9 +4435,9 @@ p.errorh1 {
   }
   .footer-small .footer-right {
     float: right;
-    display: block !important;
-    width: initial !important;
-    margin: initial !important;
+    display: block;
+    width: initial;
+    margin: initial;
   }
 } 
 
