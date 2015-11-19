@@ -4398,7 +4398,7 @@ p.errorh1 {
 
   .footerinfo-wrapper .footer-left {
     float: left;
-    margin-left: 90px;
+    /*margin-left: 90px;*/
     width: 360px;
   }
 
