@@ -4570,7 +4570,7 @@ p.errorh1 {
     }
 }
 
-@media (max-width: 1230px) {
+@media (max-width: 1200px) {
   .footer-left {
     float: initial;
   }
