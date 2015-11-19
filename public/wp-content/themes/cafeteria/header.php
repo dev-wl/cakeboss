@@ -136,7 +136,7 @@
             if($('#wpadminbar').css('display') == 'block') {
                 h += $('#wpadminbar').height();
             }
-            if($(window).scrollTop() > h) {
+            if($(window).scrollTop() >= h) {
                 $('header.cf').addClass('fx');
                 $('div.logo').css('display', 'none');
             } else {
