@@ -4451,7 +4451,7 @@ p.errorh1 {
   }
 
   .footer-right {
-    float: none !important;
+    float: none;
     display: block;
     width: 50%;
     margin: 0px auto;
