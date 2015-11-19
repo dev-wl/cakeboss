@@ -4402,7 +4402,7 @@ p.errorh1 {
     width: 360px;
   }
 
-  .footerinfo-wrapper .footer-right {
+  .footer-small .footerinfo-wrapper .footer-right {
     float: right;
     /*width: initial;
     margin-right: 100px;*/
