@@ -140,7 +140,6 @@
                 $('header.cf').addClass('fx');
                 $('div.logo').css('display', 'none');
                 $('body').css('margin-top', h + 'px');
-                console.log('more');
             } else {
                 $('header.cf').removeClass('fx');
                 $('div.logo').css('display', 'block');
