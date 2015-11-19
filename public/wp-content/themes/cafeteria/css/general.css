@@ -4573,6 +4573,7 @@ p.errorh1 {
 @media (max-width: 1200px) {
   .footer-small .footerinfo-wrapper .footer-left {
     float: initial;
+    margin: 0px auto;
   }
 
   .footer-small .footerinfo-wrapper .footer-right {
