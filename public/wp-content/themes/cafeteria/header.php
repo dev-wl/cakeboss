@@ -118,10 +118,7 @@
         }
 
         $(window).on('scroll', function(e) {
-            if(!mobile && $(document).height() < 1100) {
-                // h += 100;
-                return;
-            } else if(mobile) {
+            if(mobile) {
                 if($(window).width() < 700 && $(document).height() < 960)
                     return;
                 if($(window).width() <= 768 /* && $(document).height() < 2800*/)
@@ -129,6 +126,10 @@
                 if($(document).height() < 800)
                     return;
             }
+
+            if(!mobile && $(document).height() < 1100) {
+                return;
+            } 
 
             h = $('header.cf').height();
             if($('#wpadminbar').css('display') == 'block') {
