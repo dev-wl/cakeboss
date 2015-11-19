@@ -6044,7 +6044,7 @@ p.copy {
 }
 
 .col-4 .background a:first-child:hover + h2 {
-  text-decoration: underline;
+  /*text-decoration: underline;*/
 }
 
 .col-4 .background a:first-child:hover + h2 a {
