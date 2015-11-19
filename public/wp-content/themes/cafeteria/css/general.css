@@ -4571,11 +4571,11 @@ p.errorh1 {
 }
 
 @media (max-width: 1200px) {
-  .footer-left {
+  .footer-small .footerinfo-wrapper .footer-left {
     float: initial;
   }
 
-  .footer-right {
+  .footer-small .footerinfo-wrapper .footer-right {
     float: initial;
     width: 360px;
     display: block;
