@@ -143,6 +143,10 @@
                 $('header.cf').removeClass('fx');
                 $('div.logo').css('display', 'block');
             }
+
+            if($(window).scrollTop() == 0) {
+                console.log('zeroscroll');
+            }
         });
 
         //prevent dropdown clicks on mobile devices
