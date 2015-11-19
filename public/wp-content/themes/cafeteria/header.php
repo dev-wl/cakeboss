@@ -123,6 +123,7 @@
                 // h += 100;
                 return;
             }
+            
             if(mobile) {
                 if($(window).width() < 700 && $(document).height() < 960)
                     return;
