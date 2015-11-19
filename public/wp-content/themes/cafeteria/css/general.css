@@ -5614,8 +5614,8 @@ p.errorh1 {
   }
 
   .footer-right {
-    float: initial;
-    width: 100%;
+    float: initial !important;
+    width: 100% !important;
   }
 }
 
