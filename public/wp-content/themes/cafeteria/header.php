@@ -118,30 +118,32 @@
         }
 
         $(window).on('scroll', function(e) {
+            hide = true;
             if(mobile) {
                 if($(window).width() < 700 && $(document).height() < 960)
-                    return;
+                    hide = false;
                 if($(window).width() <= 768 /* && $(document).height() < 2800*/)
-                    return;
+                    hide = false;
                 if($(document).height() < 800)
-                    return;
+                    hide = false;
             }
 
             if(!mobile && $(document).height() < 1100) {
-                console.log('less and return!!!');
-                return;
+                hide = false;
             } 
 
-            h = $('header.cf').height();
-            if($('#wpadminbar').css('display') == 'block') {
-                h += $('#wpadminbar').height();
-            }
-            if($(window).scrollTop() > h) {
-                $('header.cf').addClass('fx');
-                $('div.logo').css('display', 'none');
-            } else {
-                $('header.cf').removeClass('fx');
-                $('div.logo').css('display', 'block');
+            if(hide === true) {
+                h = $('header.cf').height();
+                if($('#wpadminbar').css('display') == 'block') {
+                    h += $('#wpadminbar').height();
+                }
+                if($(window).scrollTop() > h) {
+                    $('header.cf').addClass('fx');
+                    $('div.logo').css('display', 'none');
+                } else {
+                    $('header.cf').removeClass('fx');
+                    $('div.logo').css('display', 'block');
+                }
             }
         });
 
