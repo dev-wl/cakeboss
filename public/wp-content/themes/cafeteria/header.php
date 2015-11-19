@@ -128,6 +128,7 @@
             }
 
             if(!mobile && $(document).height() < 1100) {
+                console.log('less and return!!!');
                 return;
             } 
 
