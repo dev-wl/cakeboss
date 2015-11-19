@@ -6139,7 +6139,7 @@ header.cf {
   .mobile-menu, .sr-menu { display: block; }
 
   .bottom-menu-item p.text.text-center {
-    text-align: justify;
+    text-align: left;
   }
 }
 
@@ -6158,7 +6158,7 @@ header.cf {
   }
 
   .bottom-menu-item p.text.text-center {
-    text-align: justify;
+    text-align: left;
   }
 }
 
