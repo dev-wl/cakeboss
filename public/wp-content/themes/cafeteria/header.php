@@ -129,7 +129,7 @@
 
             if(!mobile && $(document).height() < 1260) {
                 // h += 100;
-                return;
+                // return;
             } 
 
             h = $('header.cf').height();
