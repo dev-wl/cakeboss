@@ -5612,6 +5612,11 @@ p.errorh1 {
   .our-menu .col-4 .background {
     height: 334px !important;
   }
+
+  .footer-right {
+    float: initial;
+    width: 100%;
+  }
 }
 
 /*WL-AK styles*/
