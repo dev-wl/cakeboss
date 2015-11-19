@@ -87,8 +87,8 @@ get_header(); ?>
                 </div>
         <?php } endforeach; ?>
     </div>
-    <a name="about"></a>
     <div class="clearfix"></div>
+    <a name="about"></a>
 <!-- Services -->
 <?php if(ale_get_meta('serviceonhome')=='on') { ?>
     <!-- <div> -->
