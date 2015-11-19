@@ -4404,8 +4404,11 @@ p.errorh1 {
 
   .footerinfo-wrapper .footer-right {
     float: right;
-    width: initial;
-    margin-right: 100px;
+    /*width: initial;
+    margin-right: 100px;*/
+    display: block;
+    width: 63%;
+    margin: 0px auto;
   }
 }
 
