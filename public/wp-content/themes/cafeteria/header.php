@@ -119,7 +119,7 @@
 
         $(window).on('scroll', function(e) {
             h = $('header.cf').height();
-            if(!mobile && $(document).height() < 990) {
+            if(!mobile && $(document).height() < 1100) {
                 // h += 100;
                 return;
             }
