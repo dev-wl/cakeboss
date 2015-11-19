@@ -4460,17 +4460,16 @@ p.errorh1 {
 
 @media (min-device-width:1281px) and (max-width: 1515px)  {
   .footer-left {
-    float: none !important;
+    /*float: none !important;*/
     display: block;
     width: 50%;
     margin: 0px auto;
   }
 
   .footer-right {
-    float: initial;
+    float: none;
     display: block;
-    /*width: 50%;*/
-    width: 360px;
+    width: 50%;
     margin: 0px auto;
   }
 }
