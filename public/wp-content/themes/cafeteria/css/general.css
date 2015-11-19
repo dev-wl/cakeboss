@@ -4437,7 +4437,7 @@ p.errorh1 {
     float: right  !important;
     display: block !important;
     width: initial !important;
-    margin-top: 18px;
+    margin-top: 18px !important;
   }
 } 
 
