@@ -5610,7 +5610,8 @@ p.errorh1 {
   }
 
   .our-menu .col-4 .background {
-    height: 334px !important;
+    /*height: 334px !important;*/
+    height: 278px !important;
   }
 
   .footer-right {
