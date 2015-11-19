@@ -144,7 +144,7 @@
                 $('div.logo').css('display', 'block');
             }
 
-            if($(window).scrollTop() == 1) {
+            if($(window).scrollTop() == 16) {
                 console.log('singlescroll');
             }
         });
