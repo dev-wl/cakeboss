@@ -6172,7 +6172,7 @@ header.cf {
     margin-left: initial !important;
   }
 
-  .footer-right {
+  .footer-small .footerinfo-wrapper .footer-right {
     width: 100%;
   }
 
