@@ -1794,7 +1794,10 @@ section .center-align .top {
 .our-menu .background img {
   /*position: absolute;*/
   margin-bottom: 10px;
-  width: 100%;
+  /*width: 100%;*/
+  width: 85%;
+  display: block;
+  margin: 0px auto;
   /*height: 144px;*/
   height: auto;
   -webkit-border-top-right-radius: 5px;
