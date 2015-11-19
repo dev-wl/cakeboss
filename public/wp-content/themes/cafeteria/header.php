@@ -132,16 +132,16 @@
                 if($(document).height() < 800)
                     return;
             }
-            if($('#wpadminbar').css('display') == 'block') {
-                h += $('#wpadminbar').height();
-            }
-            if($(window).scrollTop() > h) {
-                $('header.cf').addClass('fx');
-                $('div.logo').css('display', 'none');
-            } else {
-                $('header.cf').removeClass('fx');
-                $('div.logo').css('display', 'block');
-            }
+            // if($('#wpadminbar').css('display') == 'block') {
+            //     h += $('#wpadminbar').height();
+            // }
+            // if($(window).scrollTop() > h) {
+            //     $('header.cf').addClass('fx');
+            //     $('div.logo').css('display', 'none');
+            // } else {
+            //     $('header.cf').removeClass('fx');
+            //     $('div.logo').css('display', 'block');
+            // }
         });
 
         //prevent dropdown clicks on mobile devices
