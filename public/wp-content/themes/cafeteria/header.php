@@ -154,7 +154,7 @@
             //     }
             // });
 
-            $('#menu-general-menu li:eq(0), #menu-general-menu li:eq(4), #menu-right-general-menu li:eq(0), #menu-right-general-menu li:eq(5)').click(function(e) {
+            $('#menu-general-menu li:eq(0), #menu-general-menu li:eq(3), #menu-right-general-menu li:eq(0), #menu-right-general-menu li:eq(5)').click(function(e) {
                 var target = $( e.target );
                 if ( target.is( "ul.sub-menu li a" ) )
                     console.log('aaa');
