@@ -4570,6 +4570,19 @@ p.errorh1 {
     }
 }
 
+@media (max-width: 1200px) {
+  .footer-left {
+    float: initial;
+  }
+
+  .footer-right {
+    float: initial;
+    width: 360px;
+    display: block;
+    margin: 0px auto;
+  }
+}
+
 /* 1010
 /* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
 @media (max-width: 1010px) {
