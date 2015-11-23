@@ -5879,7 +5879,11 @@ img.bottom-menu-img {
 }
 
 .tw-icon {
-  height: 41px !important;
+  height: 58px !important;
+}
+
+.fb-icon {
+  height: 71px;
 }
 
 .footer-left {
