@@ -1210,7 +1210,7 @@ article .line-cake .line.right {
   top: 128px;
 }
 .our-services .content .col-3 .text {
-  margin-top: 15px;
+  margin-top: 50px !important;
   padding: 0 20px;
 }
 section {
@@ -1688,6 +1688,7 @@ section .center-align .top {
   text-align: center;
   width: 129px;
   float: left;
+  font-family: "ChunkFive" !important;
 }
 /*.our-menu*/ .filter-line a {
   margin-left: 10px;
@@ -1852,16 +1853,16 @@ section .center-align .top {
   transition: all 0.3s ease;
 }
 .our-menu .background .circle:hover {
-  -webkit-box-shadow: 0 30px 30px rgba(255, 216, 128, 0.66);
-  -moz-box-shadow: 0 30px 30px rgba(255, 216, 128, 0.66);
-  box-shadow: 0 30px 30px rgba(255, 216, 128, 0.66);
+  -webkit-box-shadow: 0 15px 15px rgba(255, 216, 128, 0.66);
+  -moz-box-shadow: 0 15px 15px rgba(255, 216, 128, 0.66);
+  box-shadow: 0 15px 15px rgba(255, 216, 128, 0.66);
 }
 .our-menu .background h2 {
   /*position: absolute;*/
   font-size: 30px;
   width: 100%;
   text-align: center;
-  top: 170px;
+  top: 170px !important;
   z-index: 12;
 }
 .our-menu .background .text {
@@ -4386,8 +4387,7 @@ p.errorh1 {
   }
 
   .footerinfo-wrapper {
-    /*max-width: 100% !important;*/
-    max-width: 84% !important;
+    max-width: 100% !important;
   }
   
   .text.story p a img:nth-child(1), img.headerImage {
@@ -4404,13 +4404,12 @@ p.errorh1 {
   }
 
   .footer-small .footerinfo-wrapper .footer-right {
-    float: right;
-    width: initial;
-    /*margin-right: 100px;*/
+    float: initial;
+    /*width: initial;
+    margin-right: 100px;*/
     display: block;
-    /*width: 358px;*/
+    width: 358px;
     margin: 0px auto;
-    margin-top: 18px;
   }
 }
 
@@ -4431,17 +4430,15 @@ p.errorh1 {
 }
 
 @media (max-device-width: 1280px) and (max-width: 1280px) {
-  /*.footer-left {
+  .footer-left {
     float: left;
     margin-left: 90px;
   }
-  .footer-small .footer-right {
-    float: right  !important;
-    display: block !important;
-    width: initial !important;
-    margin-top: 18px !important;
-    margin-right: 50px;
-  }*/
+  .footer-right {
+    float: right;
+    display: block;
+    width: 50%;
+  }
 } 
 
 @media (max-device-width: 1280px) {
@@ -4460,7 +4457,7 @@ p.errorh1 {
 
 @media (min-device-width:1281px) and (max-width: 1515px)  {
   .footer-left {
-    /*float: none !important;*/
+    float: none !important;
     display: block;
     width: 50%;
     margin: 0px auto;
@@ -4568,20 +4565,6 @@ p.errorh1 {
     .col-6.left:first-child {
       margin-left: 18% !important;
     }
-}
-
-@media (max-width: 1200px) {
-  .footer-small .footerinfo-wrapper .footer-left {
-    float: initial;
-    margin: 0px auto;
-  }
-
-  .footer-small .footerinfo-wrapper .footer-right {
-    float: initial;
-    width: 360px;
-    display: block;
-    margin: 0px auto;
-  }
 }
 
 /* 1010
@@ -5886,8 +5869,7 @@ img.bottom-menu-img {
 }
 
 .footerinfo-wrapper {
-  /*max-width: 60%;*/
-  max-width: 67%;
+  max-width: 60%;
   margin: 0px auto;
   margin-top: 54px;
 }
@@ -5916,8 +5898,11 @@ p.privacy {
 
 .footer-right {
   float: right;
-  font-size: 6px;
+  font-size: 12px;
   margin-top: 18px;
+  color: #fff !important;
+  /*margin-left: 10px;*/
+  font-family: "MyriadPro-Semibold";
 }
 
 span.tlc-logo {
@@ -6047,7 +6032,7 @@ p.copy {
   background-clip: padding-box;
   -webkit-box-shadow: 0px 15px 15px rgba(34, 34, 34, 0.6);
   -moz-box-shadow: 0px 15px 15px rgba(34, 34, 34, 0.6);
-  box-shadow: 0px 15px 15px rgba(34, 34, 34, 0.6);
+  box-shadow: 0px 5px 5px rgba(34, 34, 34, 0.6);
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
@@ -6055,9 +6040,9 @@ p.copy {
   transition: all 0.3s ease;
 }
 .our-services .content .square:hover {
-  -webkit-box-shadow: 0px 30px 30px rgba(34, 34, 34, 0.6);
-  -moz-box-shadow: 0px 30px 30px rgba(34, 34, 34, 0.6);
-  box-shadow: 0px 30px 30px rgba(34, 34, 34, 0.6);
+  -webkit-box-shadow: 0px 15px 15px rgba(34, 34, 34, 0.6);
+  -moz-box-shadow: 0px 15px 15px rgba(34, 34, 34, 0.6);
+  box-shadow: 0px 15px 15px rgba(34, 34, 34, 0.6);
 }
 .our-services .content .square .img {
   visibility: hidden;
@@ -6478,13 +6463,15 @@ p.products-header {
 }
 
 .background .firstfont.colormain {
-  font-size: 27px;
+  font-size: 30px;
+  padding-top: 25px;
 }
 
 .our-menu .background .text {
   font-family: "MyriadPro-Semibold";
+  text-transform: uppercase;
   text-align: center;
-  font-size: 28px;
+  font-size: 24px;
 }
 
 .text.story h2.firstfont.caption.colormain {

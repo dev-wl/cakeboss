@@ -56,14 +56,14 @@ get_header(); ?>
     <div class="clearfix"></div>
 
     <a name="products"></a>
-    
+  
 <!--Bottom menu-->
     <div class="bottom-menu">
         <img class="get-you-coffe" src="/wp-content/themes/cafeteria/css/images/script.png" />
 
         <?php
             global $post;
-            $args = array('category' => 16, 'numberposts' => -1, 'orderby' => 'post_date', 'order' => 'ASC' );
+            $args = array('category' => 20, 'numberposts' => -1, 'orderby' => 'post_date', 'order' => 'ASC' );
             $myposts = get_posts( $args );
             $i = 0;
             foreach ( $myposts as $post ) : {
@@ -88,7 +88,7 @@ get_header(); ?>
         <?php } endforeach; ?>
     </div>
     <div class="clearfix"></div>
-    <a name="about"></a>
+<a name="about"></a>
 <!-- Services -->
 <?php if(ale_get_meta('serviceonhome')=='on') { ?>
     <!-- <div> -->

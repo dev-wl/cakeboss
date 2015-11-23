@@ -25,7 +25,7 @@
                     $categories = get_categories( $args );
                     foreach($categories as $cat){ ?>
                         <?php
-                            if(in_array($cat->name, array('Main page bottom menu', 'Retailers', 'Uncategorized')))
+                            if(in_array($cat->name, array('Main page bottom menu', 'Retailers', 'Uncategorized', 'Coffees', 'Service posts')))
                                 continue;
                         ?>
                         <a href="<?php echo home_url(); ?>/category/<?php echo $cat->slug; ?>">

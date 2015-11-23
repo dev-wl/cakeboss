@@ -11,7 +11,7 @@ get_header();
     <div>
         <!-- Our Services -->
         <article class="our-services cf">
-            <h2 class="firstfont caption colormain">Our partners</h2>
+            <h2 class="firstfont caption colormain">Our Retailers</h2>
             <div class="center-align">
                 <div class="line-cake">
                     <div class="cake"></div>
@@ -36,7 +36,7 @@ get_header();
                             <div class="square" style="background-image: url('<?php echo $url; ?>'); background-position: 50% 52%; background-repeat: no-repeat; background-size: 77% auto;">
                                 <div class="img"></div>
                             </div>
-                            <h2 class="firstfont caption colormain" style="top: 148px;"><?php the_title(); ?></h2>
+                            <h2 class="firstfont caption colormain" style="top: 180px !important;"><?php the_title(); ?></h2>
                             <p class="text text-center"><?php echo $post->post_content; ?></p>
                         </div>
                     <?php } if($i == 4): {
