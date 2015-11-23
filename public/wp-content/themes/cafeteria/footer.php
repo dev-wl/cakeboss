@@ -1,7 +1,7 @@
         <section class="footer footer-small">
             <div class="footerinfo-wrapper">
                 <div class="footer-left">FOLLOW US ON <a href="https://twitter.com/cakebosscoffee" target="_blank"><img src="/wp-content/themes/cafeteria/css/images/twitter-circle-white.png" class="tw-icon"/></a> <a href="https://www.facebook.com/cakebosscoffee/" target="_blank"><img src="/wp-content/themes/cafeteria/css/images/facebook.png" class="fb-icon"/></a> <a href="/privacy-policy"><p class="privacy">Privacy Policy</p></a></div>
-                <div class="footer-right"><img src="/wp-content/themes/cafeteria/css/images/TLC_Logo.png"/> <p>&copy;2015 Discovery Communications, LLC. TLC, CakeBoss and related logos are trademarks of Discovery Communications, LLC, used under license. All rights reserved. tlc.com/cake-boss </p></div>
+                <div class="footer-right"><img src="/wp-content/themes/cafeteria/css/images/TLC_Logo.png"/> &copy;2015 Discovery Communications, LLC. TLC, CakeBoss and related logos are trademarks of Discovery Communications, LLC, used under license. All rights reserved. tlc.com/cake-boss </div>
 
                 <div class="clearfix"></div>
             </div>
