@@ -4408,7 +4408,7 @@ p.errorh1 {
     /*width: initial;
     margin-right: 100px;*/
     display: block;
-    margin: 17px 150px 0px auto;
+    margin: 10px 150px 0px auto;
     width: 430px;
     float: right;
   }
@@ -5821,6 +5821,7 @@ header .center-align > ul > li ul li a:hover {
 
 .slider.cf {
   /*height: 107px !important;*/
+  padding-top: 10px;
 }
 
 .mosaic {
