@@ -4372,6 +4372,12 @@ p.errorh1 {
 }
 /*end of menu*/
 
+@media (max-width: 1780px) {
+  .slider .slides > li{
+    height: 778px !important;
+  }
+}
+
 @media (max-width: 1560px) {
   .logo {
     left: 8% !important;
