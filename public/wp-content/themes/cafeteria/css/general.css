@@ -5883,7 +5883,7 @@ img.bottom-menu-img {
 }
 
 .fb-icon {
-  height: 71px;
+  height: 71px !important;
 }
 
 .footer-left {
