@@ -4384,6 +4384,32 @@ p.errorh1 {
   }
 }
 
+@media (max-width: 1670px) {
+  .slider .slides > li{
+    height: 755px !important;
+  }
+}
+
+@media (max-width: 1650px) {
+  .slider .slides > li{
+    height: 742px !important;
+  }
+}
+
+
+@media (max-width: 1630px) {
+  .slider .slides > li{
+    height: 733px !important;
+  }
+}
+
+@media (max-width: 1590px) {
+  .slider .slides > li{
+    height: 715px !important;
+  }
+}
+
+
 @media (max-width: 1560px) {
   .logo {
     left: 8% !important;
