@@ -6674,3 +6674,7 @@ article > h2.firstfont.caption.colormain {
 header .center-align > ul > li ul li:hover {
   background: rgba(0, 0, 0, 0.1) url("images/star1.png") no-repeat scroll 7% center;
 }
+
+span.ref {
+  font-family: "MyriadPro-Semibold" !important;
+}
