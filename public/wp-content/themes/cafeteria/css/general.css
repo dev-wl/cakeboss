@@ -4450,6 +4450,34 @@ p.errorh1 {
     width: 430px;
     float: right;
   }
+
+  .slider .slides > li{
+    height: 704px !important;
+  }
+}
+
+@media (max-width: 1530px) {
+   .slider .slides > li{
+    height: 693px !important;
+  }
+}
+
+@media (max-width: 1500px) {
+   .slider .slides > li{
+    height: 682px !important;
+  }
+}
+
+@media (max-width: 1470px) {
+   .slider .slides > li{
+    height: 671px !important;
+  }
+}
+
+@media (max-width: 1430px) {
+   .slider .slides > li{
+    height: 660px !important;
+  }
 }
 
 @media (min-device-width: 1280px) and (max-width: 1220px) {
