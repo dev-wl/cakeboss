@@ -5902,11 +5902,18 @@ p.privacy {
 
 .footer-right {
   float: right;
+}
+
+.footer-right p {
   font-size: 12px;
   margin-top: 18px;
   color: #fff !important;
   /*margin-left: 10px;*/
   font-family: "MyriadPro-Semibold";
+}
+
+.footer-right img {
+  float: right;
 }
 
 span.tlc-logo {
