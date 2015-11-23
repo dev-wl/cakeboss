@@ -5687,6 +5687,7 @@ p.errorh1 {
     width: 100% !important;
     }
   .footer-right p {
+    text-align: left;
     font-size: 6px !important;
     width: 227px !important;
     margin-right: 7px !important;
