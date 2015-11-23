@@ -174,9 +174,10 @@
         //}
     });
     
-    $('#menu-mobile-menu li:eq(1), #menu-general-menu li:eq(1)').click(function() {
-        $(document.body).animate({
-            'scrollTop':   $('a[name="about"]').offset().top
+    // $('#menu-mobile-menu li:eq(1), #menu-general-menu li:eq(1)').click(function() {
+    $('a[href="/#about"]').click(function(e) {
+        $('body, html').animate({
+            'scrollTop':   $('a[name="about"]').offset().top - 120
         }, 2000);
     });
 
