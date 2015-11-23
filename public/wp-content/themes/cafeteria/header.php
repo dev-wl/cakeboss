@@ -123,7 +123,7 @@
                     return;
                 if($(window).width() <= 768 /* && $(document).height() < 2800*/)
                     return;
-                if($(document).height() < 800)
+                if($(document).height() < 930)
                     return;
             }
 
