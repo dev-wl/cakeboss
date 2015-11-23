@@ -20,6 +20,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+/*DEV*/
 define('DB_NAME', 'cakeboss');
 
 /** MySQL database username */
@@ -36,6 +37,14 @@ define('DB_CHARSET', 'utf8mb4');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
+
+/*LIVE*/
+// define('DB_NAME', 'db592984755');
+// define('DB_USER', 'dbo592984755');
+// define('DB_PASSWORD', 'LK0hv45Lyg_cb');
+// define('DB_HOST', 'db592984755.db.1and1.com');
+// define('DB_CHARSET', 'utf8mb4');
+// define('DB_COLLATE', '');
 
 /**#@+
  * Authentication Unique Keys and Salts.
@@ -79,8 +88,13 @@ $table_prefix  = 'wp_';
  */
 define('WP_DEBUG', false);
 
+/*DEV*/
 define('WP_HOME','http://cakeboss.dev.wonderslab.com');
 define('WP_SITEURL','http://cakeboss.dev.wonderslab.com');
+
+/*LIVE*/
+// define('WP_HOME','http://cakebosscoffees.com/');
+// define('WP_SITEURL','http://cakebosscoffees.com/');
 
 /* That's all, stop editing! Happy blogging. */
 
