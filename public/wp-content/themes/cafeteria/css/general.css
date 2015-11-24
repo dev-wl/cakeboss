@@ -5725,6 +5725,10 @@ header.cf.fx {
   background: transparent linear-gradient(to top, #B22222, #F00) repeat scroll 0% 0% !important;
 }
 
+header.cf.fx .sol-6 {
+  border: none;
+}
+
 header.cf.fx ul {
   margin-top: 3px !important;
   border: none !important;
