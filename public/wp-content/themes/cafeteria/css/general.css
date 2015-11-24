@@ -6728,5 +6728,9 @@ span.ref {
 }
 
 .flex-active-slide {
+  opacity: 1;
+}
+
+.slides li {
   opacity: 0;
 }
