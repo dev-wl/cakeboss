@@ -5660,8 +5660,8 @@ p.errorh1 {
     height: 181px;
   }
 
-  ul.slides li {
-    height: 181px !important;
+  .slider.cf ul.slides li {
+    height: 144px !important;
     background-size: 100% !important
   }
 
@@ -6231,11 +6231,33 @@ header.cf {
   }
 }
 
+@media only screen and (device-width: 1024px) and (orientation: landscape) { /*ipad ladscape test; 768px not always working*/
+  .footerinfo-wrapper .footer-left  {
+    margin-left: 30px;
+  }
+
+  .slider .slides > li {
+    height: 458px;
+  }
+
+  .slider {
+    height: 461px;
+  }
+}
+
 @media only screen and (device-width: 768px) and (orientation: landscape) {
   .mobile-menu, .sr-menu { display: none; }
 
   .bottom-menu {
     max-width: 96%;
+  }
+  
+  .slider .slides > li {
+    height: 461px;
+  }
+  
+  .slider {
+    height: 461px;
   }
 
   .footerinfo-wrapper .footer-left  {
@@ -6257,11 +6279,11 @@ header.cf {
 
 @media (max-width: 670px) { /*iph6*/
   .slider.cf {
-    height: 314px;
+    height: 255px;
   }
 
   ul.slides li {
-    height: 314px !important;
+    height: 252px !important;
     /*background-size: 100% !important;*/
   }
 
@@ -6362,11 +6384,11 @@ header.cf {
   }
 
   .slider.cf {
-    height: 435px;
+    height: 345px;
   }
 
   ul.slides li {
-    height: 435px !important;
+    height: 345px !important;
     background-size: 100% !important;
   }
 
@@ -6419,11 +6441,10 @@ header.cf {
   }
 
   .slider.cf {
-    height: 420px;
+    height: 355px;
   }
 
   ul.slides li {
-    height: 420px !important;
     background-size: 100% !important;
   }
 
