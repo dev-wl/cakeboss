@@ -5666,15 +5666,6 @@ p.errorh1 {
     margin-left: 1px !important;
   }
   
-  body .slider.cf {
-    height: 187px;
-  }
-
-  .slider.cf ul.slides li {
-    height: 144px !important;
-    background-size: 100% !important
-  }
-
   .our-menu .gallery.cf .col-4 {
     width: 85%;
     margin: 0px auto;
@@ -5708,6 +5699,17 @@ p.errorh1 {
     height: 14px !important;
     float: initial !important;
     margin-top: 13px;
+  }
+}
+
+@media  (width: 400px) and (max-device-width: 1000px) {
+  body .slider.cf {
+    height: 187px;
+  }
+
+  .slider.cf ul.slides li {
+    height: 144px !important;
+    background-size: 100% !important
   }
 }
 
