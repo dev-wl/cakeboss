@@ -3904,7 +3904,7 @@ p.errorh1 {
   visibility: visible !important;
 }
 @keyframes slideUp {
-  0% {
+  /*0% {
     transform: translateY(100%);
   }
   50% {
@@ -3921,10 +3921,10 @@ p.errorh1 {
   }
   100% {
     transform: translateY(0%);
-  }
+  }*/
 }
 @-webkit-keyframes slideUp {
-  0% {
+ /* 0% {
     -webkit-transform: translateY(100%);
   }
   50% {
@@ -3941,7 +3941,7 @@ p.errorh1 {
   }
   100% {
     -webkit-transform: translateY(0%);
-  }
+  }*/
 }
 .fadeIn {
   animation-name: fadeIn;
@@ -3953,7 +3953,7 @@ p.errorh1 {
   visibility: visible !important;
 }
 @keyframes fadeIn {
-  0% {
+  /*0% {
     transform: scale(0);
     opacity: 0.0;
   }
@@ -3962,15 +3962,15 @@ p.errorh1 {
   }
   80% {
     transform: scale(0.9);
-    /*opacity: 1;*/
+    opacity: 1;
   }
   100% {
     transform: scale(1);
-    /*opacity: 1;*/
-  }
+    opacity: 1;
+  }*/
 }
 @-webkit-keyframes fadeIn {
-  0% {
+  /*0% {
     -webkit-transform: scale(0);
     opacity: 0.0;
   }
@@ -3979,12 +3979,12 @@ p.errorh1 {
   }
   80% {
     -webkit-transform: scale(0.9);
-    /*opacity: 1;*/
+    opacity: 1;
   }
   100% {
     -webkit-transform: scale(1);
-    /*opacity: 1;*/
-  }
+    opacity: 1;
+  }*/
 }
 /**** Isotope Filtering ****/
 .isotope-item {
