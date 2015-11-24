@@ -16,12 +16,12 @@ jQuery(function($) {
         prevText: "",
         nextText: "",
         start: function(){
-            $('.slider .box,.slider .shadow').removeClass('slideUp');
-            $('.slider li:first .box,.slider li:first .shadow').addClass('slideUp');
+            // $('.slider .box,.slider .shadow').removeClass('slideUp');
+            // $('.slider li:first .box,.slider li:first .shadow').addClass('slideUp');
         },
         after: function(){
-            $('.slider .box,.slider .shadow').removeClass('slideUp');
-            $('.slider .flex-active-slide .box,.slider .flex-active-slide .shadow').addClass('slideUp');
+            // $('.slider .box,.slider .shadow').removeClass('slideUp');
+            // $('.slider .flex-active-slide .box,.slider .flex-active-slide .shadow').addClass('slideUp');
         },
         useCSS: false
     });
