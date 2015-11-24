@@ -6262,11 +6262,11 @@ header.cf {
 
   .footer-small .footerinfo-wrapper .footer-left  {
     float: left !important;
-    margin-left: 10px !important;
+    margin-left: 30px !important;
   }
 
   .footer-small .footerinfo-wrapper .footer-right {
-    margin-right: 0px !important;
+    margin-right: 20px !important;
   }
 }
 
