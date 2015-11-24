@@ -6231,21 +6231,21 @@ header.cf {
   }
 }
 
-@media only screen and (device-width: 1024px) and (orientation: landscape) { /*ipad ladscape test; 768px not always working*/
+@media only screen and (device-width: 768px) and (orientation: landscape) { /*ipad ladscape test; 768px not always working*/
   .footerinfo-wrapper .footer-left  {
     margin-left: 30px;
   }
 
   .slider .slides > li {
-    height: 458px;
+    height: 478px;
   }
 
   .slider {
-    height: 471px;
+    height: 491px;
   }
 }
 
-@media only screen and (device-width: 1024px) and (orientation: landscape) {
+@media only screen and (device-width: 768px) and (orientation: landscape) {
   .mobile-menu, .sr-menu { display: none; }
 
   .bottom-menu {
@@ -6253,11 +6253,11 @@ header.cf {
   }
   
   .slider .slides > li {
-    height: 461px;
+    height: 471px;
   }
   
   .slider {
-    height: 471px;
+    height: 491px;
   }
 
   .footer-small .footerinfo-wrapper .footer-left  {
