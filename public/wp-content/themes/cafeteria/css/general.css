@@ -3927,6 +3927,7 @@ p.errorh1 {
 }
 @-webkit-keyframes slideUp {
   0% {
+    opacity: 0;
     -webkit-transform: translateY(100%);
   }
   50% {
@@ -3942,6 +3943,7 @@ p.errorh1 {
     -webkit-transform: translateY(2%);
   }
   100% {
+    opacity: 0;
     -webkit-transform: translateY(0%);
   }
 }
@@ -3964,11 +3966,11 @@ p.errorh1 {
   }
   80% {
     transform: scale(0.9);
-    opacity: 1;
+    /*opacity: 1;*/
   }
   100% {
     transform: scale(1);
-    opacity: 1;
+    /*opacity: 1;*/
   }
 }
 @-webkit-keyframes fadeIn {
@@ -3981,11 +3983,11 @@ p.errorh1 {
   }
   80% {
     -webkit-transform: scale(0.9);
-    opacity: 1;
+    /*opacity: 1;*/
   }
   100% {
     -webkit-transform: scale(1);
-    opacity: 1;
+    /*opacity: 1;*/
   }
 }
 /**** Isotope Filtering ****/
