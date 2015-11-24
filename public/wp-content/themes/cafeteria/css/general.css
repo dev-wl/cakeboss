@@ -6445,11 +6445,7 @@ header.cf {
     margin-right: 27px !important;
   }
 
-  .slider.cf {
-    height: 675px;
-  }
-
-  ul.slides li {
+   ul.slides li {
     background-size: 100% !important;
   }
 
