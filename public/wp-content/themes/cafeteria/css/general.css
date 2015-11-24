@@ -4372,7 +4372,7 @@ p.errorh1 {
 }
 /*end of menu*/
 
-@media (min-device-width: 1281px) {
+@media (min-device-width: 1280px) {
   .slider.cf {
     height: 46vw;
   }
