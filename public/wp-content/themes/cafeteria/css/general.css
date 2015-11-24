@@ -6264,6 +6264,10 @@ header.cf {
     float: left !important;
     margin-left: 10px !important;
   }
+
+  .footer-small .footerinfo-wrapper .footer-right {
+    float: right !important;
+  }
 }
 
 @media only screen and (device-width: 768px) and (orientation:portrait) {
