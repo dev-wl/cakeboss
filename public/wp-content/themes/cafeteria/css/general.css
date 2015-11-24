@@ -6727,10 +6727,10 @@ span.ref {
   font-size: 16px !important;
 }
 
-.flex-active-slide {
-  opacity: 1 !important;
-}
-
 .slides li {
   opacity: 0;
+}
+
+.flex-active-slide {
+  opacity: 1;
 }
