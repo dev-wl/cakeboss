@@ -176,8 +176,12 @@
     
     // $('#menu-mobile-menu li:eq(1), #menu-general-menu li:eq(1)').click(function() {
     $('a[href="/#about"]').click(function(e) {
+        if(mobile)
+            correction = 0;
+        else
+            correction = 120;
         $('body, html').animate({
-            'scrollTop':   $('a[name="about"]').offset().top - 120
+            'scrollTop':   $('a[name="about"]').offset().top - correction
         }, 2000);
     });
 
