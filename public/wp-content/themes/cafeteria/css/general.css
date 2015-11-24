@@ -6261,6 +6261,7 @@ header.cf {
   }
 
   .footerinfo-wrapper .footer-left  {
+    float: left;
     margin-left: 30px !important;
   }
 }
