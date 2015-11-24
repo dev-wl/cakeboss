@@ -6233,7 +6233,6 @@ header.cf {
 
 @media only screen and (device-width: 1024px) and (orientation: landscape) { /*ipad ladscape test; 768px not always working*/
   .footerinfo-wrapper .footer-left  {
-    display: none;
     margin-left: 30px;
   }
 
@@ -6262,6 +6261,7 @@ header.cf {
   }
 
   .footerinfo-wrapper .footer-left  {
+    display: none;
     margin-left: 30px;
   }
 }
