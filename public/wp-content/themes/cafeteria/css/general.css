@@ -3979,7 +3979,7 @@ p.errorh1 {
   }
   80% {
     -webkit-transform: scale(0.9);
-    opacity: 1;
+    /*opacity: 1;*/
   }
   100% {
     -webkit-transform: scale(1);
