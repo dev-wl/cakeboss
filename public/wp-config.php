@@ -89,8 +89,8 @@ $table_prefix  = 'wp_';
 define('WP_DEBUG', false);
 
 /*DEV*/
-// define('WP_HOME','http://cakeboss.dev.wonderslab.com');
-// define('WP_SITEURL','http://cakeboss.dev.wonderslab.com');
+define('WP_HOME','http://cakeboss.dev.wonderslab.com');
+define('WP_SITEURL','http://cakeboss.dev.wonderslab.com');
 
 /*LIVE*/
 // define('WP_HOME','http://cakebosscoffees.com/');
