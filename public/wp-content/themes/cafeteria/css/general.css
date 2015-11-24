@@ -5726,7 +5726,7 @@ header.cf.fx {
 }
 
 header.cf.fx .col-6 {
-  border: none !important;
+  background: none !important;
 }
 
 header.cf.fx ul {
