@@ -4372,6 +4372,16 @@ p.errorh1 {
 }
 /*end of menu*/
 
+@media (min-device-width: 1281px) {
+  .slider.cf {
+    height: 46vw;
+  }
+
+  .slider .slides > li {
+    height: 45vw;
+  }
+}
+
 @media (max-width: 1560px) {
   .logo {
     left: 8% !important;
