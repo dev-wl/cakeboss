@@ -3905,6 +3905,7 @@ p.errorh1 {
 }
 @keyframes slideUp {
   0% {
+    opacity: 0;
     transform: translateY(100%);
   }
   50% {
@@ -3920,6 +3921,7 @@ p.errorh1 {
     transform: translateY(2%);
   }
   100% {
+    opacity: 0;
     transform: translateY(0%);
   }
 }
@@ -6725,12 +6727,4 @@ header .center-align > ul > li ul li:hover {
 span.ref {
   font-family: "MyriadPro-Semibold" !important;
   font-size: 16px !important;
-}
-
-.slides li {
-  opacity: 0;
-}
-
-.slides li.flex-active-slide {
-  opacity: 1;
 }
