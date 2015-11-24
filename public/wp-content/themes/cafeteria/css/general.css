@@ -6410,6 +6410,14 @@ header.cf {
   .footer-right {
     width: 55% !important;
   }
+
+  col-4 .background {
+    height: 365px !important;
+  }
+
+  .gallery.cf .col-4 {
+    margin-bottom: 0px;
+  }
 }
 
 @media only screen and (device-width: 768px) { /*and (device-width: 768px)*/ /*1024px*/
