@@ -3972,7 +3972,7 @@ p.errorh1 {
 @-webkit-keyframes fadeIn {
   0% {
     -webkit-transform: scale(0);
-    /*opacity: 0.0;*/
+    opacity: 0.0;
   }
   60% {
     -webkit-transform: scale(1.1);
@@ -3983,7 +3983,7 @@ p.errorh1 {
   }
   100% {
     -webkit-transform: scale(1);
-    opacity: 1;
+    /*opacity: 1;*/
   }
 }
 /**** Isotope Filtering ****/
