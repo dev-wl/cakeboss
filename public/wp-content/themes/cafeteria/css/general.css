@@ -6292,7 +6292,7 @@ header.cf {
   }
 }
 
-@media (max-width: 670px) { /*iph6*/
+@media (max-width: 670px) and (max-device-width: 1000px) { /*iph6*/
   .slider.cf {
     height: 280px;
   }
