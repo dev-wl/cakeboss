@@ -6245,7 +6245,7 @@ header.cf {
   }
 }
 
-@media only screen and (device-width: 1024px) and (orientation: landscape) {
+@media only screen and (device-width: 768px) and (orientation: landscape) {
   .mobile-menu, .sr-menu { display: none; }
 
   .bottom-menu {
@@ -6260,7 +6260,7 @@ header.cf {
     height: 471px;
   }
 
-  .footerinfo-wrapper .footer-left  {
+  .footer-small .footerinfo-wrapper .footer-left  {
     float: left !important;
     margin-left: 30px !important;
   }
