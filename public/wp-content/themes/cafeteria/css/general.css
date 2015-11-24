@@ -3962,7 +3962,7 @@ p.errorh1 {
   }
   80% {
     transform: scale(0.9);
-    opacity: 1;
+    /*opacity: 1;*/
   }
   100% {
     transform: scale(1);
