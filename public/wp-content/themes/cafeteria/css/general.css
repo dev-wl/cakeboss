@@ -5700,6 +5700,14 @@ p.errorh1 {
     float: initial !important;
     margin-top: 13px;
   }
+  
+  .slides {
+    height: 154px;
+  }
+  
+  ul.slides li {
+   height: 144px;
+  }
 }
 
 @media  (width: 400px) and (max-device-width: 1000px) {
@@ -6296,11 +6304,11 @@ header.cf {
 
 @media (max-width: 670px) and (max-device-width: 1000px) { /*iph6*/
   .slider.cf {
-    height: 154px;
+    height: 280px;
   }
 
   ul.slides li {
-    height: 144px !important;
+    height: 252px !important;
     /*background-size: 100% !important;*/
   }
 
