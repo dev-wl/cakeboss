@@ -119,12 +119,16 @@
 
         $(window).on('scroll', function(e) {
             if(mobile) {
-                // if($(window).width() < 700 && $(document).height() < 960)
-                //     return;
-                // if($(window).width() <= 768  && $(document).height() < 2800)
-                //     return;
-                // if($(document).height() < 930)
-                //     return;
+                if($(window).width() < 700 && $(document).height() < 960)
+                    return;
+                if($(window).width() <= 768 /* && $(document).height() < 2800*/) {
+                    $('header.cf').removeClass('fx');
+                    $('div.logo').css('display', 'block');
+                    $('body').css('margin-top', 0 + 'px');
+                    return;
+                }
+                if($(document).height() < 930)
+                    return;
             }
 
             if(!mobile && $(document).height() < 1260) {
