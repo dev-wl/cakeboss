@@ -6680,6 +6680,7 @@ article.story-time-line h2 {
   width: 80% !important;
   margin-right: auto !important;
   box-shadow: 0px 0px 16px 0px;
+  margin-bottom: 100px;
 }
 
 @media only screen and (device-width: 1280px) and (max-width: 942px) {
