@@ -6326,6 +6326,7 @@ header.cf {
     height: 150px;
     margin-bottom: 0px !important;
     padding-bottom: 0px !important;
+    -webkit-margin-bottom: 0px !important;
   }
 }
 
