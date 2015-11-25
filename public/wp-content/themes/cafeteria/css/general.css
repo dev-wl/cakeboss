@@ -5613,6 +5613,16 @@ p.errorh1 {
   }
 }
 
+@media (max-width: 400px) and (max-device-width: 1000px) {
+body .slider.cf {
+    height: 164px !important;
+  }
+  
+  body .slider.cf ul.slides li {
+   height: 144px !important;
+  }
+}
+
 @media (max-width: 400px) {
   .logo {
     display: block;
@@ -5699,14 +5709,6 @@ p.errorh1 {
     height: 14px !important;
     float: initial !important;
     margin-top: 13px;
-  }
-
-  body .slider.cf {
-    height: 164px !important;
-  }
-  
-  body .slider.cf ul.slides li {
-   height: 144px !important;
   }
 }
 
