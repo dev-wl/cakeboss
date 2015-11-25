@@ -6689,7 +6689,7 @@ article.story-time-line h2 {
   float: none !important;
   width: 80% !important;
   margin-right: auto !important;
-  box-shadow: 0px 0px 16px 0px;
+  /*box-shadow: 0px 0px 16px 0px;*/
   margin-bottom: 100px;
 }
 
@@ -6740,4 +6740,5 @@ span.ref {
 
 .slider .slides > li img {
   width: 100%;
+  box-shadow: 0px 0px 16px 0px;
 }
