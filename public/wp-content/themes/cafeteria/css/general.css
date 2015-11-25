@@ -5700,6 +5700,14 @@ p.errorh1 {
     float: initial !important;
     margin-top: 13px;
   }
+
+  .slides {
+    height: 154px !important;
+  }
+  
+  ul.slides li {
+   height: 144px !important;
+  }
 }
 
 @media  (width: 400px) and (max-device-width: 1000px) {
