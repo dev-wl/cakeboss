@@ -457,7 +457,7 @@ get_header(); ?>
     </article>
     <script>
         if(navigator.userAgent.toLowerCase().indexOf('chrome') > -1 || navigator.userAgent.toLowerCase().indexOf('opera') > -1) {
-            $('.slider .slides > li').css('height', '44.601vw');
+            $('.slider .slides > li').css('height', '44vw');
         }
     </script>
 <?php get_footer(); ?>
