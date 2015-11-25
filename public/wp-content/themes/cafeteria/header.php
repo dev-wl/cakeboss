@@ -180,8 +180,8 @@
     // $('#menu-mobile-menu li:eq(1), #menu-general-menu li:eq(1)').click(function() {
     $('a[href="/#about"]').click(function(e) {
         if(mobile) {
-            if (/iPad/i.test(navigator.userAgent) )
-                correction = 1000;
+            if (/iPad/i.test(navigator.userAgent) && $(window).width() > 768)
+                correction = 160;
             else
                 correction = 0;
         }
