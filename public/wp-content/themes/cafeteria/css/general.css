@@ -6309,11 +6309,6 @@ header.cf {
     height: 268px;
   }
 
-  html, body {
-    padding-bottom: 0px !important;
-    -webkit-padding-bottom: 0px !important;
-  }
-
   ul.slides li {
     height: 255px !important;
     /*background-size: 100% !important;*/
@@ -6329,10 +6324,10 @@ header.cf {
 
   .footer.footer-small {
     height: 150px;
-    margin-bottom: 0px !important;
-    padding-bottom: 0px !important;
-    -webkit-margin-bottom: 0px !important;
-    -webkit-padding-bottom: 0px !important;
+  }
+
+  .footer.footer-small .footerinfo-wrapper {
+    margin-top: 25px;
   }
 }
 
