@@ -179,10 +179,12 @@
     
     // $('#menu-mobile-menu li:eq(1), #menu-general-menu li:eq(1)').click(function() {
     $('a[href="/#about"]').click(function(e) {
-        if(mobile)
-            correction = 0;
-        else if (/iPad/i.test(navigator.userAgent) )
-            correction = 50;
+        if(mobile) {
+            if (/iPad/i.test(navigator.userAgent) )
+                correction = 50;
+            else
+                correction = 0;
+        }
         else
             correction = 120;
         $('body, html').animate({
