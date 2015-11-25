@@ -6323,7 +6323,7 @@ header.cf {
   }
 
   .footer.footer-small {
-    display: none;
+    height: 10px;
   }
 }
 
