@@ -6377,7 +6377,7 @@ header.cf {
 
 @media (max-width: 400px) {
   .bottom-menu {
-    width: 92% !important;
+    width: 100% !important;
   }
 }
 
