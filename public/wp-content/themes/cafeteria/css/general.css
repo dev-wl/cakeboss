@@ -5639,10 +5639,6 @@ body .slider.cf {
       left: 2% !important;
   }
     
-  body div.bottom-menu {
-    width: 92% !important;
-  }
-
   .our-team > img {
     margin-top: -163px !important;
     width: 90%;
@@ -6376,6 +6372,12 @@ header.cf {
     width: initial !important;
     border: none !important;
     border-radius: 0px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  div.bottom-menu {
+    width: 92% !important;
   }
 }
 
