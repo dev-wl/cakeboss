@@ -6326,8 +6326,8 @@ header.cf {
     height: 150px;
   }
 
-  html, body {
-    margin-bottom: -120px;
+  .bottom-menu {
+    width: 76% !important;
   }
 }
 
