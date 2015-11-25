@@ -6323,7 +6323,9 @@ header.cf {
   }
 
   .footer.footer-small {
-    height: 182px;
+    height: 150px;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
   }
 }
 
