@@ -33,7 +33,8 @@ get_header(); ?>
             <?php $slider = ale_sliders_get_slider(ale_get_option('homeslugfull')); ?>
             <?php if($slider):?>
                 <?php foreach ($slider['slides'] as $slide) : ?>
-                    <li style="background-image: url('<?php echo $slide['image'] ?>'); ">
+                    <li <!-- style="background-image: url('<?php //echo $slide['image'] ?>'); " --> >
+                        <img src="<?php echo $slide['image'] ?>" />
                         <!-- <div class="box">
                             <?php if($slide['title']){ ?><h2 class="firstfont caption colormain"><?php echo $slide['title']; ?></h2><?php } ?>
                             <?php if($slide['description']){ ?><p class="text"><?php echo $slide['description']; ?></p><?php } ?>
