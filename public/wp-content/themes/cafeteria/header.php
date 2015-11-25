@@ -181,7 +181,7 @@
     $('a[href="/#about"]').click(function(e) {
         if(mobile) {
             if (/iPad/i.test(navigator.userAgent) )
-                correction = 50;
+                correction = 10;
             else
                 correction = 0;
         }
