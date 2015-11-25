@@ -6737,3 +6737,7 @@ span.ref {
   font-family: "MyriadPro-Semibold" !important;
   font-size: 16px !important;
 }
+
+.slider .slides > li img {
+  width: 100%;
+}
