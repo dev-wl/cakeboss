@@ -139,11 +139,11 @@
             if($(window).scrollTop() > h) {
                 $('header.cf').addClass('fx');
                 $('div.logo').css('display', 'none');
-                // $('body').css('margin-top', h + 'px');
+                $('body').css('margin-top', h + 'px');
             } else {
                 $('header.cf').removeClass('fx');
                 $('div.logo').css('display', 'block');
-                // $('body').css('margin-top', 0 + 'px');
+                $('body').css('margin-top', 0 + 'px');
             }
 
         });
