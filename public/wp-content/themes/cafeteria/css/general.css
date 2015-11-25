@@ -6306,7 +6306,7 @@ header.cf {
 
 @media (max-width: 670px) and (max-device-width: 1000px) { /*iph6*/
   .slider.cf {
-    height: 260px;
+    height: 268px;
   }
 
   ul.slides li {
