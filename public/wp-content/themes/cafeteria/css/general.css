@@ -6300,12 +6300,12 @@ header.cf {
   }
 
   ul.slides li {
-    height: 252px !important;
+    height: 262px !important;
     /*background-size: 100% !important;*/
   }
 
   .col-4 .background {
-    height: 234px !important;
+    height: 254px !important;
   }
 
   .bottom-menu-item p.text.text-center {
