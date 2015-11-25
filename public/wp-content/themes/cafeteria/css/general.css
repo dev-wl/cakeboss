@@ -6296,16 +6296,16 @@ header.cf {
 
 @media (max-width: 670px) and (max-device-width: 1000px) { /*iph6*/
   .slider.cf {
-    height: 280px;
+    height: 260px;
   }
 
   ul.slides li {
-    height: 262px !important;
+    height: 255px !important;
     /*background-size: 100% !important;*/
   }
 
   .col-4 .background {
-    height: 254px !important;
+    height: 224px !important;
   }
 
   .bottom-menu-item p.text.text-center {
