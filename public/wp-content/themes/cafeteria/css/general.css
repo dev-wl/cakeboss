@@ -4393,7 +4393,7 @@ p.errorh1 {
   }
 
   .bottom-menu {
-    width: 77% !important;
+    width: 76% !important;
   }
 
   .footerinfo-wrapper {
@@ -6375,6 +6375,11 @@ header.cf {
   }
 }
 
+@media (max-width: 400px) {
+  .bottom-menu {
+    width: 92% !important;
+  }
+}
 
 @media only screen and (device-width: 768px) and (orientation: portrait) {
   header.cf div.logo {
