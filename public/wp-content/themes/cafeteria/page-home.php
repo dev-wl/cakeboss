@@ -64,7 +64,7 @@ get_header(); ?>
 
         <?php
             global $post;
-            $args = array('category' => 16, 'numberposts' => -1, 'orderby' => 'post_date', 'order' => 'ASC' ); //20
+            $args = array('category' => 20, 'numberposts' => -1, 'orderby' => 'post_date', 'order' => 'ASC' ); //20
             $myposts = get_posts( $args );
             $i = 0;
             foreach ( $myposts as $post ) : {
