@@ -6309,6 +6309,11 @@ header.cf {
     height: 268px;
   }
 
+  html, body {
+    padding-bottom: 0px !important;
+    -webkit-padding-bottom: 0px !important;
+  }
+
   ul.slides li {
     height: 255px !important;
     /*background-size: 100% !important;*/
@@ -6327,6 +6332,7 @@ header.cf {
     margin-bottom: 0px !important;
     padding-bottom: 0px !important;
     -webkit-margin-bottom: 0px !important;
+    -webkit-padding-bottom: 0px !important;
   }
 }
 
