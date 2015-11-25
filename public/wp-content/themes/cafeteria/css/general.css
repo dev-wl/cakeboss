@@ -4823,7 +4823,7 @@ p.errorh1 {
 
 @media (max-width: 890px) {
   .footer.footer-small {
-    height: 207px;
+    height: 218px;
   }
 
   .footer-small .footerinfo-wrapper .footer-left {
@@ -6320,6 +6320,10 @@ header.cf {
 
   .bottom-menu-item p.text.text-center {
     text-align: left;
+  }
+
+  .footer.footer-small {
+    display: none;
   }
 }
 
