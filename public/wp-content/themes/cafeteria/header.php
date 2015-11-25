@@ -182,7 +182,7 @@
         if(mobile)
             correction = 0;
         else if (/iPad/i.test(navigator.userAgent) )
-            correction = 100;
+            correction = 50;
         else
             correction = 120;
         $('body, html').animate({
