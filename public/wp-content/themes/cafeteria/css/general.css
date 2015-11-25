@@ -5705,7 +5705,7 @@ p.errorh1 {
     height: 154px !important;
   }
   
-  .slider.cf ul.slides li {
+  body .slider.cf ul.slides li {
    height: 144px !important;
   }
 }
