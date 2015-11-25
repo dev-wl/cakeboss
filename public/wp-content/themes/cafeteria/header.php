@@ -138,7 +138,7 @@
             }
             if($(window).scrollTop() > h) {
                 $('header.cf').addClass('fx');
-                $('div.logo').css('display', 'none');
+                // $('div.logo').css('display', 'none');
                 $('body').css('margin-top', h + 'px');
             } else {
                 $('header.cf').removeClass('fx');
