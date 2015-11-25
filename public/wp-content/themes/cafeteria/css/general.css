@@ -5701,7 +5701,7 @@ p.errorh1 {
     margin-top: 13px;
   }
 
-  .slides {
+  body .slider.cf {
     height: 154px !important;
   }
   
