@@ -5700,14 +5700,6 @@ p.errorh1 {
     float: initial !important;
     margin-top: 13px;
   }
-  
-  .slides {
-    height: 154px;
-  }
-  
-  ul.slides li {
-   height: 144px;
-  }
 }
 
 @media  (width: 400px) and (max-device-width: 1000px) {
@@ -6313,7 +6305,7 @@ header.cf {
   }
 
   .col-4 .background {
-    height: 224px !important;
+    height: 234px !important;
   }
 
   .bottom-menu-item p.text.text-center {
