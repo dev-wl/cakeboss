@@ -100,9 +100,13 @@
 <div class="clearfix"></div>
 
 <script>
-if($('.text.story').find('p:nth-child(2) a img').length == 1) {
+// if($('.text.story').find('p:nth-child(2) a img').length == 1) {
+if($('.text.story').find('p:nth-child(2) img').length == 1 || $('.text.story').find('p:nth-child(2) a img').length == 1) {
     $('.firstfont.caption.colormain').insertAfter($('.text.story p:nth-child(2)')[0]);
-    $('.text.story p:nth-child(2) a img').addClass('headerImage');
+    // $('.text.story p:nth-child(2) a img').addClass('headerImage');
+    $('.text.story p:nth-child(2) img').addClass('headerImage');
+    if($('.text.story').find('p:nth-child(2) a img').length == 1)
+        $('.text.story p:nth-child(2) a img').addClass('headerImage');
 }
 </script>
 

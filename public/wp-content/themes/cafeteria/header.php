@@ -10,8 +10,20 @@
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" title="no title" charset="utf-8">
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="<?php echo get_template_directory_uri() . '/js/libs/'?>jquery.tap.js"></script>
+    
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-70811698-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 <body <?php body_class(); echo 'style="'; if(ale_get_meta('custombg')){echo 'background-image:url('.ale_get_meta('custombg').');';} if(ale_get_meta('custompagecss')){ echo ale_get_meta('custompagecss');}echo ' background-position:center;"'; ?> >
+
 
     <?php if(is_page_template('page-home.php')){
         if(ale_get_option('preloaderstatus')!=='1'){ ?>
@@ -175,6 +187,14 @@
                 // e.preventDefault();
             // });
         //}
+
+         if (/iPad/i.test(navigator.userAgent) && $(document).height() <= 1024) {
+            $('.footer.footer-small').css('position', 'static');
+         }
+
+         if(!mobile && $(document).height() < 1250) {
+            $('.footer.footer-small').css('position', 'static');
+         }
     });
     
     // $('#menu-mobile-menu li:eq(1), #menu-general-menu li:eq(1)').click(function() {
@@ -186,7 +206,7 @@
                 correction = 0;
         }
         else
-            correction = 120;
+            correction = 160;
         $('body, html').animate({
             'scrollTop':   $('a[name="about"]').offset().top - correction
         }, 2000);

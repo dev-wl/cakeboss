@@ -505,6 +505,9 @@ hr {
 .story img.alignright,
 .story img.aligncenter {
   margin-bottom: 1em;
+  /*border:solid;
+  border-color:#95B8BB;
+  border-width:10px;*/
 }
 .story .wp-caption {
   line-height: 1.5;
@@ -700,10 +703,10 @@ a:hover {
   color: #b1dae6;
 }
 p {
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 21px;
+  line-height: 28px;
   color: #474747;
-  text-align: justify;
+  text-align: center;
 }
 .center-align {
   width: 986px;
@@ -5613,6 +5616,16 @@ p.errorh1 {
   }
 }
 
+@media (max-width: 530px) and (min-device-width: 1000px) {
+  .single-title {
+    height: 100px !important;
+  }
+
+  .single-title p {
+    margin-left: 47px;
+  }
+}
+
 @media (max-width: 400px) and (max-device-width: 1000px) {
 body .slider.cf {
     height: 164px !important;
@@ -6112,7 +6125,11 @@ ul.sub-menu li a {
 }
 
 h3.firstfont {
-  font-family: 'chunkfiveregular' !important;
+  /*font-family: 'chunkfiveregular' !important;*/
+  font-family: "MyriadPro-Semibold";
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
 }
 
 .contact-form input[type="submit"] {
@@ -6490,7 +6507,7 @@ header.cf {
   }
 
   .our-menu .col-4 {
-    margin-bottom: 0px !imoprtant;
+    margin-bottom: 0px !important;
   }
 
   .footerinfo-wrapper .footer-left {
@@ -6528,14 +6545,17 @@ a.shop-link {
   text-decoration: none;
   color: #fff;
   font-size: 25px;
-  padding: 9px 31px 2px 31px;
+  padding: 12px 31px 5px 31px;
   /*border: 1px solid #95B8BB;*/
   background-color: #B22222;
   border-radius: 5px;
-  float: left;
+  /*float: left;*/
   margin-bottom: 20px;
   font-family: "ChunkFive";
   text-transform: uppercase;
+  margin: 0px auto;
+  display: block;
+  width: 135px;
 }
 
 .blogpost {
@@ -6701,6 +6721,12 @@ article.story-time-line h2 {
   margin-right: auto !important;
   /*box-shadow: 0px 0px 16px 0px;*/
   margin-bottom: 250px;
+}
+
+@media only screen and (device-width: 1280px) and (max-width: 1250px) {
+  header.cf .center-align {
+    width: 100% !important;
+  }
 }
 
 @media only screen and (device-width: 1280px) and (max-width: 942px) {
