@@ -5508,7 +5508,7 @@ p.errorh1 {
   }
 
   .single-title p {
-      font-size: 22px !important;
+      font-size: 20px !important;
       margin-left: 31px;
   }
 }
@@ -6191,7 +6191,8 @@ p.copy {
 }
 
 .gallery.cf .col-4 {
-  margin-bottom: 55px;
+  /*margin-bottom: 55px;*/
+  margin-bottom: 85px !important;
 }
 
 .col-4 .background a:first-child:hover > img {
@@ -6661,7 +6662,7 @@ p.products-header {
 }
 
 .background .firstfont.colormain {
-  font-size: 30px;
+  font-size: 25px;
   padding-top: 25px;
 }
 

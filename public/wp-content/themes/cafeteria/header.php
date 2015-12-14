@@ -198,8 +198,7 @@
 
          if(!mobile && $(document).height() < 960) {
             // $('article').css('padding', '114px 0px 100px');  
-            $('.footer').css('position', 'absolute');  
-            $('.footer').css('bottom', '0px');  
+            $('.footer').css('position', 'absolute');
          }
     });
     
