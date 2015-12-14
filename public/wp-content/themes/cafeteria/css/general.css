@@ -5504,11 +5504,11 @@ p.errorh1 {
   }
 
   .single-title {
-    height: 87px !important;
+    height: 100px !important;
   }
 
   .single-title p {
-      font-size: 27px !important;
+      font-size: 22px !important;
       margin-left: 31px;
   }
 }
@@ -5623,6 +5623,13 @@ p.errorh1 {
 
   .single-title p {
     margin-left: 47px;
+  }
+
+  .our-team > img {
+    margin-top: -241px;
+    margin-bottom: -100px;
+    width: 90%;
+    height: auto !important;
   }
 }
 
@@ -6184,7 +6191,7 @@ p.copy {
 }
 
 .gallery.cf .col-4 {
-  margin-bottom: 40px;
+  margin-bottom: 55px;
 }
 
 .col-4 .background a:first-child:hover > img {
@@ -6578,6 +6585,7 @@ a.shop-link {
   text-transform: uppercase;
   font-size: 14px;
   margin-top: 5px;
+  margin: 0px auto;
 }
 
 .blogpost img {

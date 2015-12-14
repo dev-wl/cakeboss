@@ -195,6 +195,12 @@
          if(!mobile && $(document).height() < 1250) {
             $('.footer.footer-small').css('position', 'static');
          }
+
+         if(!mobile && $(document).height() < 960) {
+            // $('article').css('padding', '114px 0px 100px');  
+            $('.footer').css('position', 'absolute');  
+            $('.footer').css('bottom', '0px');  
+         }
     });
     
     // $('#menu-mobile-menu li:eq(1), #menu-general-menu li:eq(1)').click(function() {
