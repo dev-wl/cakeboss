@@ -157,7 +157,7 @@
                 h += $('#wpadminbar').height();
             }
             if($(window).scrollTop() > h) {
-                $('body').css('margin-top', parseInt(h) + 'px');
+                $('body').css('margin-top', h+100 + 'px');
                 $('header.cf').addClass('fx');
                 $('div.logo').css('display', 'none');
             } else {
