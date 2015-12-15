@@ -196,6 +196,11 @@
             $('.footer.footer-small').css('position', 'static');
          }
 
+         if (/iPad/i.test(navigator.userAgent) && $(window).height() > $(window).width() && $(document).height() <= 1024) {
+            $('.footer.footer-small').css('position', 'absolute');
+            $('.footer.footer-small').css('bottom', '-3px');
+         }
+
          if(!mobile && $(document).height() < 1250) {
             $('.footer.footer-small').css('position', 'static');
          }
