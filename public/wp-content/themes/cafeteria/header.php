@@ -171,7 +171,19 @@
                 // return;
             } 
 
-            if(/Safari/i.test(navigator.userAgent) && $('html').height() <= $(window).height()) {
+            if(/Safari/i.test(navigator.userAgent) && $('html').height() <= 1100) {
+                return;
+            }
+
+            if(/Safari/i.test(navigator.userAgent)) {
+                dh = $(document).height();
+                wh = $(window).height();
+                st = $(window).scrollTop();
+
+                if(st + wh > dh) {
+                    $(window).scrollTop(dh);
+                }
+
                 return;
             }
 
