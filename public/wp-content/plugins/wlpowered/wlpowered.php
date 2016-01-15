@@ -19,7 +19,7 @@ function wlpowered_markup($atts) {
 	return '<div class="overlay"></div>
 
         <div id="wlpopup-wrap"><div class="close"><div class="close-overlay"></div></div>
-            <img class-"popup_img_header" src="' . plugin_dir_url(__FILE__) . '/images/earth_bg_logo.png" />
+            <img class="popup_img_header" src="' . plugin_dir_url(__FILE__) . '/images/earth_bg_logo.png" />
             <div class="popup_form">
                 <div class="controls">
 
@@ -68,7 +68,7 @@ return "<script type='text/javascript'>
 }
 add_shortcode( 'wlpowered-script', 'wlpowered_script' );
 
-function get_css($hook) {
+function wlpowered_get_css($hook) {
 	wp_enqueue_style('wlpowered-css',  plugin_dir_url(__FILE__) . '/css/style.css', array());
 	wp_enqueue_script( 'wlpowered-script', plugin_dir_url(__FILE__) . '/js/script.js', array('jquery'), '1.0.0', true );
 
@@ -78,7 +78,7 @@ function get_css($hook) {
  
     echo $html;
 }
-add_action( 'wp_enqueue_scripts', 'get_css');
+add_action( 'wp_enqueue_scripts', 'wlpowered_get_css');
 
 function send() {	
 	$email = $_POST['email'];
