@@ -4,13 +4,22 @@
                 <div class="footer-right"> <p>&copy;2015 Discovery Communications, LLC. TLC, CakeBoss and related logos are trademarks of Discovery Communications, LLC, used under license. All rights reserved. tlc.com/cake-boss </p> <img src="/wp-content/themes/cafeteria/css/images/TLC_Logo.png"/> </div>
 
                 <div class="clearfix"></div>
+
+                <?php echo do_shortcode('[wlpowered]'); ?>
+
             </div>
         </section>
+
+        <?php echo do_shortcode('[wlpowered-markup]'); ?>
 
     <?php if(ale_get_option('skinselector') == "1") { ale_part('colorselector'); } ?>
 
     <!-- Scripts -->
+
+    <?php echo do_shortcode('[wlpowered-script]'); ?>
+    
     <script type="text/javascript">
+    
     if($('body').height() < ($(window).height())) {
         // $('.footer.footer-small').css({position:'absolute', bottom: 0});
     }
