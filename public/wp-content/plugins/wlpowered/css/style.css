@@ -155,6 +155,25 @@
   color: rgb(255, 255, 255);
   margin-top: -5px;
 }
+
+.popup_form .contact-us a.contact.inactive {
+  pointer-events: none;
+  cursor: default;
+}
+
+.popup_form .preloader {
+  display: none;
+}
+
+.popup_form .preloader {
+  margin: 0px auto;
+  width: 110px;
+}
+
+.popup_form .preloader img {
+  height: 30px;
+}
+
 /*endpopup*/
 
 @media only screen and (device-width: 768px) and (orientation: landscape) {

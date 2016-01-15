@@ -11,13 +11,16 @@ $('.contact-us a.contact').click(function() {
 		return;
 	}
 
+	$('.popup_form input, .popup_form textarea').attr('disabled', true);
+	$('.popup_form .contact-us a.contact').addClass('inactive');
+	$('.popup_form .preloader').css('display', 'block');
+
 	$.post(ajaxurl, {
 			action: 'send',
 			name: name,
 			email: email,
 			msg: msg
 		}, function (response) {
-		    alert(response);
 		    if(response == "0") {
 		    	$('#email').css('border', '1px solid #f00');
 		    } else if(response == "1"){
@@ -34,6 +37,10 @@ $('.contact-us a.contact').click(function() {
 		    } else {
 		    	$('<p class="popup-response>Error. Sorry! Your email cannot be sent</p>').insertBefore('.popup_form .controls');
 		    }
+
+		    $('.popup_form input, .popup_form textarea').attr('disabled', false);
+			$('.popup_form .contact-us a.contact').removeClass('inactive');
+			$('.popup_form .preloader').css('display', 'none');
 		}
 	);
 

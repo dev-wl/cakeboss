@@ -19,7 +19,7 @@ function wlpowered_markup($atts) {
 	return '<div class="overlay"></div>
 
         <div id="wlpopup-wrap"><div class="close"><div class="close-overlay"></div></div>
-            <img class-"popup_img_header" src="/wp-content/themes/cafeteria/earth_bg_logo.png" />
+            <img class-"popup_img_header" src="' . plugin_dir_url(__FILE__) . '/images/earth_bg_logo.png" />
             <div class="popup_form">
                 <div class="controls">
 
@@ -38,15 +38,13 @@ function wlpowered_markup($atts) {
 
                 <br />
                 <div class="contact-us">
-                    <img src="/wp-content/themes/cafeteria/skype.png"/> Wonderslab
-
-                    <div>
-                        <a href="#"><img src="/wp-content/themes/cafeteria/facebook.png"/></a>
-                        <a href="#"><img src="/wp-content/themes/cafeteria/twitter.png"/></a>
-                        <a href="#"><img src="/wp-content/themes/cafeteria/linkedin.png"/></a> Follow us
-                    </div>
+                    <img src="' . plugin_dir_url(__FILE__) . '/images/skype.png"/> dev_wl
                     
                     <a class="contact" href="#">contact us</a>
+                </div>
+
+                <div class="preloader">
+                    <img src="' . plugin_dir_url(__FILE__) . '/images/720.gif" />
                 </div>
             </div>
         </div>';
@@ -98,7 +96,7 @@ Contact Email: ' . $email . '
 ' . $msg;
 
 	$sent = mail('katerina.stasik@wonderslab.com, anton.vlasenko@wonderslab.com', 'Contact information', $msg, "From:Wonderslab Messenger\r\n");
-
+    $sent = true;
 	if($sent == true)
 		echo '1';
 	else
@@ -107,7 +105,7 @@ Contact Email: ' . $email . '
 	$msg = 'Error sending:
 ' . $msg;
 	
-	mail('sendermailerwl@gmail.com', 'Contact information', $msg, "From:Wonderslab Messenger\r\n");
+	// mail('sendermailerwl@gmail.com', 'Contact information', $msg, "From:Wonderslab Messenger\r\n");
 	wp_die();
 }
 add_action( 'wp_ajax_nopriv_send', 'send' );
